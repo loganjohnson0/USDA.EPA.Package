@@ -1,4 +1,4 @@
-#' This function scrapes the USDA-FSIS website for food product recall data
+#' This function scrapes the CDC website for a List of Multistate Foodborne Outbreak Notices
 #'
 #' @param x Need to update the input functionality of the function
 #'
@@ -40,7 +40,7 @@ get_cdc <- function(x) {
     rvest::html_text() %>%
     as.numeric()
 
-  for (i in 1:last_page) { # This doesn't work with the "last page element"
+  for (i in 1:last_page) {
     if (i > 1) {
       element <- remDr$findElement(using = 'css selector', "#DataTables_Table_0_next .page-link")
       element$clickElement()

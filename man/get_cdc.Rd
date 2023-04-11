@@ -2,7 +2,7 @@
 % Please edit documentation in R/get_cdc.R
 \name{get_cdc}
 \alias{get_cdc}
-\title{This function scrapes the USDA-FSIS website for food product recall data}
+\title{This function scrapes the CDC website for a List of Multistate Foodborne Outbreak Notices}
 \usage{
 get_cdc(x)
 }
@@ -10,5 +10,5 @@ get_cdc(x)
 \item{x}{Need to update the input functionality of the function}
 }
 \description{
-This function scrapes the USDA-FSIS website for food product recall data
+This function scrapes the CDC website for a List of Multistate Foodborne Outbreak Notices
 }
