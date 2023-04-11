@@ -1,8 +1,12 @@
 #' This function scrapes the USDA-FSIS website for food product recall data
-#' docker run --rm -it -p 4444:4444 -p 5900:5900 -p 7900:7900 --shm-size 2g seleniarm/standalone-chromium:latest
+#'
+#' @param x Need to update the input functionality of the function
+#'
 #' @importFrom dplyr bind_rows
 #' @importFrom dplyr group_by
 #' @importFrom dplyr mutate
+#' @importFrom dplyr %>%
+#' @importFrom netstat free_port
 #' @importFrom readr write_csv
 #' @importFrom RSelenium remoteDriver
 #' @importFrom rvest html_nodes
@@ -11,24 +15,13 @@
 #' @importFrom xml2 read_html
 get_usda_fsis <- function(x) {
 
-  # I commented this out to help the devtools::check() process easier
+  rD <- RSelenium::rsDriver(browser = "chrome",
+                               chromever = "112.0.5615.49",
+                               verbose = FALSE,
+                               port = netstat::free_port(random = TRUE),
+                               iedrver = NULL)
+  remDr <- rD[["client"]]
 
-  remDr <- RSelenium::remoteDriver(remoteServerAddr = "localhost",
-                                    port = 4444,
-                                    browserName = "chrome")
-  remDr$open()
-
-  # Working on this. There might be an easier way than I did.
-
-  # selenium_object <- selenium(retcommand = T,
-  #                             check = F)
-  #
-  # remDr <- RSelenium::rsDriver(browser = "chrome",
-  #                              chromever = "106.0.5249.21",
-  #                              verbose = FALSE,
-  #                              port = 4445L)
-  #
-  # remDr[['cliet']]
   results_list <- list()
   results <- data.frame()
 
@@ -39,7 +32,7 @@ get_usda_fsis <- function(x) {
 
   remDr$navigate(usda_web_page)
 
-  Sys.sleep(1)
+  Sys.sleep(0.5)
 
   remDr$screenshot(display = TRUE)
 
@@ -101,9 +94,7 @@ get_usda_fsis <- function(x) {
     dplyr::mutate(recall_reason = paste(recall_reason, collapse=", ")) %>%
     distinct()
 
-  readr::write_csv(final_results, file = "USDA-FSIS.csv")
+  # readr::write_csv(final_results, file = "2023_04_11_USDA-FSIS.csv")
   return(final_results)
   remDr$close()
 }
-
-get_usda_fsis(x)

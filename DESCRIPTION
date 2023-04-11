@@ -2,12 +2,21 @@ Package: foodRecall
 Type: Package
 Title: Extracts and Visualizes Food Recall Data
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
+Date: 2023-04-11
+Authors@R: person("Logan", "Johnson", email = "logan01@iastate.edu", role = c("aut", "cre"))
+Maintainer: Logan Johnson <logan01@iastate.edu>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+License: MIT + file LICENSE
 Encoding: UTF-8
+Imports:
+    dplyr,
+    netstat,
+    readr,
+    RSelenium,
+    rvest,
+    wdman,
+    xml2
 LazyData: true
 RoxygenNote: 7.2.3
 URL: https://github.com/loganjohnson0/USDA.EPA.Package
