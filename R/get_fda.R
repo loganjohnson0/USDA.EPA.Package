@@ -1,9 +1,10 @@
-
-# docker run --rm -it -p 4444:4444 -p 5900:5900 -p 7900:7900 --shm-size 2g seleniarm/standalone-chromium:latest
-
 #' This function scrapes the FDA website for food product recall data
 #'
+#' @param x Need to update the input functionality of the function
+#'
 #' @importFrom dplyr bind_rows
+#' @importFrom dplyr %>%
+#' @importFrom netstat free_port
 #' @importFrom readr write_csv
 #' @importFrom RSelenium remoteDriver
 #' @importFrom rvest html_nodes
@@ -11,10 +12,13 @@
 #' @importFrom xml2 read_html
 get_fda <- function(x) {
 
-  remDr <- RSelenium::remoteDriver(remoteServerAddr = "localhost",
-                                   port = 4444,
-                                   browserName = "chrome")
-  remDr$open()
+  rD <- RSelenium::rsDriver(browser = "chrome",
+                            chromever = "112.0.5615.49",
+                            verbose = FALSE,
+                            port = netstat::free_port(random = TRUE),
+                            iedrver = NULL)
+
+  remDr <- rD[["client"]]
 
   remDr$navigate("https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts")
 
@@ -26,14 +30,12 @@ get_fda <- function(x) {
     rvest::html_nodes("#datatable") %>%
     rvest::html_table()
 
-  first_table_fda <- first_table_fda[[1]]
+  combined <- first_table_fda[[1]]
 
-  # last_page <- doc %>%
-  #   rvest::html_node("#datatable_ellipsis+ .paginate_button a") %>%
-  #   rvest::html_text() %>%
-  #   as.numeric()
-
-  combined <- NULL
+  last_page <- doc %>%
+    rvest::html_node("#datatable_ellipsis+ .paginate_button a") %>%
+    rvest::html_text() %>%
+    as.numeric()
 
   for (i in 1:2) { # This doesn't work with the "last page element"
     if (i > 1) {
@@ -47,12 +49,10 @@ get_fda <- function(x) {
         rvest::html_nodes("#datatable") %>%
         rvest::html_table()
       fda_table <- fda_table[[1]]
-      combined <- dplyr::bind_rows(first_table_fda, fda_table)
+      combined <- dplyr::bind_rows(combined, fda_table)
     }
   }
-  readr::write_csv(combined, file = "FDA_Data.csv")
+  # readr::write_csv(combined, file = "2023_04_11_FDA_Data.csv")
   return(combined)
   remDr$close()
 }
-
-get_fda(x)
