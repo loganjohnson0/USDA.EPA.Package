@@ -2,6 +2,7 @@
 #'
 #' @param x Need to update the input functionality of the function
 #'
+#' @importFrom httr content
 #' @importFrom httr GET
 #' @importFrom jsonlite fromJSON
 #' @importFrom tibble tibble
@@ -45,7 +46,7 @@ get_fda <- function(api_key,
 
   fda_data <- httr::GET(url = paste0(core_url, key, api_key, search, status, limit))
 
-  data <- jsonlite::fromJSON(content(fda_data, "text"))
+  data <- jsonlite::fromJSON(httr::content(fda_data, "text"))
 
   new_stuff <- tibble::tibble(recall_number = data$results$recall_number,
                   recalling_firm = data$results$recalling_firm,
