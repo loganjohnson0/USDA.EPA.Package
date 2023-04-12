@@ -11,10 +11,13 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Imports:
     dplyr,
+    httr,
+    jsonlite,
     netstat,
     readr,
     RSelenium,
     rvest,
+    tibble,
     wdman,
     xml2
 LazyData: true

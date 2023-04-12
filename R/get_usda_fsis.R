@@ -6,13 +6,13 @@
 #' @importFrom dplyr group_by
 #' @importFrom dplyr mutate
 #' @importFrom dplyr %>%
-#' @importFrom netstat free_port
 #' @importFrom readr write_csv
 #' @importFrom RSelenium remoteDriver
 #' @importFrom rvest html_nodes
 #' @importFrom rvest html_text2
 #' @importFrom wdman selenium
 #' @importFrom xml2 read_html
+#' @export
 get_usda_fsis <- function(x) {
 
   rD <- RSelenium::rsDriver(browser = "chrome",
@@ -90,11 +90,13 @@ get_usda_fsis <- function(x) {
   }
 
   final_results <- dplyr::bind_rows(results_list) %>%
+    dplyr::distinct() %>%
     dplyr::group_by(case_number) %>%
     dplyr::mutate(recall_reason = paste(recall_reason, collapse=", ")) %>%
-    distinct()
+    dplyr::distinct()
 
-  # readr::write_csv(final_results, file = "2023_04_11_USDA-FSIS.csv")
+  readr::write_csv(final_results, file = "2023_04_11_USDA-FSIS.csv")
   return(final_results)
   remDr$close()
 }
+

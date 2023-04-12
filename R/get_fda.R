@@ -5,6 +5,7 @@
 #' @importFrom httr GET
 #' @importFrom jsonlite fromJSON
 #' @importFrom tibble tibble
+#' @export
 get_fda <- function(api_key,
                     address_1 = NULL,
                     address_2 = NULL,
@@ -27,14 +28,13 @@ get_fda <- function(api_key,
                     recalling_firm = NULL,
                     report_date = NULL,
                     state = NULL,
-                    status = Onoing,
+                    status = Ongoing,
                     termination_date = NULL,
                     voluntary_mandated = NULL) {
 
   if (!is.null(api_key)) {
     api_key <- paste0(api_key, "&")
   }
-
 
   core_url <- "https://api.fda.gov/food/enforcement.json?"
   search <- "search="
@@ -49,7 +49,7 @@ get_fda <- function(api_key,
 
   new_stuff <- tibble::tibble(recall_number = data$results$recall_number,
                   recalling_firm = data$results$recalling_firm,
-                  recall_inititaion_date = data$results$recall_inititaion_date,
+                  recall_initiation_date = data$results$recall_initiation_date,
                   center_classification_date = data$results$center_classification_date,
                   report_date = data$results$report_date,
                   voluntary_mandated = data$results$voluntary_mandated,
@@ -70,7 +70,7 @@ get_fda <- function(api_key,
                   distribution_pattern = data$results$distribution_pattern,
                   event_id = data$results$event_id,
                   product_type = data$results$product_type)
-  return(new_stuff)
 
+  return(new_stuff)
 }
 

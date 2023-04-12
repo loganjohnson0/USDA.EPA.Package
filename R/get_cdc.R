@@ -13,6 +13,7 @@
 #' @importFrom rvest html_text2
 #' @importFrom wdman selenium
 #' @importFrom xml2 read_html
+#' @export
 get_cdc <- function(x) {
 
   rD <- RSelenium::rsDriver(browser = "chrome",

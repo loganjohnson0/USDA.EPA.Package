@@ -4,7 +4,33 @@
 \alias{get_fda}
 \title{This function scrapes the FDA website for food product recall data}
 \usage{
-get_fda(x)
+get_fda(
+  api_key,
+  address_1 = NULL,
+  address_2 = NULL,
+  center_classification_date = NULL,
+  city = NULL,
+  classification = NULL,
+  code_info = NULL,
+  country = NULL,
+  distribution_pattern = NULL,
+  event_id = NULL,
+  initial_firm_notifcation = NULL,
+  more_code_info = NULL,
+  product_code = NULL,
+  product_description = NULL,
+  product_quantity = NULL,
+  product_type = NULL,
+  reason_for_recall = NULL,
+  recall_inititaion_date = NULL,
+  recall_number = NULL,
+  recalling_firm = NULL,
+  report_date = NULL,
+  state = NULL,
+  status = Ongoing,
+  termination_date = NULL,
+  voluntary_mandated = NULL
+)
 }
 \arguments{
 \item{x}{Need to update the input functionality of the function}
