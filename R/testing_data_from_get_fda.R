@@ -30,3 +30,12 @@ df <- arrange(df,desc(report_date))
 # classification types (Class I, Class II, Class III) of recall by year and state, for instance
 # add day of the week as a column
 df <- df %>% mutate(report_year = year(report_date))
+
+# use ggplot to create the barchart
+# draw a barchart of the number of food recalls by year, color by classification type
+df %>% ggplot(aes(x = report_year,
+                            fill = classification))+
+  geom_bar() +
+  labs(title = "Food Recalls by Year by Classification Type") +
+  ylab("Number of Food Recalls") +
+  xlab("")
