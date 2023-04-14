@@ -95,7 +95,7 @@ get_usda_fsis <- function(x) {
     dplyr::mutate(recall_reason = paste(recall_reason, collapse=", ")) %>%
     dplyr::distinct()
 
-  readr::write_csv(final_results, file = "2023_04_11_USDA-FSIS.csv")
+  readr::write_csv(final_results, file = "2023_04_12_All_USDA-FSIS.csv")
   return(final_results)
   remDr$close()
 }
