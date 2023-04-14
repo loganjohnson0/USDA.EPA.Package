@@ -2,9 +2,13 @@
 #'
 #' @param x Need to update the input functionality of the function
 #'
+#' @importFrom dplyr arrange
+#' @importFrom dplyr mutate
+#' @importFrom dplyr mutate_all
 #' @importFrom httr content
 #' @importFrom httr GET
 #' @importFrom jsonlite fromJSON
+#' @importFrom lubridate ymd
 #' @importFrom tibble tibble
 #' @export
 get_fda <- function(api_key,
@@ -71,6 +75,16 @@ get_fda <- function(api_key,
                   distribution_pattern = data$results$distribution_pattern,
                   event_id = data$results$event_id,
                   product_type = data$results$product_type)
+
+
+  new_stuff <- new_stuff %>%
+    dplyr::mutate_all(~replace(., . == "", NA)) %>%
+    dplyr::mutate(
+      recall_initiation_date = as_date(recall_initiation_date),
+      report_date = lubridate::ymd(report_date),
+      center_classification_date = lubridate::ymd(center_classification_date)
+    ) %>%
+    dplyr::arrange(report_date)
 
   return(new_stuff)
 }
