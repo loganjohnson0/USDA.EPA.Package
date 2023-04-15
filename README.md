@@ -11,7 +11,7 @@ devtools::install.github("loganjohnson0/USDA.EPA.Package")
 library(foodRecall)
 ```
 
-To use the `foodRecall` package, you simply need to enter your API key into the `get_fda` function. You will also need to define the number of requests that you would like to request. The limit is 1000 so if you enter a number larger than 1000, an error will occur. (Working on adding in that limitation in the package itself).
+To use the `foodRecall` package, you simply need to enter your API key into the `get_fda` function. You will also need to define the number of requests that you would like to request. The limit is 1000 so if you enter a number larger than 1000, an error will occur. (Working on adding in that limitation in the package itself). The `get_fda` function is currently (April 15, 2023) set to only recalls that the FDA considered "Ongoing". Moving forward, we will make this selection more flexible for the user to filter based on their inputs.
 
 ```{r}
 df <- foodRecall::get_fda(api_key = "YOUR API KEY", limit = "NUMBER OF RECALL EVENTS")
@@ -22,6 +22,10 @@ We also are working on visualizing these data on a location basis. We are workin
 ```{r}
 foodRecall::map_recall(data = df)
 ```
+Here is an example output of the type of map that would be generated.
+
+![Rplot.pdf](Rplot.pdf)
+
 
 These are the only two functions that we recommend using at this time! The `get_usda_fsis` and `get_cdc` functions currently work (for Logan at least); however, these are dependent on Selenium. It is NOT recommended that you use these functions currently. We are likely going to connect to the CDC API in the `get_cdc` function. 
 
