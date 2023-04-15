@@ -2,6 +2,22 @@
 #'
 #' @param api_key Your free api key from FDA website
 #' @param limit The number of rows to return for that query
+#' @param city City where food was produced
+#' @param classification The level of risk severity according to the FDA
+#' @param code_info Product code details associated with the recall
+#' @param country The country where the food was produced
+#' @param distribution_pattern Locations where food was distributed to
+#' @param initial_firm_notification Mode of distributing recall information
+#' @param product_description Description of product
+#' @param reason_for_recall Reason for product recall
+#' @param recall_initiation_date Date for which recall was initiated
+#' @param recall_number A numerical designation assigned by FDA
+#' @param recalling_firm The company recalling the product
+#' @param report_date The date the FDA issued the enforcement report for the product recall
+#' @param state The U.S. state in which the recalling firm is located
+#' @param status The status of the recall
+#' @param termination_date The date the recall was terminated
+#' @param voluntary_mandated Whether the recall was a voluntary or mandated recall
 #'
 #' @importFrom dplyr arrange
 #' @importFrom dplyr mutate
@@ -13,47 +29,43 @@
 #' @importFrom tibble tibble
 #' @export
 get_fda <- function(api_key,
-                    address_1 = NULL,
-                    address_2 = NULL,
-                    center_classification_date = NULL,
                     city = NULL,
                     classification = NULL,
                     code_info = NULL,
                     country = NULL,
                     distribution_pattern = NULL,
-                    event_id = NULL,
-                    initial_firm_notifcation = NULL,
+                    initial_firm_notification = NULL,
                     limit,
-                    more_code_info = NULL,
-                    product_code = NULL,
                     product_description = NULL,
-                    product_quantity = NULL,
-                    product_type = NULL,
                     reason_for_recall = NULL,
-                    recall_inititaion_date = NULL,
+                    recall_initiation_date = NULL,
                     recall_number = NULL,
                     recalling_firm = NULL,
                     report_date = NULL,
                     state = NULL,
-                    status = Ongoing,
+                    status = NULL,
                     termination_date = NULL,
                     voluntary_mandated = NULL) {
 
-  if (!is.null(api_key)) {
-    api_key <- paste0("api_key=", api_key, "&")
-  }
-  if (!is.null(limit)) {
-    limit <- paste0("&limit=", limit)
+  center_classification_date <- NULL
+  desc <- NULL
+
+    api_key <- paste0(api_key, "&")
+
+    url <- paste0("https://api.fda.gov/food/enforcement.json?api_key=", api_key)
+
+    search <- "search="
+
+  if (!is.null(city)) {
+    if (length(city) > 1) {
+
+    } else
+    search <- paste0(search, "city:", city)
   }
 
-  core_url <- "https://api.fda.gov/food/enforcement.json?"
-  search <- "search="
-  # key <- "api_key="
-  # api_key <- api_key
-  status <- "status:Ongoing"
-  # limit <- "&limit=100"
+  limit <- paste0("&limit=", limit)
 
-  fda_data <- httr::GET(url = paste0(core_url, api_key, search, status, limit))
+  fda_data <- httr::GET(url = paste0(url, search, limit))
 
   data <- jsonlite::fromJSON(httr::content(fda_data, "text"))
 
@@ -62,9 +74,10 @@ get_fda <- function(api_key,
                   recall_initiation_date = data$results$recall_initiation_date,
                   center_classification_date = data$results$center_classification_date,
                   report_date = data$results$report_date,
+                  termination_date = data$results$termination_date,
                   voluntary_mandated = data$results$voluntary_mandated,
                   classification = data$results$classification,
-                  initial_firm_notifcation = data$results$initial_firm_notification,
+                  initial_firm_notification = data$results$initial_firm_notification,
                   status = data$results$status,
                   country = data$results$country,
                   state = data$results$state,
@@ -76,10 +89,8 @@ get_fda <- function(api_key,
                   product_description = data$results$product_description,
                   product_quantity = data$results$product_quantity,
                   code_info = data$results$code_info,
-                  more_code_info = data$results$more_code_info,
                   distribution_pattern = data$results$distribution_pattern,
-                  event_id = data$results$event_id,
-                  product_type = data$results$product_type)
+                  event_id = data$results$event_id)
 
 
   new_stuff <- new_stuff %>%
@@ -87,9 +98,9 @@ get_fda <- function(api_key,
     dplyr::mutate(
       recall_initiation_date = lubridate::ymd(recall_initiation_date),
       report_date = lubridate::ymd(report_date),
-      center_classification_date = lubridate::ymd(center_classification_date)) %>%
-    dplyr::arrange(report_date)
+      center_classification_date = lubridate::ymd(center_classification_date),
+      termination_date = lubridate::ymd(termination_date)) %>%
+    dplyr::arrange(desc(report_date))
 
   return(new_stuff)
 }
-

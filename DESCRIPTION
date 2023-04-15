@@ -25,6 +25,7 @@ Imports:
     rvest,
     tibble,
     tidygeocoder,
+    tidyr,
     wdman,
     xml2
 LazyData: true

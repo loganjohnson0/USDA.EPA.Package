@@ -6,29 +6,21 @@
 \usage{
 get_fda(
   api_key,
-  address_1 = NULL,
-  address_2 = NULL,
-  center_classification_date = NULL,
   city = NULL,
   classification = NULL,
   code_info = NULL,
   country = NULL,
   distribution_pattern = NULL,
-  event_id = NULL,
-  initial_firm_notifcation = NULL,
+  initial_firm_notification = NULL,
   limit,
-  more_code_info = NULL,
-  product_code = NULL,
   product_description = NULL,
-  product_quantity = NULL,
-  product_type = NULL,
   reason_for_recall = NULL,
-  recall_inititaion_date = NULL,
+  recall_initiation_date = NULL,
   recall_number = NULL,
   recalling_firm = NULL,
   report_date = NULL,
   state = NULL,
-  status = Ongoing,
+  status = NULL,
   termination_date = NULL,
   voluntary_mandated = NULL
 )
@@ -36,7 +28,39 @@ get_fda(
 \arguments{
 \item{api_key}{Your free api key from FDA website}
 
+\item{city}{City where food was produced}
+
+\item{classification}{The level of risk severity according to the FDA}
+
+\item{code_info}{Product code details associated with the recall}
+
+\item{country}{The country where the food was produced}
+
+\item{distribution_pattern}{Locations where food was distributed to}
+
+\item{initial_firm_notification}{Mode of distributing recall information}
+
 \item{limit}{The number of rows to return for that query}
+
+\item{product_description}{Description of product}
+
+\item{reason_for_recall}{Reason for product recall}
+
+\item{recall_initiation_date}{Date for which recall was initiated}
+
+\item{recall_number}{A numerical designation assigned by FDA}
+
+\item{recalling_firm}{The company recalling the product}
+
+\item{report_date}{The date the FDA issued the enforcement report for the product recall}
+
+\item{state}{The U.S. state in which the recalling firm is located}
+
+\item{status}{The status of the recall}
+
+\item{termination_date}{The date the recall was terminated}
+
+\item{voluntary_mandated}{Whether the recall was a voluntary or mandated recall}
 }
 \description{
 This function scrapes the FDA website for food product recall data

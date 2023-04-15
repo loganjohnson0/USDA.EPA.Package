@@ -3,17 +3,30 @@
 #' @param x Need to update the input functionality of the function
 #'
 #' @importFrom dplyr bind_rows
+#' @importFrom dplyr distinct
 #' @importFrom dplyr group_by
 #' @importFrom dplyr mutate
+#' @importFrom dplyr select
 #' @importFrom dplyr %>%
+#' @importFrom lubridate mdy
+#' @importFrom lubridate today
 #' @importFrom readr write_csv
-#' @importFrom RSelenium remoteDriver
+#' @importFrom RSelenium rsDriver
 #' @importFrom rvest html_nodes
 #' @importFrom rvest html_text2
+#' @importFrom tidyr separate_wider_delim
 #' @importFrom wdman selenium
 #' @importFrom xml2 read_html
 #' @export
 get_usda_fsis <- function(x) {
+
+  recall_number <- NULL
+  reason_for_recall <- NULL
+  report_date <- NULL
+  termination_date <- NULL
+  day <- NULL
+  day_ <- NULL
+
 
   rD <- RSelenium::rsDriver(browser = "chrome",
                                chromever = "112.0.5615.49",
@@ -25,7 +38,7 @@ get_usda_fsis <- function(x) {
   results_list <- list()
   results <- data.frame()
 
-  page_number <- 0:2 # Need to add more functionality and input capabilities here
+  page_number <- 0:3 # Need to add more functionality and input capabilities here
 
   for (i in page_number) {
   usda_web_page <- sprintf("https://www.fsis.usda.gov/recalls?page=%s", i)
@@ -78,10 +91,10 @@ get_usda_fsis <- function(x) {
       usda_date <- NA
     }
 
-    temp <- data.frame(case_number = usda_case_number,
-                       recall_reason = usda_recall_reason,
-                       establishment = usda_establishment,
-                       states = usda_states_affected,
+    temp <- data.frame(recall_number = usda_case_number,
+                       reason_for_recall = usda_recall_reason,
+                       recalling_firm = usda_establishment,
+                       distribution_pattern = usda_states_affected,
                        date = usda_date)
 
     results <- dplyr::bind_rows(results, temp)
@@ -91,12 +104,19 @@ get_usda_fsis <- function(x) {
 
   final_results <- dplyr::bind_rows(results_list) %>%
     dplyr::distinct() %>%
-    dplyr::group_by(case_number) %>%
-    dplyr::mutate(recall_reason = paste(recall_reason, collapse=", ")) %>%
-    dplyr::distinct()
+    dplyr::group_by(recall_number) %>%
+    dplyr::mutate(reason_for_recall = paste(reason_for_recall, collapse=", ")) %>%
+    dplyr::distinct() %>%
+    tidyr::separate_wider_delim(cols = date, names = c("report_date","termination_date"), delim = " - ") %>%
+    tidyr::separate_wider_delim(cols = report_date, names = c("day","report_date"), delim = ", ") %>%
+    tidyr::separate_wider_delim(cols = termination_date, names = c("day_","termination_date"), delim = ", ", too_few = "align_end") %>%
+    dplyr::select(!c(day, day_)) %>%
+    dplyr::mutate(
+      report_date = lubridate::mdy(report_date),
+      termination_date = lubridate::mdy(termination_date)) %>%
+    dplyr::mutate(status = ifelse(is.na(termination_date), "Ongoing", "Terminated"))
 
-  readr::write_csv(final_results, file = "2023_04_12_All_USDA-FSIS.csv")
+  readr::write_csv(final_results, file = paste0(lubridate::today(), "_USDA-FSIS.csv"))
   return(final_results)
   remDr$close()
 }
-

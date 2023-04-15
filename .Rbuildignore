@@ -2,6 +2,7 @@
 ^\.Rproj\.user$
 [.]txt$
 [.]csv$
+[.]pdf$
 ^LICENSE\.md$
 ^_pkgdown\.yml$
 ^docs$

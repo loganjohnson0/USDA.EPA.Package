@@ -12,6 +12,14 @@
 #' @export
 map_recall <- function(data) {
 
+  address_1 <- NULL
+  city <- NULL
+  state <- NULL
+  postal_code <- NULL
+  full_address <- NULL
+  longitude <- NULL
+  latitude <- NULL
+
   data <- data %>%
     dplyr::mutate(full_address = paste(address_1, city, state, postal_code))
 
