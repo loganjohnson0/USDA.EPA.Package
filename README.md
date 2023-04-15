@@ -4,7 +4,10 @@ To use this package, it is necessary that you register for an API key through th
 
 ```{r}
 library(devtools)
-devtools::install.github("loganjohnson0/USDA.EPA.Package") # Will change the repository name once we finalize package name (foodRecall)
+
+# Will change the repository name once we finalize package name (foodRecall)
+devtools::install.github("loganjohnson0/USDA.EPA.Package")
+
 library(foodRecall)
 ```
 
