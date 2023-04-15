@@ -13,6 +13,7 @@ name: pkgdown
 
 permissions:
   id-token: write
+  contents: read
 
 jobs:
   pkgdown:
