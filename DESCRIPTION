@@ -2,7 +2,7 @@ Package: foodRecall
 Type: Package
 Title: Extracts and Visualizes Food Recall Data
 Version: 0.1.0
-Date: 2023-04-11
+Date: 2023-04-15
 Authors@R: c(
     person("Logan", "Johnson", email = "logan01@iastate.edu", role = c("aut", "cre"),
             comment = c(ORCID = "0000-0001-9773-5027")),
