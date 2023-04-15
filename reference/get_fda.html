@@ -50,29 +50,21 @@
     <h2 id="ref-usage">Usage<a class="anchor" aria-label="anchor" href="#ref-usage"></a></h2>
     <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">get_fda</span><span class="op">(</span></span>
 <span>  <span class="va">api_key</span>,</span>
-<span>  address_1 <span class="op">=</span> <span class="cn">NULL</span>,</span>
-<span>  address_2 <span class="op">=</span> <span class="cn">NULL</span>,</span>
-<span>  center_classification_date <span class="op">=</span> <span class="cn">NULL</span>,</span>
 <span>  city <span class="op">=</span> <span class="cn">NULL</span>,</span>
 <span>  classification <span class="op">=</span> <span class="cn">NULL</span>,</span>
 <span>  code_info <span class="op">=</span> <span class="cn">NULL</span>,</span>
 <span>  country <span class="op">=</span> <span class="cn">NULL</span>,</span>
 <span>  distribution_pattern <span class="op">=</span> <span class="cn">NULL</span>,</span>
-<span>  event_id <span class="op">=</span> <span class="cn">NULL</span>,</span>
-<span>  initial_firm_notifcation <span class="op">=</span> <span class="cn">NULL</span>,</span>
+<span>  initial_firm_notification <span class="op">=</span> <span class="cn">NULL</span>,</span>
 <span>  <span class="va">limit</span>,</span>
-<span>  more_code_info <span class="op">=</span> <span class="cn">NULL</span>,</span>
-<span>  product_code <span class="op">=</span> <span class="cn">NULL</span>,</span>
 <span>  product_description <span class="op">=</span> <span class="cn">NULL</span>,</span>
-<span>  product_quantity <span class="op">=</span> <span class="cn">NULL</span>,</span>
-<span>  product_type <span class="op">=</span> <span class="cn">NULL</span>,</span>
 <span>  reason_for_recall <span class="op">=</span> <span class="cn">NULL</span>,</span>
-<span>  recall_inititaion_date <span class="op">=</span> <span class="cn">NULL</span>,</span>
+<span>  recall_initiation_date <span class="op">=</span> <span class="cn">NULL</span>,</span>
 <span>  recall_number <span class="op">=</span> <span class="cn">NULL</span>,</span>
 <span>  recalling_firm <span class="op">=</span> <span class="cn">NULL</span>,</span>
 <span>  report_date <span class="op">=</span> <span class="cn">NULL</span>,</span>
 <span>  state <span class="op">=</span> <span class="cn">NULL</span>,</span>
-<span>  status <span class="op">=</span> <span class="va">Ongoing</span>,</span>
+<span>  status <span class="op">=</span> <span class="cn">NULL</span>,</span>
 <span>  termination_date <span class="op">=</span> <span class="cn">NULL</span>,</span>
 <span>  voluntary_mandated <span class="op">=</span> <span class="cn">NULL</span></span>
 <span><span class="op">)</span></span></code></pre></div>
@@ -84,8 +76,72 @@
 <dd><p>Your free api key from FDA website</p></dd>
 
 
+<dt>city</dt>
+<dd><p>City where food was produced</p></dd>
+
+
+<dt>classification</dt>
+<dd><p>The level of risk severity according to the FDA</p></dd>
+
+
+<dt>code_info</dt>
+<dd><p>Product code details associated with the recall</p></dd>
+
+
+<dt>country</dt>
+<dd><p>The country where the food was produced</p></dd>
+
+
+<dt>distribution_pattern</dt>
+<dd><p>Locations where food was distributed to</p></dd>
+
+
+<dt>initial_firm_notification</dt>
+<dd><p>Mode of distributing recall information</p></dd>
+
+
 <dt>limit</dt>
 <dd><p>The number of rows to return for that query</p></dd>
+
+
+<dt>product_description</dt>
+<dd><p>Description of product</p></dd>
+
+
+<dt>reason_for_recall</dt>
+<dd><p>Reason for product recall</p></dd>
+
+
+<dt>recall_initiation_date</dt>
+<dd><p>Date for which recall was initiated</p></dd>
+
+
+<dt>recall_number</dt>
+<dd><p>A numerical designation assigned by FDA</p></dd>
+
+
+<dt>recalling_firm</dt>
+<dd><p>The company recalling the product</p></dd>
+
+
+<dt>report_date</dt>
+<dd><p>The date the FDA issued the enforcement report for the product recall</p></dd>
+
+
+<dt>state</dt>
+<dd><p>The U.S. state in which the recalling firm is located</p></dd>
+
+
+<dt>status</dt>
+<dd><p>The status of the recall</p></dd>
+
+
+<dt>termination_date</dt>
+<dd><p>The date the recall was terminated</p></dd>
+
+
+<dt>voluntary_mandated</dt>
+<dd><p>Whether the recall was a voluntary or mandated recall</p></dd>
 
 </dl></div>
 
