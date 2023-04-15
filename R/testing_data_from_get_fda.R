@@ -39,3 +39,26 @@ df %>% ggplot(aes(x = report_year,
   labs(title = "Food Recalls by Year by Classification Type") +
   ylab("Number of Food Recalls") +
   xlab("")
+
+#create a "full_address" column to start the geocoding process
+df1 <- df
+df1$full_address <- paste(df1$address_1, df1$city, df1$state, df1$postal_code)
+
+# geocode FDA food recall addresses to plot them on a map
+library(dplyr, warn.conflicts = FALSE)
+library(tidygeocoder)
+library(ggplot2)
+
+#Citing tidygeocoder
+citation('tidygeocoder')
+
+# geocode the addresses
+# create data frame containing addresses with latitude and longitude
+lat_longs <- df1 %>%
+  geocode(full_address, method = 'osm', lat = latitude , long = longitude)
+
+ggplot(lat_longs, aes(longitude, latitude), color = "grey99") +
+  borders("state") + geom_point() +
+  theme_void()
+
+# 288 addresses did not output latitude and longitude, need to find out how to fix that.
