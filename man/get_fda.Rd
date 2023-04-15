@@ -16,6 +16,7 @@ get_fda(
   distribution_pattern = NULL,
   event_id = NULL,
   initial_firm_notifcation = NULL,
+  limit,
   more_code_info = NULL,
   product_code = NULL,
   product_description = NULL,
@@ -33,7 +34,9 @@ get_fda(
 )
 }
 \arguments{
-\item{x}{Need to update the input functionality of the function}
+\item{api_key}{Your free api key from FDA website}
+
+\item{limit}{The number of rows to return for that query}
 }
 \description{
 This function scrapes the FDA website for food product recall data

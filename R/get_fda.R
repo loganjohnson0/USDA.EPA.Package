@@ -1,6 +1,7 @@
 #' This function scrapes the FDA website for food product recall data
 #'
-#' @param x Need to update the input functionality of the function
+#' @param api_key Your free api key from FDA website
+#' @param limit The number of rows to return for that query
 #'
 #' @importFrom dplyr arrange
 #' @importFrom dplyr mutate
@@ -22,6 +23,7 @@ get_fda <- function(api_key,
                     distribution_pattern = NULL,
                     event_id = NULL,
                     initial_firm_notifcation = NULL,
+                    limit,
                     more_code_info = NULL,
                     product_code = NULL,
                     product_description = NULL,
@@ -38,17 +40,20 @@ get_fda <- function(api_key,
                     voluntary_mandated = NULL) {
 
   if (!is.null(api_key)) {
-    api_key <- paste0(api_key, "&")
+    api_key <- paste0("api_key=", api_key, "&")
+  }
+  if (!is.null(limit)) {
+    limit <- paste0("&limit=", limit)
   }
 
   core_url <- "https://api.fda.gov/food/enforcement.json?"
   search <- "search="
-  key <- "api_key="
-  api_key <- api_key
+  # key <- "api_key="
+  # api_key <- api_key
   status <- "status:Ongoing"
-  limit <- "&limit=1000"
+  # limit <- "&limit=100"
 
-  fda_data <- httr::GET(url = paste0(core_url, key, api_key, search, status, limit))
+  fda_data <- httr::GET(url = paste0(core_url, api_key, search, status, limit))
 
   data <- jsonlite::fromJSON(httr::content(fda_data, "text"))
 
@@ -80,10 +85,9 @@ get_fda <- function(api_key,
   new_stuff <- new_stuff %>%
     dplyr::mutate_all(~replace(., . == "", NA)) %>%
     dplyr::mutate(
-      recall_initiation_date = as_date(recall_initiation_date),
+      recall_initiation_date = lubridate::ymd(recall_initiation_date),
       report_date = lubridate::ymd(report_date),
-      center_classification_date = lubridate::ymd(center_classification_date)
-    ) %>%
+      center_classification_date = lubridate::ymd(center_classification_date)) %>%
     dplyr::arrange(report_date)
 
   return(new_stuff)
