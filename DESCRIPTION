@@ -3,10 +3,14 @@ Type: Package
 Title: Extracts and Visualizes Food Recall Data
 Version: 0.1.0
 Date: 2023-04-11
-Authors@R: person("Logan", "Johnson", email = "logan01@iastate.edu", role = c("aut", "cre"))
+Authors@R: c(
+    person("Logan", "Johnson", email = "logan01@iastate.edu", role = c("aut", "cre"),
+            comment = c(ORCID = "0000-0001-9773-5027")),
+    person("Kelly", "Nascimento Thompson", email = "kellynay@iastate.edu", role = "aut"),
+    person("Matthew", "Kavanaugh", email = "mgk1@iastate.edu", role = "aut"),
+    person("Charchit", "Shukla", email = "cshukla@iastate.edu", role = "aut"))
 Maintainer: Logan Johnson <logan01@iastate.edu>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: An easy way to access and visualize food recall data from the openFDA API.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Imports:
@@ -25,5 +29,6 @@ Imports:
     xml2
 LazyData: true
 RoxygenNote: 7.2.3
-URL: https://github.com/loganjohnson0/USDA.EPA.Package
+URL: https://github.com/loganjohnson0/USDA.EPA.Package,
+    https://loganjohnson0.github.io/USDA.EPA.Package/
 BugReports: https://github.com/loganjohnson0/USDA.EPA.Package/issues
