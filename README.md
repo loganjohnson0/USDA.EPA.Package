@@ -1,4 +1,8 @@
-# foodRecall Package
+  <!-- badges: start -->
+  [![R-CMD-check](https://github.com/loganjohnson0/USDA.EPA.Package/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/loganjohnson0/USDA.EPA.Package/actions/workflows/R-CMD-check.yaml)
+  <!-- badges: end -->
+
+# foodRecall
 
 To use this package, it is necessary that you register for an API key through the [openFDA website](https://open.fda.gov/apis/authentication/). This is a free API key that only requires your email address. You should receive it immediately upon request. Upon any issues with the API key itself, please contact the openFDA office. Be sure to not share your API key with anyone!
 
