@@ -1,4 +1,4 @@
-# foodRecall
+# foodRecall <a href="https://loganjohnson0.github.io/USDA.EPA.Package/"><img src="man/figures/logo.png" align="right" height="139" /></a>
 
   <!-- badges: start -->
   [![R-CMD-check](https://github.com/loganjohnson0/USDA.EPA.Package/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/loganjohnson0/USDA.EPA.Package/actions/workflows/R-CMD-check.yaml)
