@@ -16,18 +16,15 @@
     <loc>https://loganjohnson0.github.io/USDA.EPA.Package/index.html</loc>
   </url>
   <url>
-    <loc>https://loganjohnson0.github.io/USDA.EPA.Package/reference/get_cdc.html</loc>
-  </url>
-  <url>
-    <loc>https://loganjohnson0.github.io/USDA.EPA.Package/reference/get_fda.html</loc>
-  </url>
-  <url>
-    <loc>https://loganjohnson0.github.io/USDA.EPA.Package/reference/get_usda_fsis.html</loc>
-  </url>
-  <url>
     <loc>https://loganjohnson0.github.io/USDA.EPA.Package/reference/index.html</loc>
   </url>
   <url>
     <loc>https://loganjohnson0.github.io/USDA.EPA.Package/reference/map_recall.html</loc>
+  </url>
+  <url>
+    <loc>https://loganjohnson0.github.io/USDA.EPA.Package/reference/recall_date.html</loc>
+  </url>
+  <url>
+    <loc>https://loganjohnson0.github.io/USDA.EPA.Package/reference/recall_location.html</loc>
   </url>
 </urlset>
