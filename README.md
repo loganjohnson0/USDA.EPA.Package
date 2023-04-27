@@ -1,7 +1,7 @@
-# foodRecall <a href="https://loganjohnson0.github.io/USDA.EPA.Package/"><img src="man/figures/logo.png" align="right" height="139" /></a>
+# foodRecall <a href="https://loganjohnson0.github.io/foodRecall/"><img src="man/figures/logo.png" align="right" height="139" /></a>
 
   <!-- badges: start -->
-  [![R-CMD-check](https://github.com/loganjohnson0/USDA.EPA.Package/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/loganjohnson0/USDA.EPA.Package/actions/workflows/R-CMD-check.yaml)
+  [![R-CMD-check](https://github.com/loganjohnson0/foodRecall/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/loganjohnson0/foodRecall/actions/workflows/R-CMD-check.yaml)
   <!-- badges: end -->
 
 ## Introduction
@@ -14,7 +14,7 @@ To use this package, it is necessary that you register for an API key through th
 library(devtools)
 
 # Will change the repository name once we finalize package name (foodRecall)
-devtools::install.github("loganjohnson0/USDA.EPA.Package")
+devtools::install.github("loganjohnson0/foodRecall")
 
 library(foodRecall)
 ```
@@ -34,10 +34,6 @@ Here is an example output of the type of map that would be generated.
 
 ![Rplot.pdf](Rplot.pdf)
 
-
-These are the only two functions that we recommend using at this time! The `get_usda_fsis` and `get_cdc` functions currently work (for Logan at least); however, these are dependent on Selenium. It is NOT recommended that you use these functions currently. We are likely going to connect to the CDC API in the `get_cdc` function. 
-
-We are exploring other avenues for incorporating USDA-FSIS recall data (as we haven't found an API for those data yet). We have found a link with [XML data](https://www2c.cdc.gov/podcasts/createrss.asp?c=146) through the CDC that has current data as well as history through approximately 2021. These data do not contain as specific of data as the current version (April 15, 2023) of `get_usda_fsis` can or likely will achieve.
 
 Check back for additional updates that we plan to add in soon!
 

@@ -3,6 +3,7 @@
 export(map_recall)
 export(recall_date)
 export(recall_location)
+importFrom(dplyr,"%>%")
 importFrom(dplyr,arrange)
 importFrom(dplyr,mutate)
 importFrom(dplyr,mutate_all)

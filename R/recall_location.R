@@ -11,6 +11,7 @@
 #'
 #' @importFrom dplyr arrange
 #' @importFrom dplyr mutate
+#' @importFrom dplyr  %>%
 #' @importFrom dplyr mutate_all
 #' @importFrom httr content
 #' @importFrom httr GET
