@@ -99,7 +99,9 @@ recall_location <- function(api_key,
       report_date = lubridate::ymd(report_date),
       center_classification_date = lubridate::ymd(center_classification_date),
       termination_date = lubridate::ymd(termination_date)) %>%
-    dplyr::arrange(desc(report_date))
+    dplyr::arrange(desc(report_date)) %>%
+    dplyr::arrange((city))
+
 
   return(new_stuff)
 }
