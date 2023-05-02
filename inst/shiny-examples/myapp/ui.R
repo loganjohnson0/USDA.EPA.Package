@@ -7,22 +7,16 @@ library(tidyverse)
 
 # ui object
 ui <- fluidPage(
-  titlePanel(p("Presslog Calls in Ames Iowa", style = "color:#3474A7")),
+  titlePanel(p("FoodRecall", style = "color:#3474A7")),
   sidebarLayout(
     sidebarPanel(
       selectInput(
-        inputId = "crimeClassify",
-        label = "Select a class of crime",
+        inputId = "Classify",
+        label = "Select part of FDA",
         ## please modify the selected option after updating the classification
         choices = c("All",
-                    'Alcohol Related',
-                    'Violence Related',
-                    'Non-Violence Related',
-                    'Vehicle Related',
-                    'Fraud Related',
-                    'License Related',
-                    'Drug Related',
-                    'Miscellaneous'),
+                    '',
+                    'Related'),
         selected = "All"
       ),
       dateRangeInput(inputId =  'date',
@@ -35,7 +29,7 @@ ui <- fluidPage(
 
     mainPanel(
       leafletOutput(outputId = "map"),
-      dataTableOutput((outputId = "pd_table"))
+      dataTableOutput((outputId = ""))
     )
   )
 )
