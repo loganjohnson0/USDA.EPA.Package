@@ -1,0 +1,1297 @@
+"Case.Number","Date.Time.Reported","Earliest.Occurrence","Latest.Occurrence","General.Location","Disposition","Classification","longitude","latitude"
+"16-000002","01/01/16 0239","01/01/16 0239","01/01/16 0239","E. 13th Street and Mc Cormick Avenue","Arrest","public intoxication",NA,NA
+"16-000003","01/05/16 0828",NA,"01/05/16 0828","Durham Center","Open","vandalism",-93.6498289,42.0276599
+"16-000004","01/06/16 0839",NA,"01/06/16 0839","Armory Building","Open","theft",-93.6509474,42.029626
+"16-000007","01/08/16 0114","01/08/16 0114","01/08/16 0114","Lincoln Way and Sheldon Avenue","Arrest","public intoxication",-93.6542392,42.0227224
+"16-000007","01/08/16 0114","01/08/16 0114","01/08/16 0114","Lincoln Way and Sheldon Avenue","Arrest","alcohol violation",-93.6542392,42.0227224
+"16-000009","01/08/16 1747","01/08/16 1747","01/08/16 1747","Lincoln Way and Stanton Avenue","Arrest","driving violation",-93.6485139,42.0227359
+"16-000010","01/09/16 0050","01/09/16 0050","01/09/16 0050","Lincoln Way and University Boulevard","Arrest","operating while intoxicated",-93.6332661,42.0228746
+"16-000014","01/10/16 1839",NA,"01/10/16 1839","Gilman Hall","Open","harassment",-93.6486442,42.0294215
+"16-000015","01/11/16 0609",NA,"01/11/16 0609","Durham Center","Open","vandalism",-93.6498289,42.0276599
+"16-000016","01/11/16 1128",NA,"01/11/16 1128","College Shop ISU Farms","Open","theft",NA,NA
+"16-000017","01/12/16 0632",NA,"01/12/16 0632","Durham Center","Open","vandalism",-93.6498289,42.0276599
+"16-000018","01/12/16 1105",NA,"01/12/16 1105","Gerdin Business Building","Open","vandalism",-93.6444688,42.0254011
+"16-000022","01/13/16 1718",NA,"01/13/16 1718","Union Drive Community Center","Open","harassment",-93.6515007,42.0249565
+"16-000025","01/13/16 2326","01/13/16 2326","01/13/16 2326","Wilson Hall","Arrest","public intoxication",-93.651021,42.0139143
+"16-000025","01/13/16 2326","01/13/16 2326","01/13/16 2326","Wilson Hall","Arrest","unlawful use of license",-93.651021,42.0139143
+"16-000026","01/14/16 0145","01/14/16 0145","01/14/16 0145","Mortensen Road and Seagrave Boulevard","Arrest","operating while intoxicated",-93.6713608,42.0120265
+"16-000027","01/14/16 0237","01/14/16 0237","01/14/16 0237","Mortensen Road and State Avenue","Arrest","drug violation",-93.6589323,42.0118849
+"16-000028","01/14/16 0301","01/14/16 0301","01/14/16 0301","Union Drive Community Center","Arrest","public intoxication",-93.6515007,42.0249565
+"16-000030","01/14/16 1653",NA,"01/14/16 1653","Wallace Hall","Open","harassment",-93.6499279,42.0142261
+"16-000031","01/14/16 2227","01/14/16 2227","01/14/16 2227","Buchanan Hall","Arrest","public intoxication",-93.642449,42.022653
+"16-000031","01/14/16 2227","01/14/16 2227","01/14/16 2227","Buchanan Hall","Arrest","unlawful use of license",-93.642449,42.022653
+"16-000032","01/15/16 0011","01/15/16 0011","01/15/16 0011","Lot 3","Arrest","public intoxication",-93.6539354,42.0264782
+"16-000032","01/15/16 0011","01/15/16 0011","01/15/16 0011","Lot 3","Arrest","alcohol violation",-93.6539354,42.0264782
+"16-000032","01/15/16 0011","01/15/16 0011","01/15/16 0011","Lot 3","Arrest","unlawful use of license",-93.6539354,42.0264782
+"16-000033","01/15/16 0203","01/15/16 0203","01/15/16 0203","Cessna Street and Country Club Boulevard","Arrest","operating while intoxicated",NA,NA
+"16-000034","01/15/16 0219","01/15/16 0219","01/15/16 0219","South 4th Street and University Boulevard","Arrest","operating while intoxicated",-93.63108,42.016262
+"16-000036","01/15/16 1437",NA,"01/15/16 1437","Parks Library","Open","theft",-93.6488141,42.0281254
+"16-000037","01/15/16 1936",NA,"01/15/16 1936","Lot 63","Open","vandalism",-93.6367573,42.0239698
+"16-000038","01/15/16 2101","01/15/16 2101","01/15/16 2101","Eaton Hall","Arrest","public intoxication",-93.6528168,42.0245839
+"16-000039","01/15/16 2330","01/15/16 2330","01/15/16 2330","Wilson Hall","Arrest","disorderly conduct",-93.651021,42.0139143
+"16-000041","01/16/16 0255","01/16/16 0255","01/16/16 0255","Chamberlain Street and Welch Avenue","Arrest","public intoxication",-93.6501941,42.0214439
+"16-000043","01/16/16 1038",NA,"01/16/16 1038","Lot 63","Open","vandalism",-93.6367573,42.0239698
+"16-000044","01/16/16 2145","01/16/16 2145","01/16/16 2145","Wilson Hall","Arrest","alcohol violation",-93.651021,42.0139143
+"16-000046","01/17/16 0140","01/17/16 0140","01/17/16 0140","Ash Avenue and Lincoln Way","Arrest","operating while intoxicated",-93.64441,42.0226961
+"16-000047","01/17/16 0221","01/17/16 0221","01/17/16 0221","Ames Intermodal Facility","Arrest","disorderly conduct",-93.6523433,42.0210166
+"16-000048","01/17/16 0418","01/17/16 0418","01/17/16 0418","4130 Maricopa Drive","Arrest","operating while intoxicated",-93.6726793,42.0077565
+"16-000049","01/17/16 2337","01/17/16 2337","02/03/16 2048","Wilson Hall","Arrest","drug violation",-93.651021,42.0139143
+"16-000049","01/17/16 2337","01/17/16 2337","01/17/16 2337","Wilson Hall","Arrest","alcohol violation",-93.651021,42.0139143
+"16-000049","01/17/16 2337","01/17/16 2337","01/17/16 2337","Wilson Hall","Arrest","unlawful use of license",-93.651021,42.0139143
+"16-000052","01/18/16 2318","01/18/16 2318","01/18/16 2318","315 Carrie Lane Court","Arrest","drug violation",-93.6418517,42.0244726
+"16-000053","01/19/16 1610",NA,"01/19/16 1610","Welch Hall","Open","harassment",-93.6420811,42.0236532
+"16-000059","01/20/16 0017","01/20/16 0017","01/20/16 0017","44 Schilletter Village","Arrest","weapon violation",-93.6419526,42.0440492
+"16-000060","01/20/16 1035",NA,"01/21/16 1343","Durham Center","Closed","theft",-93.6498289,42.0276599
+"16-000061","01/21/16 0002","01/21/16 0002","01/21/16 0002","Larch Hall","Arrest","vandalism",-93.6382868,42.0232779
+"16-000063","01/21/16 1443",NA,"01/21/16 1443","Eaton Hall","Open","theft",-93.6528168,42.0245839
+"16-000064","01/21/16 2051","01/21/16 2051","01/21/16 2051","Friley Hall","Arrest","drug violation",-93.65045,42.0239234
+"16-000067","01/21/16 2358","01/21/16 2358","01/21/16 2358","Wallace Hall","Open","assault",-93.6499279,42.0142261
+"16-000065","01/22/16 0153","01/22/16 0153","01/22/16 0153","Little Bluestem Court and Mortensen Parkway","Arrest","operating while intoxicated",-93.6455416,42.0094264
+"16-000068","01/22/16 1100",NA,"01/22/16 1100","Lot 112F","Open","vandalism",-93.6394036,42.0323037
+"16-000069","01/22/16 2325","01/22/16 2325","01/22/16 2325","Wallace Hall","Arrest","alcohol violation",-93.6499279,42.0142261
+"16-000072","01/24/16 0022","01/24/16 0022","01/24/16 0022","Frederiksen Court","Arrest","domestic dispute",-93.6440878,42.0340306
+"16-000077","01/24/16 0236","01/24/16 0236","01/24/16 0236","Hilton Coliseum","Arrest","public intoxication",-93.635074,42.022693
+"16-000079","01/24/16 1710",NA,"01/24/16 1710","Lot 112B","Open","theft",-93.6435978,42.0324968
+"16-000080","01/24/16 2106",NA,"01/24/16 2106","University Village","Open","harassment",-93.6441672,42.0427435
+"16-000083","01/25/16 1257",NA,"01/25/16 1257","Wallace Hall","Open","theft",-93.6499279,42.0142261
+"16-000087","01/25/16 1820",NA,"01/25/16 1820","Schilletter Village","Open","theft",-93.6419526,42.0440492
+"16-000089","01/25/16 2321","01/25/16 2321","01/25/16 2321","119 Stanton Avenue","Arrest","drug violation",-93.6489377,42.0219747
+"16-000092","01/26/16 2148","01/26/16 2148","01/26/16 2148","Eaton Hall","Arrest","drug violation",-93.6528168,42.0245839
+"16-000092","01/26/16 2148","01/26/16 2148","01/26/16 2148","Eaton Hall","Arrest","alcohol violation",-93.6528168,42.0245839
+"16-000093","01/27/16 0127","01/27/16 0127","01/27/16 0217","Hayward Avenue and Storm Street","Arrest","driving violation",-93.6516926,42.0161435
+"16-000096","01/27/16 2241","01/27/16 2241","01/27/16 2241","Lincoln Way and Welch Road","Arrest","drug violation",-93.6501393,42.0227328
+"16-000096","01/27/16 2241","01/27/16 2241","01/27/16 2241","Lincoln Way and Welch Road","Arrest","driving violation",-93.6501393,42.0227328
+"16-000095","01/27/16 2305","01/27/16 2305","01/27/16 2305","Wallace Hall","Arrest","drug violation",-93.6499279,42.0142261
+"16-000098","01/28/16 0251","01/28/16 0251","01/28/16 0251","South Dakota Avenue and Zumwalt Station Road","Arrest","operating while intoxicated",NA,NA
+"16-000099","01/28/16 1545",NA,"01/28/16 1545","University Bookstore","Open","theft",-93.6453763,42.0231853
+"16-000100","01/28/16 2112",NA,"01/28/16 2112","Armory Building","Open","assault",-93.6509474,42.029626
+"16-000101","01/28/16 2134","01/28/16 2134","01/28/16 2134","Frederiksen Court","Arrest","drug violation",-93.6440878,42.0340306
+"16-000101","01/28/16 2134","01/28/16 2134","01/28/16 2134","Frederiksen Court","Arrest","alcohol violation",-93.6440878,42.0340306
+"16-000102","01/29/16 0221","01/29/16 0221","01/29/16 0221","Lot 1","Arrest","public intoxication",-93.6540123,42.0236158
+"16-000103","01/29/16 0957","01/29/16 0957","01/29/16 0957","Armory Building","Open","drug violation",-93.6509474,42.029626
+"16-000104","01/29/16 1326",NA,"01/29/16 1326","Roberts Hall","Open","theft",-93.6425636,42.0239302
+"16-000105","01/29/16 1545",NA,"01/29/16 1545","Student Services Building","Open","vandalism",-93.6501447,42.0253226
+"16-000106","01/29/16 1545","01/29/16 1545","01/29/16 1545","Armory Building","Open","drug violation",-93.6509474,42.029626
+"16-000107","01/29/16 2029",NA,"01/29/16 2029","Friley Hall","Open","theft",-93.65045,42.0239234
+"16-000108","01/29/16 2214","01/29/16 2214","01/29/16 2214","Friley Hall","Arrest","drug violation",-93.65045,42.0239234
+"16-000109","01/30/16 0114","01/30/16 0114","01/30/16 0114","Arbor Street and South Hyland Avenue","Arrest","public intoxication",-93.6555561,42.0209196
+"16-000111","01/30/16 0229","01/30/16 0229","01/30/16 0229","Buchanan Hall","Open","trespass",-93.642449,42.022653
+"16-000110","01/30/16 0255","01/30/16 0255","02/24/16 1940","University Village","Arrest","theft",-93.6441672,42.0427435
+"16-000110","01/30/16 0255","01/30/16 0255","01/30/16 0255","University Village","Arrest","public intoxication",-93.6441672,42.0427435
+"16-000110","01/30/16 0255","01/30/16 0255","01/30/16 0255","University Village","Arrest","assault",-93.6441672,42.0427435
+"16-000112","01/30/16 0629",NA,"01/30/16 0629","Lot 61A","Open","theft",-93.6483506,42.0124764
+"16-000114","01/31/16 0254","01/31/16 0254","01/31/16 0254","Knapp Street and Lynn Avenue","Arrest","operating while intoxicated",-93.6463784,42.019148
+"16-000115","02/01/16 0018","02/01/16 0018","02/01/16 0018","South Dakota Avenue and Steinbeck Street","Arrest","alcohol violation",-93.6786731,42.0145902
+"16-000116","02/01/16 0112","02/01/16 0112","02/01/16 0112","Storm Street and Welch Avenue","Arrest","operating while intoxicated",-93.6500563,42.0161339
+"16-000116","02/01/16 0112","02/01/16 0112","02/01/16 0112","Storm Street and Welch Avenue","Arrest","drug violation",-93.6500563,42.0161339
+"16-000116","02/01/16 0112","02/01/16 0112","02/01/16 0112","Storm Street and Welch Avenue","Arrest","driving violation",-93.6500563,42.0161339
+"16-000117","02/01/16 0125","02/01/16 0125","02/01/16 0125","Mortensen Road and South Dakota Avenue","Arrest","driving violation",-93.6786567,42.0120839
+"16-000119","02/01/16 1626",NA,"02/01/16 1626","2200 block Lincoln Way","Open","theft",-93.644527,42.0226921
+"16-000122","02/02/16 1613","02/02/16 1613","02/02/16 1613","Wilson Hall","Arrest","drug violation",-93.651021,42.0139143
+"16-000123","02/02/16 1846",NA,"02/02/16 1846","Armory Building","Open","theft",-93.6509474,42.029626
+"16-000126","02/03/16 0405","02/03/16 0405","02/03/16 0405","Curtiss Hall","Arrest","public intoxication",-93.6448628,42.0261821
+"16-000127","02/03/16 1302",NA,"02/03/16 1302","Hamilton Hall","Open","vandalism",-93.6420985,42.0275353
+"16-000129","02/04/16 0740",NA,"02/04/16 0740","Armory Building","Open","theft",-93.6509474,42.029626
+"16-000133","02/04/16 1827","02/04/16 1827","02/04/16 1827","Bristol Drive and Stange Road","Arrest","driving violation",NA,NA
+"16-000134","02/04/16 2117",NA,"02/04/16 2117","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-000135","02/04/16 2350","02/04/16 2350","02/04/16 2350","Helser Hall","Arrest","public intoxication",-93.6518379,42.02424
+"16-000136","02/05/16 0040","02/05/16 0040","02/05/16 0040","Hayward Avenue and Storm Street","Arrest","operating while intoxicated",-93.6516926,42.0161435
+"16-000137","02/05/16 0235","02/05/16 0235","02/05/16 0235","2800 block of West Street","Arrest","public intoxication",-93.6556596,42.0253444
+"16-000138","02/05/16 1205","02/05/16 1205","02/05/16 1205","Ledgestone Meadows Mobile Home Park","Open","drug violation",NA,NA
+"16-000140","02/05/16 1657","02/05/16 1657","02/05/16 1657","Frederiksen Court","Arrest","drug violation",-93.6440878,42.0340306
+"16-000141","02/06/16 0149","02/06/16 0149","02/06/16 0149","Mortensen Road and Seagrave Boulevard","Arrest","operating while intoxicated",-93.6713608,42.0120265
+"16-000142","02/06/16 0219","02/06/16 0219","02/06/16 0219","Larch Hall","Arrest","drug violation",-93.6382868,42.0232779
+"16-000143","02/06/16 0346","02/06/16 0346","02/06/16 0346","US Highway 30 and 600th Avenue","Arrest","operating while intoxicated",NA,NA
+"16-000144","02/06/16 1653",NA,"02/06/16 1653","Schilletter Village","Open","theft",-93.6419526,42.0440492
+"16-000145","02/07/16 0011","02/07/16 0011","02/07/16 0011","Cochrane Parkway and South Dakota Avenue","Arrest","operating while intoxicated",-93.678692,42.0171418
+"16-000150","02/08/16 2126",NA,"02/08/16 2126","Beyer Hall","Open","theft",-93.6529169,42.0259395
+"16-000151","02/08/16 2237","02/08/16 2237","02/08/16 2237","Lot 61B","Arrest","drug violation",-93.6483675,42.0135352
+"16-000152","02/09/16 0033","02/09/16 0033","02/09/16 0033","3300 block of Lincoln Way","Arrest","driving violation",-93.6615998,42.0227611
+"16-000153","02/09/16 0916",NA,"02/09/16 0916","Armory Building","Open","theft",-93.6509474,42.029626
+"16-000159","02/10/16 1434",NA,"02/10/16 1434","Armory Building","Open","drug violation",-93.6509474,42.029626
+"16-000161","02/11/16 1229",NA,"02/12/16 1052","Armory Building","Arrest","assault",-93.6509474,42.029626
+"16-000162","02/11/16 1648",NA,"02/11/16 1648","Armory Building","Open","drug violation",-93.6509474,42.029626
+"16-000163","02/11/16 2015",NA,"02/11/16 2015","Walton Drive","Open","harassment",-93.6702176,42.0099168
+"16-000164","02/11/16 2130","02/11/16 2130","02/11/16 2130","Chamberlain Street and Lynn Avenue","Arrest","driving violation",-93.6464356,42.0215381
+"16-000165","02/12/16 0228","02/12/16 0228","02/12/16 0228","US Highway 30 E and University Boulevard","Arrest","drug violation",-93.6387198,42.0030346
+"16-000165","02/12/16 0228","02/12/16 0228","02/12/16 0228","US Highway 30 E and University Boulevard","Arrest","driving violation",-93.6387198,42.0030346
+"16-000167","02/12/16 1109",NA,"02/12/16 1109","Elm Hall","Open","harassment",-93.6403311,42.0251392
+"16-000168","02/12/16 1344",NA,"02/12/16 1344","Armory Building","Open","drug violation",-93.6509474,42.029626
+"16-000171","02/12/16 1607",NA,"02/12/16 1607","Student Services Building","Open","sexual assault",-93.6501447,42.0253226
+"16-000170","02/12/16 1612",NA,"02/12/16 1612","4130 Maricopa Drive","Open","theft",-93.6726793,42.0077565
+"16-000172","02/12/16 1741","02/12/16 1741","02/12/16 1741","Friley Hall","Arrest","drug violation",-93.65045,42.0239234
+"16-000172","02/12/16 1741","02/12/16 1741","02/12/16 1741","Friley Hall","Arrest","alcohol violation",-93.65045,42.0239234
+"16-000172","02/12/16 1741","02/12/16 1741","02/12/16 1741","Friley Hall","Arrest","unlawful use of license",-93.65045,42.0239234
+"16-000173","02/12/16 1750","02/12/16 1750","02/12/16 1750","1900 block South 4th Street","Arrest","harassment",-93.6379967,42.0154325
+"16-000173","02/12/16 1750","02/12/16 1750","02/12/16 1750","1900 block South 4th Street","Arrest","trespass",-93.6379967,42.0154325
+"16-000173","02/12/16 1750","02/12/16 1750","02/12/16 1750","1900 block South 4th Street","Arrest","disorderly conduct",-93.6379967,42.0154325
+"16-000175","02/13/16 0043","02/13/16 0043","02/13/16 0043","Gateway Hills Park Drive and Mortensen Road","Arrest","driving violation",-93.649344,42.0118567
+"16-000176","02/13/16 0115","02/13/16 0115","02/13/16 0115","Chamberlain Street and Welch Avenue","Arrest","public intoxication",-93.6501941,42.0214439
+"16-000176","02/13/16 0115","02/13/16 0115","02/13/16 0115","Chamberlain Street and Welch Avenue","Arrest","disorderly conduct",-93.6501941,42.0214439
+"16-000178","02/13/16 0149","02/13/16 0149","02/13/16 0149","Mortensen Road and State Avenue","Arrest","operating while intoxicated",-93.6589323,42.0118849
+"16-000178","02/13/16 0149","02/13/16 0149","02/13/16 0149","Mortensen Road and State Avenue","Arrest","drug violation",-93.6589323,42.0118849
+"16-000179","02/13/16 0224","02/13/16 0224","02/13/16 0224","Willow Hall","Closed","domestic dispute",-93.6377325,42.0239136
+"16-000182","02/13/16 2137",NA,"02/13/16 2137","Memorial Union","Open","theft",-93.6459454,42.0236502
+"16-000173","02/13/16 2341","02/13/16 2341","02/13/16 2341","Pammel Drive and WOI Road","Arrest","alcohol violation",-93.6502722,42.0305197
+"16-000184","02/14/16 0031",NA,"02/14/16 0031","Hilton Coliseum","Open","theft",-93.635074,42.022693
+"16-000185","02/14/16 0156","02/14/16 0156","02/14/16 0156","Gray Avenue and Sunset Drive","Arrest","alcohol violation",-93.6411862,42.0212956
+"16-000186","02/14/16 0202","02/14/16 0202","02/14/16 0202","Willow Hall","Arrest","drug violation",-93.6377325,42.0239136
+"16-000186","02/14/16 0202","02/14/16 0202","02/14/16 0202","Willow Hall","Arrest","alcohol violation",-93.6377325,42.0239136
+"16-000187","02/14/16 0229","02/14/16 0229","02/14/16 0229","Hyland avenue and Lincoln Way","Arrest","alcohol violation",-93.6555907,42.0227264
+"16-000189","02/14/16 1300","02/14/16 1300","02/14/16 1300","Helser Hall","Arrest","drug violation",-93.6518379,42.02424
+"16-000190","02/15/16 0144","02/15/16 0144","02/15/16 0144","Frederiksen Court","Arrest","drug violation",-93.6440878,42.0340306
+"16-000191","02/15/16 0233","02/15/16 0233","02/15/16 0233","Knapp Street and Welch Avenue","Arrest","drug violation",-93.6500882,42.0191138
+"16-000192","02/15/16 1518",NA,"02/15/16 1518","Armory Building","Open","theft",-93.6509474,42.029626
+"16-000193","02/15/16 1942",NA,"02/15/16 1942","Gerdin Business Building","Open","theft",-93.6444688,42.0254011
+"N/A","02/16/16 0000","10/01/15 0000",NA,"Residence Hall - unknown (reported by CSA)","Info only","robbery",NA,NA
+"16-000196","02/16/16 0404","02/16/16 0404","02/16/16 0404","Ontario Circle and Ontario Street","Arrest","driving violation",-93.6581104,42.0344585
+"16-000197","02/16/16 0911",NA,"02/16/16 0911","Armory Building","Open","drug violation",-93.6509474,42.029626
+"16-000198","02/16/16 0911",NA,"02/16/16 0911","Armory Building","Open","drug violation",-93.6509474,42.029626
+"16-000199","02/16/16 2244",NA,"02/16/16 2244","Frederiksen Court","Open","assault",-93.6440878,42.0340306
+"16-000200","02/17/16 0204","02/17/16 0204","02/17/16 0204","Pammel Drive and Stange Road","Arrest","operating while intoxicated",-93.6446613,42.030518
+"16-000201","02/17/16 1632",NA,"02/17/16 1632","Armory Building","Open","harassment",-93.6509474,42.029626
+"16-000204","02/19/16 0201","02/19/16 0201","02/19/16 0201","Chamberlain Street and Lynn Avenue","Arrest","public intoxication",-93.6464356,42.0215381
+"16-000207","02/19/16 1056",NA,"02/19/16 1056","200 block Tama Street","Open","harassment",NA,NA
+"16-000208","02/19/16 1254",NA,"02/19/16 1254","Lot 61A","Open","theft",-93.6483506,42.0124764
+"16-000209","02/19/16 1711",NA,"02/19/16 1711","Parks Library","Open","theft",-93.6488141,42.0281254
+"16-000210","02/19/16 2150","02/19/16 2150","02/19/16 2150","College of Design","Arrest","alcohol violation",-93.6531506,42.0285641
+"16-000216","02/19/16 2314","02/19/16 2314","02/19/16 2314","4709 Steinbeck Street","Open","drug violation",-93.6830438,42.0149761
+"16-000212","02/20/16 0142","02/20/16 0142","02/20/16 0142","Garfield Avenue and Ross Road","Arrest","operating while intoxicated",NA,NA
+"16-000213","02/20/16 0216","02/20/16 0216","02/20/16 0216","119 Stanton Avenue","Arrest","public intoxication",-93.6489377,42.0219747
+"16-000215","02/20/16 1629","02/20/16 1629","02/20/16 1629","Hilltop Road and Tripp Street","Arrest","drug violation",-93.6634289,42.0201153
+"16-000218","02/21/16 0231","02/21/16 0231","02/21/16 0231","144MM and US Highway 30","Arrest","operating while intoxicated",-93.6387198,42.0030346
+"16-000219","02/21/16 0251",NA,"02/21/16 0251","300 Stanton Avenue","Open","disorderly conduct",-93.6481458,42.0202997
+"16-000222","02/22/16 1318",NA,"02/22/16 1318","Ames Intermodal Facility","Open","theft",-93.6523433,42.0210166
+"16-000223","02/22/16 1653",NA,"03/04/16 1048","Armory Building","Arrest","harassment",-93.6509474,42.029626
+"16-000224","02/22/16 2024",NA,"02/22/16 2024","Friley Hall","Open","harassment",-93.65045,42.0239234
+"16-000225","02/22/16 2138","02/22/16 2138","02/22/16 2138","Elm Hall","Arrest","drug violation",-93.6403311,42.0251392
+"16-000226","02/22/16 2224","02/22/16 2224","02/22/16 2224","Wallace Hall","Arrest","drug violation",-93.6499279,42.0142261
+"16-000227","02/23/16 1356","02/23/16 1356","02/23/16 1356","Memorial Union","Arrest","theft",-93.6459454,42.0236502
+"16-000229","02/23/16 2306","02/23/16 2306","02/23/16 2306","Lot 63","Arrest","drug violation",-93.6367573,42.0239698
+"16-000230","02/23/16 2307","02/23/16 2307","02/23/16 2307","Buchanan Hall","Arrest","drug violation",-93.642449,42.022653
+"16-000230","02/23/16 2307","02/23/16 2307","02/23/16 2307","Buchanan Hall","Arrest","alcohol violation",-93.642449,42.022653
+"16-000232","02/24/16 1754",NA,"02/24/16 1754","Armory Building","Open","drug violation",-93.6509474,42.029626
+"16-000233","02/24/16 2105",NA,"02/24/16 2105","Friley Hall","Open","drug violation",-93.65045,42.0239234
+"16-000233","02/24/16 2105",NA,"03/08/16 1752","Linden Hall","Arrest","harassment",-93.6403252,42.0231404
+"16-000234","02/25/16 0139","02/25/16 0139","02/25/16 0139","Lincoln Way and University Boulevard","Arrest","driving violation",-93.6332661,42.0228746
+"16-000235","02/25/16 0948",NA,"02/25/16 0948","Armory Building","Open","drug violation",-93.6509474,42.029626
+"16-000236","02/25/16 1328",NA,"02/28/16 1750","Wallace Hall","Arrest","drug violation",-93.6499279,42.0142261
+"16-000237","02/25/16 1859","02/25/16 1859","02/25/16 1859","Edenburn Drive and Stange Road","Arrest","drug violation",-93.6448596,42.043784
+"16-000238","02/25/16 2217","02/25/16 2217","02/25/16 2217","Wilson Hall","Arrest","drug violation",-93.651021,42.0139143
+"16-000239","02/26/16 0103","02/26/16 0103","02/26/16 0103","Beach Avenue and Lincoln Way","Arrest","public intoxication",-93.639494,42.022655
+"16-000240","02/26/16 0212","02/26/16 0212","02/26/16 0212","Lincoln Way and North Dakota Avenue","Arrest","operating while intoxicated",-93.6786888,42.0230153
+"16-000241","02/26/16 0400",NA,"02/26/16 0400","Troxel Hall","Open","vandalism",-93.6440411,42.0277898
+"16-000242","02/26/16 0746",NA,"02/26/16 0746","Armory Building","Open","drug violation",-93.6509474,42.029626
+"16-000243","02/26/16 1327",NA,"02/26/16 1327","Physics Hall","Open","harassment",-93.6472746,42.0295226
+"16-000246","02/27/16 0125","02/27/16 0125","02/27/16 0125","Hayward Avenue and Knapp Street","Arrest","alcohol violation",-93.6517339,42.0191154
+"16-000247","02/27/16 0150","02/27/16 0150","02/27/16 0150","Maple Hall","Arrest","public intoxication",-93.6387491,42.023654
+"16-000250","02/27/16 2307","02/27/16 2307","02/27/16 2307","Larch Hall","Arrest","public intoxication",-93.6382868,42.0232779
+"16-000251","02/27/16 2326","02/27/16 2326","02/27/16 2326","140 Lynn Avenue","Closed","disorderly conduct",-93.6458095,42.0212625
+"16-000252","02/28/16 0029","02/28/16 0029","02/28/16 0029","Cross Country Course","Arrest","alcohol violation",-93.6525215,42.0131474
+"16-000254","02/28/16 0147","02/28/16 0147","02/28/16 0147","Hayward Avenue and Storm Street","Arrest","alcohol violation",-93.6516926,42.0161435
+"16-000255","02/28/16 0205","02/28/16 0205","02/28/16 0205","Wilson Hall","Arrest","public intoxication",-93.651021,42.0139143
+"16-000256","02/28/16 0335","02/28/16 0335","02/28/16 0335","Beach Avenue and Lincoln Way","Arrest","public intoxication",-93.639494,42.022655
+"16-000258","02/29/16 0837",NA,"02/29/16 0837","Armory Building","Open","drug violation",-93.6509474,42.029626
+"16-000262","03/01/16 1156",NA,"03/01/16 1156","Armory Building","Open","theft",-93.6509474,42.029626
+"16-000263","03/01/16 1502",NA,"03/01/16 1502","University Village","Open","harassment",-93.6441672,42.0427435
+"16-000264","03/02/16 0013","03/02/16 0013","03/09/16 0636","Maple Hall","Arrest","drug violation",-93.6387491,42.023654
+"16-000265","03/02/16 0702","03/02/16 0702","03/02/16 0702","Armory Building","Open","theft",-93.6509474,42.029626
+"16-000269","03/02/16 2019","03/02/16 2019","03/02/16 2019","3920 Maricopa Drive","Arrest","drug violation",-93.6701672,42.0080064
+"16-000270","03/02/16 2137","03/02/16 2137","03/02/16 2137","Lied Recreation Center","Arrest","theft",-93.6372142,42.0267276
+"16-000274","03/04/16 0108","03/04/16 0108","03/04/16 0108","Lot 63","Arrest","operating while intoxicated",-93.6367573,42.0239698
+"16-000274","03/04/16 0108","03/04/16 0108","03/04/16 0108","Lot 63","Arrest","drug violation",-93.6367573,42.0239698
+"16-000273","03/04/16 0125","03/04/16 0125","03/04/16 0125","Sunflower Drive and Tripp Street","Arrest","operating while intoxicated",-93.6676173,42.020146
+"16-000275","03/04/16 0822",NA,"03/04/16 0822","Armory Building","Open","drug violation",-93.6509474,42.029626
+"16-000276","03/04/16 1119","07/03/16 0000","03/04/16 1119","Student Services Building","Open","sexual assault",-93.6501447,42.0253226
+"16-000277","03/04/16 1433",NA,"03/04/16 1433","Parks Library","Open","theft",-93.6488141,42.0281254
+"16-000279","03/04/16 2307",NA,"03/04/16 2307","Wilson Hall","Open","theft",-93.651021,42.0139143
+"16-000280","03/05/16 0026","03/05/16 0026","03/05/16 0026","400 block Welch Avenue","Arrest","alcohol violation",-93.6500882,42.0191138
+"16-000282","03/05/16 0055","03/05/16 0055","03/05/16 0055","Hyland Avenue and Oakland Street","Arrest","public intoxication",-93.6557031,42.0280325
+"16-000284","03/05/16 0206","03/05/16 0206","03/05/16 0206","Hayward Avenue and Mortensen Road","Arrest","driving violation",-93.6516786,42.0118612
+"16-000285","03/05/16 0250","03/05/16 0250","03/05/16 0250","Lincoln Way and Lynn Avenue","Arrest","operating while intoxicated",-93.6464086,42.0227244
+"16-000287","03/05/16 0907",NA,"03/05/16 0907","Agronomy Greenhouse","Open","theft",NA,NA
+"16-000289","03/06/16 0016","03/06/16 0016","03/06/16 0016","119 Stanton Avenue","Open","disorderly conduct",-93.6489377,42.0219747
+"16-000291","03/06/16 1436",NA,"03/06/16 1436","Pearson Hall","Open","vandalism",-93.6498675,42.0260288
+"16-000292","03/06/16 1442","03/06/16 0000","03/06/16 1442","Friley Hall","Open","sexual assault",-93.65045,42.0239234
+"16-000294","03/07/16 1019",NA,"03/07/16 1019","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-000295","03/07/16 1606",NA,"03/08/16 0924","Armory Building","Arrest","drug violation",-93.6509474,42.029626
+"16-000296","03/07/16 2016",NA,"03/07/16 2016","Farm House Museum","Open","theft",-93.6439451,42.0271105
+"16-000298","03/08/16 0523",NA,"03/08/16 0523","Memorial Union","Open","vandalism",-93.6459454,42.0236502
+"16-000299","03/08/16 1819",NA,"03/08/16 1819","Armory Building","Open","drug violation",-93.6509474,42.029626
+"16-000300","03/08/16 2318","03/08/16 2318","03/08/16 2318","400 block State Avenue","Arrest","drug violation",-93.6590921,42.0193842
+"16-000302","03/09/16 1243",NA,"03/09/16 1243","Coover Hall","Open","theft",-93.6508836,42.0283592
+"16-000303","03/09/16 1413",NA,"03/09/16 1413","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-000304","03/09/16 1945",NA,"03/09/16 1945","Friley Hall","Open","theft",-93.65045,42.0239234
+"16-000307","03/10/16 0141","03/10/16 0141","03/10/16 0141","100 block Welch Avenue","Arrest","disorderly conduct",-93.6501392,42.02272
+"16-000307","03/10/16 0141","03/10/16 0141","03/10/16 0141","100 block Welch Avenue","Arrest","public intoxication",-93.6501392,42.02272
+"16-000308","03/10/16 0248","03/10/16 0248","03/10/16 0248","University Village","Open","drug violation",-93.6441672,42.0427435
+"16-000309","03/10/16 1407",NA,"03/14/16 2210","Schilletter Village","Arrest","drug violation",-93.6419526,42.0440492
+"16-000314","03/11/16 0028","03/11/16 0028","03/11/16 0028","Chamberlain Street and Lynn Avenue","Arrest","public intoxication",-93.6464356,42.0215381
+"16-000315","03/11/16 0111","03/11/16 0111","04/18/16 1714","South Dakota Avenue and Steinbeck Street","Arrest","drug violation",-93.6786731,42.0145902
+"16-000317","03/11/16 1350",NA,"03/11/16 1350","Hawthorn Court Drive","Open","theft",-93.643986,42.0338685
+"16-000318","03/12/16 1109",NA,"03/12/16 1109","Lot 62","Open","vandalism",-93.6431646,42.0217945
+"16-000320","03/14/16 2254","03/14/16 2254","03/14/16 2254","2700 block of Lincoln Way","Arrest","driving violation",-93.6545215,42.022377
+"16-000321","03/15/16 0143","03/15/16 0143","03/15/16 0143","Lincoln Way and South Dakota Avenue","Arrest","driving violation",-93.6787027,42.0229015
+"16-000323","03/16/16 0037","03/16/16 0037","03/16/16 0037","3200 block of Lincoln Way","Arrest","driving violation",-93.6599566,42.0224942
+"16-000322","03/16/16 0106","03/16/16 0106","03/16/16 0106","Arbor Street and South Sheldon Avenue","Arrest","driving violation",-93.6542412,42.0209168
+"16-000324","03/16/16 0940",NA,"03/16/16 0940","General Services Building","Open","theft",-93.6410964,42.0280642
+"16-000326","03/17/16 1824",NA,"03/17/16 1824","Lied Recreation Center","Open","theft",-93.6372142,42.0267276
+"16-000327","03/17/16 2037","03/17/16 2037","03/17/16 2037","Storm Street and Welch Avenue","Arrest","operating while intoxicated",-93.6500563,42.0161339
+"16-000328","03/19/16 0234","03/19/16 0234","03/19/16 0234","North Dakota Avenue and Ontario Street","Arrest","driving violation",-93.6787439,42.034582
+"16-000329","03/19/16 1455",NA,"03/19/16 1455","Scheman Building","Open","theft",-93.6367398,42.021491
+"16-000330","03/19/16 1546","03/19/16 1546","03/19/16 1546","University Village","Open","harassment",-93.6441672,42.0427435
+"16-000331","03/20/16 0152","03/20/16 0152","03/20/16 0152","Campus Avenue and Lincoln Way","Arrest","operating while intoxicated",-93.6570426,42.0227269
+"16-000332","03/20/16 1242",NA,"03/20/16 1242","Armory Building","Open","harassment",-93.6509474,42.029626
+"16-000333","03/20/16 1727",NA,"03/20/16 1727","Roberts Hall","Open","harassment",-93.6425636,42.0239302
+"16-000334","03/21/16 0133","03/21/16 0133","03/21/16 0133","Lincoln Way and North Maple Avenue","Arrest","operating while intoxicated",NA,NA
+"16-000335","03/21/16 1030",NA,"03/21/16 1030","Alumni Center","Open","theft",-93.6387083,42.0181584
+"16-000338","03/22/16 0152","03/22/16 0152","03/22/16 0152","Lincoln Way and Stanton Avenue","Arrest","driving violation",-93.6485139,42.0227359
+"16-000339","03/22/16 1308",NA,"03/22/16 1308","Friley Hall","Open","theft",-93.65045,42.0239234
+"16-000342","03/23/16 0151","03/23/16 0151","03/23/16 0151","Ash Avenue and Lincoln Way","Arrest","operating while intoxicated",-93.64441,42.0226961
+"16-000345","03/23/16 2314",NA,"03/23/16 2314","2500 block of Union Drive","Open","drug violation",-93.6517676,42.0253623
+"16-000347","03/24/16 1319",NA,"03/24/16 1319","Armory Building","Open","theft",-93.6509474,42.029626
+"16-000349","03/25/16 0017","03/25/16 0017","03/25/16 0017","Willow Hall","Arrest","public intoxication",-93.6377325,42.0239136
+"16-000349","03/25/16 0017","03/25/16 0017","03/25/16 0017","Willow Hall","Arrest","disorderly conduct",-93.6377325,42.0239136
+"16-000350","03/25/16 0210","03/25/16 0210","03/25/16 0210","119 Stanton Avenue","Arrest","public intoxication",-93.6489377,42.0219747
+"16-000351","03/25/16 1109",NA,"03/25/16 1109","Armory Building","Open","theft",-93.6509474,42.029626
+"16-000352","03/25/16 1246",NA,"03/25/16 1246","2229 Lincoln Way","Arrest","theft",-93.6456354,42.0235144
+"16-000354","03/25/16 2110","03/25/16 2110","03/25/16 2110","Willow Hall","Arrest","public intoxication",-93.6377325,42.0239136
+"16-000355","03/25/16 2332","03/25/16 2332","03/25/16 2332","Frederiksen Court","Arrest","alcohol violation",-93.6440878,42.0340306
+"16-000356","03/26/16 0003",NA,"03/26/16 0000","Music Hall","Closed","theft",-93.6482276,42.0246423
+"16-000357","03/26/16 0121","03/26/16 0121","03/26/16 0121","Beach Avenue and Lincoln Way","Arrest","public intoxication",-93.639494,42.022655
+"16-000358","03/26/16 0133","03/26/16 0133","03/26/16 0133","South Franklin Avenue and Tripp Street","Arrest","operating while intoxicated",-93.6647488,42.0201257
+"16-000360","03/26/16 0901",NA,"03/26/16 0901","Wallace Wilson Commons","Open","vandalism",-93.6504798,42.0140126
+"16-000361","03/26/16 1424","03/26/16 1424","03/26/16 1424","Haber Road and North University Boulevard","Arrest","trespass",-93.6387948,42.0299502
+"16-000362","03/26/16 2321",NA,"03/26/16 2321","Larch Hall","Open","vandalism",-93.6382868,42.0232779
+"16-000364","03/27/16 0123","03/27/16 0123","03/26/16 0123","Blankenburg Drive and Long Road","Arrest","public intoxication",-93.6430148,42.0415349
+"16-000366","03/27/16 0248","03/27/16 0248","03/27/16 0248","Bruner Drive and Stange Road","Arrest","operating while intoxicated",-93.6448075,42.0389323
+"16-000365","03/27/16 1304","03/27/16 1304","03/27/16 1304","Lincoln Way and Wilder Boulevard","Arrest","drug violation",NA,NA
+"16-000367","03/27/16 1906","03/27/16 1906","03/27/16 1906","13th Street and Stange Road","Arrest","driving violation",-93.620521,42.034189
+"16-000368","03/27/16 2037",NA,"03/27/16 2037","Welch Hall","Open","theft",-93.6420811,42.0236532
+"16-000369","03/27/16 2216",NA,"03/27/16 2216","Black Engineering Building","Open","theft",-93.6513617,42.0260459
+"16-000370","03/28/16 0156","03/28/16 0156","03/28/16 0156","Mayfield Drive and Seagrave Boulevard","Open","driving violation",-93.6715029,42.0112358
+"16-000371","03/28/16 2203","03/28/16 2203","03/28/16 2203","MWL Intramural Fields","Open","drug violation",NA,NA
+"16-000372","03/29/16 0818","03/29/16 0818","03/29/16 0818","Mortensen Road and State Avenue","Arrest","driving violation",-93.6589323,42.0118849
+"16-000373","03/29/16 1322","03/29/16 1322","03/29/16 1322","Memorial Union","Open","theft",-93.6459454,42.0236502
+"16-000375","03/29/16 1426",NA,"03/29/16 1426","Armory Building","Open","harassment",-93.6509474,42.029626
+"16-000377","03/30/16 0245","03/30/16 0245","03/30/16 0245","Frederiksen Court","Open","assault",-93.6440878,42.0340306
+"16-000380","03/31/16 0745",NA,"03/31/16 0745","Lloyd Veterinary Medical Center","Open","theft",-93.631937,42.0064424
+"16-000381","03/31/16 0859",NA,"03/31/16 0859","Coover Hall","Open","vandalism",-93.6508836,42.0283592
+"16-000382","03/31/16 1933",NA,"03/31/16 1933","Lot 63","Open","vandalism",-93.6367573,42.0239698
+"16-000383","04/01/16 0139","04/01/16 0139","04/01/16 0139","Schilletter Village","Arrest","public intoxication",-93.6419526,42.0440492
+"16-000384","04/01/16 0218","04/01/16 0218","04/01/16 0218","Barton Hall","Arrest","public intoxication",-93.6416296,42.0241903
+"16-000385","04/01/16 0300","04/01/16 0300","04/01/16 0300","Memorial Union","Arrest","public intoxication",-93.6459454,42.0236502
+"16-000386","04/01/16 1141",NA,"04/01/16 1141","Beardshear Hall","Open","harassment",-93.6484405,42.0261746
+"16-000387","04/01/16 1158",NA,"04/01/16 1158","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-000388","04/01/16 1839","04/01/16 1839","04/01/16 1839","Lincoln Way and South Sheldon Avenue","Arrest","drug violation",-93.6542392,42.0227224
+"16-000389","04/01/16 1853",NA,"04/01/16 1853","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-000390","04/02/16 0107","04/02/16 0107","04/02/16 0107","Knapp Street and Welch Avenue","Arrest","alcohol violation",-93.6500882,42.0191138
+"16-000392","04/02/16 0121","04/02/16 0121","04/02/16 0121","Buchanan Hall","Arrest","trespass",-93.642449,42.022653
+"16-000391","04/02/16 0143","04/02/16 0143","04/02/16 0143","Memorial Union","Arrest","public intoxication",-93.6459454,42.0236502
+"16-000393","04/02/16 1135",NA,"04/02/16 1135","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-000394","04/02/16 1205",NA,"04/02/16 1205","Hawthorn Court Drive","Open","theft",-93.643986,42.0338685
+"16-000395","04/03/16 0058","04/03/16 0058","04/03/16 0058","Arboretum","Arrest","alcohol violation",-93.6387303,42.011617
+"16-000396","04/03/16 0209","04/03/16 0209","04/03/16 0209","Lincoln Way and Welch Avenue","Arrest","public intoxication",-93.6501393,42.0227328
+"16-000398","04/03/16 0209","04/03/16 0209","04/03/16 0209","Hyland Avenue and Ontario Street","Arrest","operating while intoxicated",-93.6556493,42.0345655
+"16-000399","04/03/16 1613",NA,"04/03/16 1613","King Pavilion","Open","theft",-93.653478,42.0288412
+"16-000401","04/04/16 1011",NA,"04/04/16 1011","Eaton Hall","Open","theft",-93.6528168,42.0245839
+"16-000400","04/04/16 1016",NA,"04/04/16 1016","Knoll","Unfounded","vandalism",NA,NA
+"16-000403","04/04/16 1723",NA,"04/04/16 1723","University Village","Open","sexual assault",-93.6441672,42.0427435
+"16-000404","04/04/16 2022",NA,"04/04/16 2022","Friley Hall","Open","harassment",-93.65045,42.0239234
+"16-000405","04/05/16 0216","04/05/16 0216","04/05/16 0216","4700 block of Steinbeck Street","Arrest","operating while intoxicated",-93.6829214,42.0147373
+"16-000406","04/05/16 1532",NA,"04/05/16 1532","119 Stanton Avenue","Open","harassment",-93.6489377,42.0219747
+"16-000408","04/05/16 1745","04/05/16 1745","04/05/16 1745","Larch Hall","Arrest","drug violation",-93.6382868,42.0232779
+"16-000409","04/05/16 2129",NA,"04/05/16 2129","800 block of Dickinson Avenue","Open","harassment",-93.680804,42.0161777
+"16-000410","04/06/16 1222",NA,"04/06/16 1222","Armory Building","Open","harassment",-93.6509474,42.029626
+"16-000412","04/06/16 2257",NA,"04/06/16 2257","4500 block of Twain Circle","Open","harassment",-93.679504,42.0153
+"16-000413","04/06/16 2359","04/06/16 2359","04/06/16 2359","Lot 63","Arrest","drug violation",-93.6367573,42.0239698
+"16-000414","04/07/16 0116","04/07/16 0116","04/07/16 0116","Chamberlain Street and Welch Avenue","Arrest","public intoxication",-93.6501941,42.0214439
+"16-000416","04/07/16 1247",NA,"04/07/16 1247","Hawthorn Court Drive","Open","theft",-93.643986,42.0338685
+"16-000417","04/07/16 1827",NA,"04/07/16 1827","Schilletter Village","Open","theft",-93.6419526,42.0440492
+"16-000418","04/07/16 1855",NA,"04/07/16 1855","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-000419","04/07/16 1932",NA,"04/07/16 1932","Schilletter Village","Open","theft",-93.6419526,42.0440492
+"16-000421","04/08/16 0017","04/08/16 0017","04/08/16 0017","Beach Avenue and Lincoln Way","Arrest","operating while intoxicated",-93.639494,42.022655
+"16-000420","04/08/16 0026","04/08/16 0026","04/08/16 0026","100 block of Howard Avenue","Arrest","public intoxication",-93.6584517,42.0227384
+"16-000422","04/08/16 0231","04/08/16 0231","04/08/16 0231","Clemens Boulevard and South Dakota Avenue","Arrest","drug violation",-93.678692,42.0179285
+"16-000422","04/08/16 0231","04/08/16 0231","04/08/16 0231","Clemens Boulevard and South Dakota Avenue","Arrest","driving violation",-93.678692,42.0179285
+"16-000423","04/08/16 0857",NA,"04/08/16 0857","Lot 63","Open","vandalism",-93.6367573,42.0239698
+"16-000424","04/08/16 1221",NA,"04/08/16 1221","Schilletter Village","Open","theft",-93.6419526,42.0440492
+"16-000425","04/08/16 1420",NA,"04/08/16 1420","Lot B6","Open","theft",-93.6365107,42.0167789
+"16-000426","04/08/16 1518",NA,"04/08/16 1518","Armory Building","Open","harassment",-93.6509474,42.029626
+"16-000427","04/08/16 2357","04/08/16 2357","04/08/16 2357","119 Stanton Avenue","Arrest","alcohol violation",-93.6489377,42.0219747
+"16-000428","04/09/16 0011","04/09/16 0011","04/09/16 0011","Memorial Union","Arrest","public intoxication",-93.6459454,42.0236502
+"16-000429","04/09/16 0053","04/09/16 0053","04/09/16 0053","Lot 63","Arrest","drug violation",-93.6367573,42.0239698
+"16-000430","04/09/16 0213","04/09/16 0213","04/09/16 0213","Lincoln Way and Wilmoth Avenue","Arrest","driving violation",-93.6615998,42.0227611
+"16-000431","04/09/16 0229","04/09/16 0229","04/09/16 0229","Buchanan Hall","Arrest","drug violation",-93.642449,42.022653
+"16-000431","04/09/16 0229","04/09/16 0229","04/09/16 0229","Buchanan Hall","Arrest","alcohol violation",-93.642449,42.022653
+"16-000431","04/09/16 0229","04/09/16 0229","04/09/16 0229","Buchanan Hall","Arrest","unlawful use of license",-93.642449,42.022653
+"16-000433","04/09/16 1656",NA,"04/09/16 1656","Hoover Hall","Open","theft",-93.6511839,42.0266539
+"16-000435","04/10/16 0010","04/10/16 0010","04/10/16 0010","Southwest Recreation Complex","Arrest","drug violation",-93.6571453,42.0163142
+"16-000435","04/10/16 0010","04/10/16 0010","04/10/16 0010","Southwest Recreation Complex","Arrest","unlawful use of license",-93.6571453,42.0163142
+"16-000437","04/10/16 0250","04/10/16 0250","04/10/16 0250","Lincoln Way and South Oak Street","Arrest","operating while intoxicated",NA,NA
+"16-000438","04/10/16 1556",NA,"04/10/16 1556","Willow Hall","Open","vandalism",-93.6377325,42.0239136
+"16-000439","04/11/16 0025",NA,"04/11/16 0025","Hawthorn Court Drive","Open","vandalism",-93.643986,42.0338685
+"16-000440","04/11/16 0108",NA,"04/11/16 0108","Bissell Road","Open","vandalism",-93.6518972,42.0277214
+"16-000441","04/11/16 0314","04/11/16 0314","04/11/16 0314","Mortensen Road and State Avenue","Arrest","driving violation",-93.6589323,42.0118849
+"16-000442","04/11/16 1541",NA,"04/11/16 1541","Armory Building","Open","theft",-93.6509474,42.029626
+"16-000444","04/11/16 1856",NA,"04/11/16 1856","Lot 59A","Open","vandalism",-93.6535564,42.0234382
+"16-000445","04/12/16 0245","04/12/16 0245","04/12/16 0245","Delaware Avenue and North Dakota Avenue","Arrest","operating while intoxicated",-93.6788195,42.0279736
+"16-000446","04/13/16 0049","04/13/16 0049","04/13/16 0049","Hayward Avenue and Mortensen Road","Arrest","operating while intoxicated",-93.6516786,42.0118612
+"16-000447","04/13/16 0617",NA,"04/13/16 0617","Sweeney Hall","Open","vandalism",-93.6509194,42.0278127
+"16-000448","04/13/16 0926",NA,"04/13/16 0926","Armory Building","Open","harassment",-93.6509474,42.029626
+"16-000449","04/13/16 1508",NA,"04/13/16 1508","Lagomarcino Hall","Open","harassment",-93.6456391,42.0297367
+"16-000450","04/13/16 1535",NA,"04/13/16 1535","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-000451","04/13/16 1720",NA,"04/13/16 1720","Armory Building","Open","theft",-93.6509474,42.029626
+"16-000452","04/14/16 0248","04/14/16 0248","04/14/16 0248","2100 block Gable Lane","Arrest","public intoxication",-93.6436014,42.0215071
+"16-000454","04/14/16 1254",NA,"04/14/16 1254","4110 Maricopa Drive","Open","theft",-93.6723134,42.0077193
+"16-000455","04/14/16 1632",NA,"04/14/16 1632","Parks Library","Open","theft",-93.6488141,42.0281254
+"16-000456","04/15/16 0016","04/15/16 0016","04/15/16 0016","Gable Lane and Gray Avenue","Arrest","alcohol violation",-93.6420176,42.0214957
+"16-000457","04/15/16 0940",NA,"04/15/16 0940","Willow Hall","Open","harassment",-93.6377325,42.0239136
+"16-000459","04/15/16 2237","04/15/16 2237","04/15/16 2237","2403 Union Drive","Arrest","public intoxication",-93.6496968,42.024591
+"16-000459","04/15/16 2237","04/15/16 2237","04/15/16 2237","2403 Union Drive","Arrest","alcohol violation",-93.6496968,42.024591
+"16-000460","04/16/16 0019","04/16/16 0019","04/16/16 0019","2500 block of Chamberlain Street","Arrest","public intoxication",-93.6500819,42.0214429
+"16-000461","04/16/16 0031","04/16/16 0031","04/16/16 0031","2300 block Mortensen Parkway","Arrest","operating while intoxicated",-93.647512,42.011155
+"16-000462","04/16/16 0155","04/16/16 0155","04/16/16 0155","Lettie Street and Manning Avenue","Arrest","operating while intoxicated",-93.6598559,42.021492
+"16-000463","04/16/16 1214",NA,"04/16/16 1214","Physics Hall","Open","theft",-93.6472746,42.0295226
+"16-000464","04/16/16 1458",NA,"04/16/16 1458","Jack Trice Stadium","Open","theft",-93.635664,42.016144
+"16-000465","04/16/16 1803",NA,"04/16/16 1803","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-000466","04/17/16 0004","04/17/16 0004","04/17/16 0004","2300 block of Chamberlain Street","Arrest","alcohol violation",-93.6470618,42.0215537
+"16-000467","04/17/16 0155","04/17/16 0155","04/17/16 0155","Beach Road and Lincoln Way","Arrest","public intoxication",-93.6394928,42.0227678
+"16-000468","04/17/16 0251","04/17/16 0251","04/17/16 0251","South Hyland Avenue and Wood Street","Arrest","operating while intoxicated",-93.655592,42.0221438
+"16-000471","04/17/16 1309",NA,"04/17/16 1309","119 Stanton Avenue","Open","theft",-93.6489377,42.0219747
+"16-000474","04/18/16 0651",NA,"04/18/16 0651","Sweeney Hall","Open","vandalism",-93.6509194,42.0278127
+"16-000476","04/18/16 1133",NA,"04/18/16 1133","Gilman Hall","Open","theft",-93.6486442,42.0294215
+"16-000477","04/18/16 1834",NA,"04/18/16 1834","Hawthorn Court Drive","Open","theft",-93.643986,42.0338685
+"16-000478","04/19/16 0003",NA,"04/19/16 0003","Larch Hall","Open","harassment",-93.6382868,42.0232779
+"16-000481","04/19/16 1635",NA,"04/19/16 1635","Armory Building","Open","drug violation",-93.6509474,42.029626
+"16-000483","04/20/16 0846",NA,"04/20/16 0846","Morrill Road","Open","vandalism",NA,NA
+"16-000484","04/20/16 1058",NA,"04/20/16 1058","Ann Campbell Transit Station","Open","theft",-93.6464654,42.0266187
+"16-000485","04/20/16 1400",NA,"04/20/16 1400","1100 block Southern Hills Drive","Open","theft",-93.6270715,42.0025391
+"16-000487","04/21/16 0152","04/21/16 0152","04/21/16 0152","South Dakota Avenue and Todd Drive","Arrest","driving violation",-93.6787042,42.0212118
+"16-000488","04/21/16 0419",NA,"04/21/16 0419","Curtiss Hall","Open","vandalism",-93.6448628,42.0261821
+"16-000489","04/21/16 0942",NA,"04/21/16 0942","Hub","Open","theft",-93.6484556,42.0272385
+"16-000490","04/21/16 1429",NA,"04/21/16 1429","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-000491","04/21/16 1521","04/21/16 0000","04/21/16 1521","4709 Steinbeck Street","Open","robbery",-93.6830438,42.0149761
+"16-000493","04/21/16 2305","04/21/16 2305","04/21/16 2305","Willow Hall","Arrest","alcohol violation",-93.6377325,42.0239136
+"16-000494","04/22/16 0016","04/22/16 0016","04/22/16 0016","500 block of Hayward Avenue","Arrest","public intoxication",-93.6517122,42.0176011
+"16-000495","04/22/16 0147","04/22/16 0147","04/22/16 0147","Chamberlain Place and Hunt Street","Arrest","alcohol violation",-93.6509256,42.0202731
+"16-000496","04/22/16 0217",NA,"04/22/16 0217","Frederiksen Court","Open","vandalism",-93.6440878,42.0340306
+"16-000497","04/22/16 0224","04/22/16 0224","04/22/16 0224","Lincoln Way and Wilmoth Avenue","Arrest","public intoxication",-93.6615998,42.0227611
+"16-000503","04/23/16 0250","04/23/16 0250","04/23/16 0250","Lincoln Way and Lynn Avenue","Arrest","driving violation",-93.6464086,42.0227244
+"16-000504","04/23/16 1609",NA,"04/23/16 1609","Wallace Hall","Closed","theft",-93.6499279,42.0142261
+"16-000505","04/24/16 0026","04/24/16 0026","04/24/16 0026","Knapp Street and Lynn Avenue","Arrest","driving violation",-93.6463784,42.019148
+"16-000506","04/24/16 0118","04/24/16 0118","04/24/16 0118","South Dakota Avenue and US Highway 30","Arrest","operating while intoxicated",-93.6387198,42.0030346
+"16-000507","04/24/16 0124","04/24/16 0124","04/24/16 0124","Mortensen Road and State Avenue","Arrest","public intoxication",-93.6589323,42.0118849
+"16-000508","04/24/16 0124","04/24/16 0124","04/24/16 0124","Mortensen Road and Seagrave Boulevard","Arrest","operating while intoxicated",-93.6713608,42.0120265
+"16-000511","04/24/16 2230","04/24/16 2230","04/24/16 2230","800 block of Dickinson Avenue","Closed","domestic dispute",-93.680804,42.0161777
+"16-000512","04/25/16 0820","04/25/16 0820","04/26/16 1407","Lot 59D","Arrest","drug violation",-93.6510118,42.0235902
+"16-000516","04/25/16 1206",NA,"04/25/16 1206","4100 Maricopa Drive","Open","harassment",-93.6721876,42.0082125
+"16-000515","04/25/16 1208",NA,"04/25/16 1208","Lot 112B","Open","vandalism",-93.6435978,42.0324968
+"16-000517","04/26/16 1431",NA,"04/26/16 1431","Armory Building","Open","drug violation",-93.6509474,42.029626
+"16-000518","04/26/16 1617",NA,"04/26/16 1617","Troxel Hall","Open","theft",-93.6440411,42.0277898
+"16-000519","04/26/16 2252","04/26/16 2252","04/26/16 2252","Lincoln Way and University Boulevard","Arrest","drug violation",-93.6332661,42.0228746
+"16-000520","04/27/16 1128",NA,"04/27/16 1128","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-000521","04/27/16 1151",NA,"04/27/16 1151","Hawthorn Court Drive","Open","theft",-93.643986,42.0338685
+"16-000523","04/27/16 1513",NA,"04/27/16 1513","Southern Hills Drive","Open","theft",-93.6280877,42.0023228
+"16-000525","04/27/16 1928",NA,"04/27/16 1928","Dickinson Apartments","Closed","domestic dispute",NA,NA
+"16-000527","04/28/16 0207","04/28/16 0207","04/28/16 0207","Lincoln Way and South Riverside Drive","Arrest","operating while intoxicated",-93.6296177,42.0228334
+"16-000528","04/28/16 0711",NA,"04/28/16 0711","Armory Building","Open","assault",-93.6509474,42.029626
+"16-000529","04/28/16 1111",NA,"04/28/16 1111","MacKay Hall","Open","theft",-93.6465403,42.0285999
+"16-000530","04/28/16 1301",NA,"04/28/16 1301","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-000531","04/28/16 1556",NA,"04/28/16 1556","Armory Building","Open","drug violation",-93.6509474,42.029626
+"16-000533","04/28/16 2124","04/28/16 2124","04/28/16 2124","Delaware Avenue and Utah Drive","Arrest","driving violation",NA,NA
+"16-000535","04/29/16 0002",NA,"04/29/16 0002","Willow Hall","Open","theft",-93.6377325,42.0239136
+"16-000534","04/29/16 0019",NA,"04/29/16 0019","200 block Beach Road","Open","theft",-93.6389869,42.0254892
+"16-000536","04/29/16 0335","04/29/16 0335","04/29/16 0335","Parks Library","Arrest","public intoxication",-93.6488141,42.0281254
+"16-000536","04/29/16 0335","04/29/16 0335","04/29/16 0335","Parks Library","Arrest","vandalism",-93.6488141,42.0281254
+"16-000537","04/29/16 1001",NA,"04/29/16 1001","Wallace Hall","Open","harassment",-93.6499279,42.0142261
+"16-000538","04/29/16 1128",NA,"04/29/16 1128","200 block Main Street","Open","drug violation",-93.6120764,42.0249607
+"16-000539","04/29/16 1541",NA,"04/29/16 1541","Ross Hall","Closed","theft",-93.644204,42.0266305
+"16-000541","04/29/16 2149","04/29/16 2149","04/29/16 2149","East Campus Parking Deck","Arrest","alcohol violation",-93.6523433,42.0210166
+"16-000542","04/30/16 0034","04/30/16 0034","04/30/16 0034","Hawthorn Court Drive and Stange Road","Arrest","driving violation",-93.64473,42.0338708
+"16-000543","04/30/16 0205","04/30/16 0205","04/30/16 0205","Lincoln Way and Lynn Avenue","Arrest","operating while intoxicated",-93.6464086,42.0227244
+"16-000544","04/30/16 0325",NA,"04/30/16 0325","Lincoln Way and North University Boulevard","Open","harassment",-93.6332661,42.0228746
+"16-000546","05/01/16 0057","05/01/16 0057","05/01/16 0057","Friley Hall","Arrest","public intoxication",-93.65045,42.0239234
+"16-000547","05/01/16 0314","05/01/16 0314","05/01/16 0314","Mortensen Road and Seagrave Boulevard","Arrest","public intoxication",-93.6713608,42.0120265
+"16-000548","05/01/16 0556",NA,"05/01/16 0556","Memorial Union","Open","vandalism",-93.6459454,42.0236502
+"16-000549","05/01/16 1051","05/01/16 1051","05/01/16 1051","Friley Hall","Arrest","drug violation",-93.65045,42.0239234
+"16-000551","05/01/16 1709","05/01/16 1709","05/01/16 1709","Howe Hall","Arrest","domestic dispute",-93.6528316,42.0269191
+"16-000552","05/02/16 1157",NA,"05/02/16 1157","Lot 62C","Open","theft",NA,NA
+"16-000553","05/02/16 1233",NA,"05/02/16 1233","Coover Hall","Open","theft",-93.6508836,42.0283592
+"16-000554","05/02/16 1319",NA,"05/02/16 1319","Lot 112J","Open","vandalism",-93.6425231,42.0349269
+"16-000555","05/02/16 1433",NA,"05/02/16 1433","Lot 61B","Open","vandalism",-93.6483675,42.0135352
+"16-000556","05/03/16 0734",NA,"05/03/16 0734","Ames Intermodal Facility","Open","vandalism",-93.6523433,42.0210166
+"16-000558","05/03/16 0920",NA,"05/03/16 0920","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-000559","05/03/16 1314",NA,"05/03/16 1314","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-000560","05/03/16 2030",NA,"05/03/16 2030","Lot 112B","Open","theft",-93.6435978,42.0324968
+"16-000563","05/04/16 0950",NA,"05/04/16 0950","Music Hall","Open","theft",-93.6482276,42.0246423
+"16-000564","05/04/16 1004","05/04/16 1004","05/04/16 1004","Lincoln Highway","Arrest","drug violation",-93.5706929,42.022816
+"16-000564","05/04/16 1004","05/04/16 1004","05/04/16 1004","Lincoln Highway","Arrest","driving violation",-93.5706929,42.022816
+"16-000565","05/04/16 1350",NA,"05/04/16 1350","Friley Hall","Open","theft",-93.65045,42.0239234
+"16-000566","05/04/16 1558",NA,"05/04/16 1558","Gerdin Business Building","Open","theft",-93.6444688,42.0254011
+"16-000567","05/04/16 1910",NA,"05/04/16 1910","Helser Hall","Open","harassment",-93.6518379,42.02424
+"16-000569","05/05/16 0308",NA,"05/05/16 0308","Buchanan Hall","Open","vandalism",-93.642449,42.022653
+"16-000572","05/05/16 2142",NA,"05/05/16 2142","Disc Golf Course","Open","theft",-93.6385639,42.0358248
+"16-000573","05/06/16 0739",NA,"05/06/16 0739","Roberts Hall","Open","theft",-93.6425636,42.0239302
+"16-000574","05/06/16 0847",NA,"05/06/16 0847","Curtiss Hall","Open","vandalism",-93.6448628,42.0261821
+"16-000575","05/06/16 1019",NA,"05/06/16 1019","Armory Building","Open","theft",-93.6509474,42.029626
+"16-000576","05/06/16 1114",NA,"05/06/16 1114","Jack Trice Stadium","Open","theft",-93.635664,42.016144
+"16-000577","05/06/16 1443",NA,"05/06/16 1443","Carver Hall","Open","theft",-93.648337,42.0252611
+"16-000579","05/06/16 1755",NA,"05/06/16 1755","Larch Hall","Open","theft",-93.6382868,42.0232779
+"16-000581","05/07/16 0025","05/07/16 0025","05/07/16 0025","Lincoln Way and Sheldon Avenue","Arrest","public intoxication",-93.6542392,42.0227224
+"16-000583","05/07/16 0203","05/07/16 0203","05/07/16 0203","South Dakota Avenue and Todd Drive","Arrest","operating while intoxicated",-93.6787042,42.0212118
+"16-000584","05/07/16 0213","05/07/16 0213","05/07/16 0213","Union Drive and Welch Road","Arrest","operating while intoxicated",-93.649224,42.0239964
+"16-000585","05/07/16 0311","05/07/16 0311","05/07/16 0311","Campus Avenue and Lincoln Way","Arrest","operating while intoxicated",-93.6570426,42.0227269
+"16-000586","05/07/16 0559","05/07/16 0559","05/07/16 0559","4100 block of Maricopa Drive","Arrest","vandalism",-93.6721876,42.0082125
+"16-000589","05/08/16 0153","05/08/16 0153","05/08/16 0153","Arbor Street and State Avenue","Arrest","public intoxication",-93.6591238,42.0209091
+"16-000590","05/08/16 0301","05/08/16 0301","05/08/16 0301","Lincoln Way and Wilmoth Avenue","Arrest","operating while intoxicated",-93.6615998,42.0227611
+"16-000592","05/08/16 1448",NA,"05/08/16 1448","Kildee Hall","Open","theft",-93.6438587,42.0295129
+"16-000593","05/09/16 0120","05/09/16 0120","05/09/16 0120","South Dakota Avenue and US Highway 30","Arrest","alcohol violation",-93.6387198,42.0030346
+"16-000594","05/09/16 0720","05/09/16 0720","05/09/16 0720","Lot 79","Arrest","driving violation",-93.6418441,42.0308247
+"16-000596","05/09/16 1445",NA,"05/09/16 1445","Memorial Union","Open","theft",-93.6459454,42.0236502
+"16-000597","05/09/16 1820",NA,"05/09/16 1820","140 Lynn Avenue","Open","vandalism",-93.6458095,42.0212625
+"16-000598","05/11/16 1917",NA,"05/11/16 1917","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-000600","05/12/16 1638",NA,"05/12/16 1638","Parks Library","Open","theft",-93.6488141,42.0281254
+"16-000601","05/12/16 2038",NA,"05/12/16 2038","Buchanan Hall","Open","theft",-93.642449,42.022653
+"16-000602","05/13/16 0211","05/13/16 0211","05/13/16 0211","Lincoln Way and North University Boulevard","Arrest","driving violation",-93.6332661,42.0228746
+"16-000603","05/13/16 0845",NA,"05/13/16 0845","Parks Library","Open","harassment",-93.6488141,42.0281254
+"16-000604","05/13/16 1043",NA,"05/13/16 1043","Plant Pathology Greenhouse","Open","vandalism",-93.6410549,42.0297036
+"16-000606","05/13/16 1352",NA,"05/13/16 1352","Hamilton Hall","Open","harassment",-93.6420985,42.0275353
+"16-000607","05/14/16 0017","05/14/16 0017","05/14/16 0017","Veenker Maintenance Shed","Arrest","drug violation",NA,NA
+"16-000610","05/15/16 0015","05/15/16 0015","05/15/16 0015","Franklin Avenue and Lincoln Way","Arrest","driving violation",-93.6647899,42.0228024
+"16-000611","05/15/16 0249","05/15/16 0249","05/15/16 0249","Lincoln Way and Lynn Avenue","Arrest","operating while intoxicated",-93.6464086,42.0227244
+"16-000611","05/15/16 0249","05/15/16 0249","05/15/16 0249","Lincoln Way and Lynn Avenue","Arrest","drug violation",-93.6464086,42.0227244
+"16-000612","05/16/16 1436",NA,"05/16/16 1436","Howe Hall","Open","theft",-93.6528316,42.0269191
+"16-000614","05/17/16 1053","05/17/16 1053","05/17/16 1053","Hayward Avenue and Knapp Street","Arrest","driving violation",-93.6517339,42.0191154
+"16-000617","05/17/16 2245",NA,"05/17/16 2245","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-000618","05/18/16 0324",NA,"05/18/16 0324","Armory Building","Open","drug violation",-93.6509474,42.029626
+"16-000619","05/19/16 0115","05/19/16 0115","05/19/16 0115","Chamberlain Street and Stanton Avenue","Arrest","public intoxication",-93.6484903,42.0214258
+"16-000621","05/19/16 1630",NA,"05/19/16 1630","1200 block of Walton Drive","Open","theft",-93.6713661,42.0112363
+"16-000622","05/21/16 0136","05/21/16 0136","05/21/16 0136","Hayward Avenue and Knapp Street","Arrest","operating while intoxicated",-93.6517339,42.0191154
+"16-000623","05/22/16 0111","05/22/16 0111","05/22/16 0111","Lincoln Way and Marshall Avenue","Arrest","operating while intoxicated",-93.6689375,42.0229021
+"16-000624","05/22/16 0205","05/22/16 0205","05/22/16 0205","Hayward Avenue and Lincoln Way","Arrest","public intoxication",-93.6517059,42.0228461
+"16-000625","05/22/16 0232","05/22/16 0232","05/22/16 0232","Ames Intermodal Facility","Arrest","public intoxication",-93.6523433,42.0210166
+"16-000626","05/23/16 0019",NA,"05/23/16 0019","College of Design","Open","theft",-93.6531506,42.0285641
+"16-000627","05/23/16 0742",NA,"05/23/16 0742","Armory Building","Open","theft",-93.6509474,42.029626
+"16-000628","05/23/16 1248",NA,"05/23/16 1248","Armory Building","Open","harassment",-93.6509474,42.029626
+"16-000629","05/23/16 2122","05/23/16 2122","05/23/16 2122","Lot 10","Arrest","driving violation",-93.6538945,42.0296641
+"16-000632","05/24/16 2254","05/24/16 2254","05/24/16 2254","3300 block of Lincoln Way","Arrest","operating while intoxicated",-93.6615998,42.0227611
+"16-000633","05/25/16 1615",NA,"05/25/16 1615","Black Engineering Building","Open","theft",-93.6513617,42.0260459
+"16-000636","05/26/16 0043","05/26/16 0043","05/26/16 0043","100 block of Welch Avenue","Arrest","public intoxication",-93.6501392,42.02272
+"16-000637","05/26/16 1504",NA,"05/26/16 1504","Sukup Hall","Open","theft",-93.6532914,42.0276286
+"16-000638","05/26/16 1703",NA,"05/26/16 1703","US Highway 30","Open","sexual assault",NA,NA
+"16-000640","05/27/16 1703","05/27/16 1703","05/27/16 1703","Lincoln Way and Morrill Road","Arrest","driving violation",-93.6464078,42.0228283
+"16-000641","05/28/16 0420","05/28/16 0420","05/28/16 0420","Beach Avenue and Greeley Street","Arrest","operating while intoxicated",-93.6394602,42.0200608
+"16-000643","05/28/16 1938","05/28/16 1938","05/28/16 1938","Ross Hall","Arrest","trespass",-93.644204,42.0266305
+"16-000645","05/29/16 2318","05/29/16 2318","05/29/16 2318","Lincoln Way and South Oak Avenue","Arrest","operating while intoxicated",-93.6238118,42.0228778
+"16-000645","05/29/16 2318","05/29/16 2318","05/29/16 2318","Lincoln Way and South Oak Avenue","Arrest","drug violation",-93.6238118,42.0228778
+"16-000645","05/29/16 2318","05/29/16 2318","05/29/16 2318","Lincoln Way and South Oak Avenue","Arrest","driving violation",-93.6238118,42.0228778
+"16-000645","05/29/16 2318","05/29/16 2318","05/29/16 2318","Lincoln Way and South Oak Avenue","Arrest","assault",-93.6238118,42.0228778
+"16-000648","06/01/16 0904",NA,"06/01/16 0904","Alumni Center","Open","theft",-93.6387083,42.0181584
+"16-000649","06/01/16 2249",NA,"06/01/16 2249","Armory Building","Open","harassment",-93.6509474,42.029626
+"16-000650","06/02/16 0155","06/02/16 0155","06/02/16 0155","Gateway Hills Park Drive and Mortensen Parkway","Arrest","operating while intoxicated",-93.649344,42.0118567
+"16-000651","06/02/16 2233","06/02/16 2233","06/02/16 2233","Little Bluestem Court and Mortensen Parkway","Arrest","drug violation",-93.6455416,42.0094264
+"16-000653","06/03/16 1330",NA,"06/03/16 1330","Armory Building","Open","harassment",-93.6509474,42.029626
+"16-000654","06/04/16 0044","06/04/16 0044","06/04/16 0044","Lincoln Way and University Boulevard","Arrest","operating while intoxicated",-93.6332661,42.0228746
+"16-000655","06/05/16 0117","06/05/16 0117","06/05/16 0117","Ash Avenue and Storm Street","Arrest","alcohol violation",-93.6443375,42.0161236
+"16-000656","06/05/16 0304","06/05/16 0304","06/05/16 0304","Beach Avenue and Lincoln Way","Arrest","public intoxication",-93.639494,42.022655
+"16-000657","06/06/16 0950",NA,"06/06/16 0950","Armory Building","Open","harassment",-93.6509474,42.029626
+"16-000661","06/08/16 0116","06/08/16 0116","06/08/16 0116","Lincoln Way and Welch Avenue","Arrest","public intoxication",-93.6501393,42.0227328
+"16-000662","06/08/16 0224","06/08/16 0224","06/08/16 0224","Mortensen Road and State Avenue","Arrest","operating while intoxicated",-93.6589323,42.0118849
+"16-000663","06/08/16 0705",NA,"06/08/16 0705","Memorial Union","Open","theft",-93.6459454,42.0236502
+"16-000665","06/08/16 2256",NA,"06/08/16 2256","Lied Recreation Center","Closed","theft",-93.6372142,42.0267276
+"16-000666","06/09/16 0112","06/09/16 0112","06/09/16 0112","Lincoln Way and Sheldon Avenue","Arrest","driving violation",-93.6542392,42.0227224
+"16-000667","06/09/16 1651",NA,"06/09/16 1651","Armory Building","Open","harassment",-93.6509474,42.029626
+"16-000670","06/10/16 0218","06/10/16 0218","06/10/16 0218","200 block of Chamberlain Place","Arrest","public intoxication",-93.6481878,42.0212295
+"16-000673","06/11/16 0044","06/11/16 0044","06/11/16 0044","Welch Avenue","Arrest","drug violation",NA,NA
+"16-000674","06/11/16 0201","06/11/16 0201","06/11/16 0201","Ash Avenue and Knapp Street","Arrest","operating while intoxicated",-93.6443655,42.019142
+"16-000676","06/12/16 1439",NA,"06/12/16 1439","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-000677","06/13/16 1225",NA,"06/13/16 1225","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-000679","06/14/16 0908",NA,"06/14/16 0908","Armory Building","Open","theft",-93.6509474,42.029626
+"16-000680","06/15/16 0018","06/15/16 0018","06/15/16 0018","Veenker Shelter","Arrest","drug violation",NA,NA
+"16-000681","06/16/16 0959",NA,"06/16/16 0959","Armory Building","Open","harassment",-93.6509474,42.029626
+"16-000683","06/17/16 0200","06/17/16 0200","06/17/16 0200","Lincoln Way and South Riverside Drive","Arrest","operating while intoxicated",-93.6296177,42.0228334
+"16-000684","06/17/16 0253","06/17/16 0253","06/17/16 0253","13th Street and Stange Road","Arrest","operating while intoxicated",-93.620521,42.034189
+"16-000686","06/17/16 1323",NA,"06/17/16 1323","The Grove Apartments","Open","drug violation",NA,NA
+"16-000687","06/17/16 2350","06/17/16 2350","06/17/16 2350","127 University Village","Arrest","theft",-93.6440281,42.0411743
+"16-000688","06/18/16 0107","06/18/16 0107","06/18/16 0107","2600 block of Lincoln Way","Arrest","public intoxication",-93.6517229,42.0227346
+"16-000690","06/19/16 0043","06/19/16 0043","06/19/16 0043","Knapp Street and Welch Avenue","Arrest","driving violation",-93.6500882,42.0191138
+"16-000691","06/19/16 0124","06/19/16 0124","06/19/16 0124","Hayward Avenue and Mortensen Road","Arrest","operating while intoxicated",-93.6516786,42.0118612
+"16-000692","06/19/16 0203","06/19/16 0203","06/19/16 0203","100 block of Beach Avenue","Arrest","operating while intoxicated",-93.639494,42.0226543
+"16-000693","06/19/16 1042",NA,"06/19/16 1042","Lot 112A","Open","theft",-93.6431428,42.0349871
+"16-000694","06/19/16 2217","06/19/16 2217","06/19/16 2217","Hyland Avenue and West Street","Arrest","driving violation",-93.6556457,42.0253446
+"16-000695","06/20/16 1104",NA,"06/20/16 1104","Armory Building","Open","theft",-93.6509474,42.029626
+"16-000696","06/21/16 0118","06/21/16 0118","06/21/16 0118","Hyland Avenue and Ontario Street","Arrest","operating while intoxicated",-93.6556493,42.0345655
+"16-000697","06/21/16 0222","06/21/16 0222","06/21/16 0222","Hyland Avenue and West Street","Arrest","operating while intoxicated",-93.6556457,42.0253446
+"16-000698","06/21/16 0945",NA,"06/21/16 0945","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-000699","06/21/16 1115",NA,"06/21/16 1115","Armory Building","Open","harassment",-93.6509474,42.029626
+"16-000700","06/22/16 0521",NA,"06/22/16 0521","Troxel Hall","Open","vandalism",-93.6440411,42.0277898
+"16-000703","06/23/16 0202","06/23/16 0202","06/23/16 0202","Lincoln Way and University Boulevard","Arrest","operating while intoxicated",-93.6332661,42.0228746
+"16-000704","06/23/16 1157",NA,"06/23/16 1157","Armory Building","Open","theft",-93.6509474,42.029626
+"16-000706","06/24/16 0139","06/24/16 0139","06/24/16 0139","4916 Hemingway Drive","Arrest","driving violation",-93.686189,42.018354
+"16-000706","06/24/16 0139","06/24/16 0139","06/24/16 0139","4916 Hemingway Drive","Arrest","drug violation",-93.686189,42.018354
+"16-000707","06/24/16 0833",NA,"06/24/16 0833","Lot 79","Open","vandalism",-93.6418441,42.0308247
+"16-000709","06/24/16 1415",NA,"06/24/16 1415","Forker Building","Open","theft",-93.6403143,42.0268097
+"16-000710","06/25/16 0134","06/25/16 0134","06/25/16 0134","200 block of Hyland Avenue","Arrest","operating while intoxicated",-93.6556457,42.0253446
+"16-000711","06/25/16 0150","06/25/16 0150","06/25/16 0150","Eaton Hall","Open","assault",-93.6528168,42.0245839
+"16-000712","06/25/16 2118","06/25/16 2118","06/25/16 2118","Ames Intermodal Facility","Open","drug violation",-93.6523433,42.0210166
+"16-000713","06/25/16 2118","06/25/16 2118","06/25/16 2118","Ames Intermodal Facility","Open","alcohol violation",-93.6523433,42.0210166
+"16-000712","06/25/16 2118","06/25/16 2118","06/25/16 2118","Ames Intermodal Facility","Open","alcohol violation",-93.6523433,42.0210166
+"16-000713","06/26/16 0022","06/26/16 0022","06/26/16 0022","Mortensen Road and Pinon Drive","Arrest","operating while intoxicated",-93.6749317,42.0120645
+"16-000713","06/26/16 0022","06/26/16 0022","06/26/16 0022","Mortensen Road and Pinon Drive","Arrest","drug violation",-93.6749317,42.0120645
+"16-000714","06/26/16 0315","06/26/16 0315","06/26/16 0315","University Boulevard","Arrest","operating while intoxicated",-93.6378282,42.0101519
+"16-000714","06/26/16 0315","06/26/16 0315","06/26/16 0315","University Boulevard","Arrest","alcohol violation",-93.6378282,42.0101519
+"16-000715","06/26/16 2103","06/26/16 2103","06/26/16 2103","6th Street and North University Boulevard","Arrest","driving violation",NA,NA
+"16-000716","06/27/16 0930",NA,"06/26/16 0930","Memorial Union","Open","theft",-93.6459454,42.0236502
+"16-000717","06/27/16 1510",NA,"06/27/16 1510","140 Lynn Avenue","Open","vandalism",-93.6458095,42.0212625
+"16-000719","06/29/16 0751",NA,"06/29/16 0751","Parks Library","Open","theft",-93.6488141,42.0281254
+"16-000720","06/29/16 1623",NA,"06/29/16 1623","Schilletter Village","Open","theft",-93.6419526,42.0440492
+"16-000722","06/30/16 0158","06/30/16 0158","06/30/16 0158","Hyland Avenue and Ross Road","Arrest","driving violation",-93.6556243,42.033296
+"16-000723","06/30/16 0738",NA,"06/30/16 0738","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-000724","06/30/16 0845",NA,"06/30/16 0845","Sukup Basketball Complex","Open","theft",NA,NA
+"16-000725","06/30/16 1002",NA,"06/30/16 1002","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-000726","06/30/16 1319",NA,"06/30/16 1319","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-000728","06/30/16 2309",NA,"06/30/16 2309","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-000729","07/01/16 1825",NA,"07/01/16 1825","Bio Renewables Laboratory","Open","theft",NA,NA
+"16-000731","07/03/16 0026","07/03/16 0026","07/03/16 0026","13th Street and Stange Road","Arrest","operating while intoxicated",-93.620521,42.034189
+"16-000732","07/03/16 0125","07/03/16 0125","07/03/16 0125","Campus Avenue and Lincoln Way","Arrest","public intoxication",-93.6570426,42.0227269
+"16-000733","07/04/16 0140","07/04/16 0140","07/04/16 0140","Hayward Avenue and Mortensen Road","Arrest","operating while intoxicated",-93.6516786,42.0118612
+"16-000733","07/04/16 0140","07/04/16 0140","07/04/16 0140","Hayward Avenue and Mortensen Road","Arrest","drug violation",-93.6516786,42.0118612
+"16-000734","07/05/16 0159","07/05/16 0159","07/05/16 0159","Frederiksen Court","Arrest","alcohol violation",-93.6440878,42.0340306
+"16-000735","07/07/16 0108","07/07/16 0108","07/07/16 0108","Hayward Avenue and Lincoln Way","Arrest","operating while intoxicated",-93.6517059,42.0228461
+"16-000736","07/08/16 0145","07/08/16 0145","07/08/16 0145","Lettie Street and Manning Avenue","Arrest","operating while intoxicated",-93.6598559,42.021492
+"16-000737","07/08/16 0212","07/08/16 0212","07/08/16 0212","3200 block of Lettie Street","Arrest","public intoxication",-93.6598732,42.0214922
+"16-000738","07/08/16 0235","07/08/16 0235","07/08/16 0235","3200 block of Lettie Street","Arrest","public intoxication",-93.6598732,42.0214922
+"16-000740","07/09/16 0142",NA,"07/09/16 0142","Chamberlain Street and Stanton Avenue","Open","alcohol violation",-93.6484903,42.0214258
+"16-000742","07/10/16 0210","07/10/16 0210","07/10/16 0210","Lincoln Way and University Boulevard","Arrest","operating while intoxicated",-93.6332661,42.0228746
+"16-000745","07/12/16 0231","07/12/16 0231","07/12/16 0231","100 block of Campus Avenue","Arrest","operating while intoxicated",-93.6570426,42.0227322
+"16-000745","07/12/16 0231","07/12/16 0231","07/12/16 0231","100 block of Campus Avenue","Arrest","driving violation",-93.6570426,42.0227322
+"16-000746","07/12/16 0910",NA,"07/12/16 0910","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-000747","07/12/16 1835",NA,"07/12/16 1835","Lot 201B","Open","vandalism",-93.6429358,42.0421319
+"16-000749","07/12/16 2307","07/12/16 2307","07/12/16 2307","Haber Road","Arrest","operating while intoxicated",NA,NA
+"16-000751","07/14/16 1330",NA,"07/14/16 1330","Friley Hall","Open","vandalism",-93.65045,42.0239234
+"16-000753","07/14/16 1540",NA,"07/14/16 1540","Black Engineering Building","Open","theft",-93.6513617,42.0260459
+"16-000754","07/15/16 0211","07/15/16 0211","07/15/16 0211","Mortensen Road and State Avenue","Arrest","public intoxication",-93.6589323,42.0118849
+"16-000756","07/15/16 0908",NA,"07/15/16 0908","Armory Building","Open","drug violation",-93.6509474,42.029626
+"16-000758","07/16/16 1238",NA,"07/16/16 1238","Lot G7","Open","vandalism",-93.6420154,42.0237318
+"16-000759","07/16/16 1544",NA,"07/16/16 1544","Lot 112J","Open","vandalism",-93.6425231,42.0349269
+"16-000760","07/16/16 1715","07/16/16 1715","07/16/16 1715","Buchanan Hall","Arrest","alcohol violation",-93.642449,42.022653
+"16-000761","07/17/16 0159","07/17/16 0159","07/17/16 0159","Dickinson Avenue and Steinbeck Street","Arrest","operating while intoxicated",-93.6809282,42.0146647
+"16-000761","07/17/16 0159","07/17/16 0159","07/17/16 0159","Dickinson Avenue and Steinbeck Street","Arrest","drug violation",-93.6809282,42.0146647
+"16-000763","07/19/16 0333","07/19/16 0333","07/19/16 0333","Oakwood Road and Wessex Drive","Arrest","operating while intoxicated",NA,NA
+"16-000764","07/19/16 0452","07/19/16 0452","07/19/16 0452","Mortensen Parkway and Gateway Hills Park Drive","Arrest","driving violation",-93.649478,42.011749
+"16-000766","07/20/16 0156","07/20/16 0156","07/20/16 0156","Chamberlain Streetn and Lynn Avenue","Arrest","operating while intoxicated",-93.6464356,42.0215381
+"16-000766","07/20/16 0156","07/20/16 0156","07/20/16 0156","Chamberlain Streetn and Lynn Avenue","Arrest","drug violation",-93.6464356,42.0215381
+"16-000766","07/20/16 0156","07/20/16 0156","07/20/16 0156","Chamberlain Streetn and Lynn Avenue","Arrest","driving violation",-93.6464356,42.0215381
+"16-000769","07/23/16 0316","07/23/16 0316","07/23/16 0316","Lincoln Way and Wilmoth Avenue","Arrest","public intoxication",-93.6615998,42.0227611
+"16-000771","07/24/16 0217","07/24/16 0217","07/24/16 0217","Lincoln Way and Marshall Avenue","Arrest","alcohol violation",-93.6689375,42.0229021
+"16-000772","07/24/16 0252","07/24/16 0252","07/24/16 0252","Hickory Drive and Westbrook Drive","Arrest","operating while intoxicated",NA,NA
+"16-000773","07/24/16 1248","07/24/16 1248","07/24/16 1248","4311 Ontario Street","Arrest","driving violation",-93.6777145,42.0347924
+"16-000774","07/25/16 0415","07/25/16 0415","07/25/16 0415","Colorado Avenue and Lincoln Way","Arrest","driving violation",-93.6630057,42.0227752
+"16-000777","07/25/16 2311","07/25/16 2311","07/25/16 2311","Ash Avenue and Lincoln Way","Arrest","operating while intoxicated",-93.64441,42.0226961
+"16-000777","07/25/16 2311","07/25/16 2311","07/25/16 2311","Ash Avenue and Lincoln Way","Arrest","drug violation",-93.64441,42.0226961
+"16-000778","07/26/16 0058","07/26/16 0058","07/26/16 0058","1516 S. Riverside Drive","Arrest","public intoxication",-93.6296446,42.0077258
+"16-000779","07/26/16 1447","07/26/16 1447","07/26/16 1447","Armory Building","Open","drug violation",-93.6509474,42.029626
+"16-000781","07/26/16 1939","07/26/16 1939","07/26/16 1939","Hawthorn Court Drive and Stange Road","Arrest","driving violation",-93.64473,42.0338708
+"16-000782","07/27/16 0219","07/27/16 0219","07/27/16 0219","Lincoln Way and Lynn Avenue","Arrest","public intoxication",-93.6464086,42.0227244
+"16-000783","07/27/16 0234","07/27/16 0234","07/27/16 0234","Lincoln Way and Stanton Avenue","Arrest","public intoxication",-93.6485139,42.0227359
+"16-000784","07/27/16 2349","07/27/16 2349","07/27/16 2349","Little Street and Welch Avenue","Arrest","driving violation",-93.650078,42.0176185
+"16-000786","07/28/16 0250","07/28/16 0250","07/28/16 0250","South Hyland Avenue and Lincoln Way","Arrest","drug violation",NA,NA
+"16-000787","07/28/16 1029",NA,"07/28/16 1029","Forker Building","Open","theft",-93.6403143,42.0268097
+"16-000788","07/29/16 0022","07/29/16 0022","07/29/16 0022","2310 Mortensen Parkway","Arrest","driving violation",-93.6479478,42.0108386
+"16-000789","07/29/16 0054","07/29/16 0054","07/29/16 0054","Lincoln Way and Marshall Avenue","Arrest","operating while intoxicated",-93.6689375,42.0229021
+"16-000790","07/29/16 0212","07/29/16 0212","07/29/16 0212","3714 Tripp Street","Arrest","operating while intoxicated",-93.668226,42.0198545
+"16-000791","07/29/16 0255","07/29/16 0255","07/29/16 0255","South 16th Street and University Boulevard","Arrest","operating while intoxicated",-93.6337562,42.0114627
+"16-000792","07/29/16 1741",NA,"07/29/16 1741","Lied Recreation Center","Open","theft",-93.6372142,42.0267276
+"16-000793","07/29/16 2215","07/29/16 2215","07/29/16 2215","Ames Intermodal Facility","Arrest","public intoxication",-93.6523433,42.0210166
+"16-000794","07/30/16 0055","07/30/16 0055","07/30/16 0055","Delaware Avenue and North Dakota Avenue","Arrest","operating while intoxicated",-93.6788195,42.0279736
+"16-000794","07/30/16 0055","07/30/16 0055","07/30/16 0055","Delaware Avenue and North Dakota Avenue","Arrest","drug violation",-93.6788195,42.0279736
+"16-000794","07/30/16 0055","07/30/16 0055","07/30/16 0055","Delaware Avenue and North Dakota Avenue","Arrest","alcohol violation",-93.6788195,42.0279736
+"16-000794","07/30/16 0055","07/30/16 0055","07/30/16 0055","Delaware Avenue and North Dakota Avenue","Arrest","driving violation",-93.6788195,42.0279736
+"16-000797","07/31/16 0023","07/31/16 0023","07/31/16 0023","Heathrow Drive and Wessex Drive","Arrest","operating while intoxicated",NA,NA
+"16-000798","07/31/16 0116","07/31/16 0116","07/31/16 0116","Chamberlain Street and Lynn Avenue","Arrest","public intoxication",-93.6464356,42.0215381
+"16-000799","08/01/16 1241",NA,"08/01/16 1241","Fountainview Apartments","Open","vandalism",NA,NA
+"16-000800","08/02/16 0430",NA,"08/02/16 0430","Sweeney Hall","Open","vandalism",-93.6509194,42.0278127
+"16-000801","08/03/16 0029","08/03/16 0029","08/03/16 0029","Hyland avenue and Lincoln Way","Arrest","driving violation",-93.6555907,42.0227264
+"16-000802","08/03/16 0107","08/03/16 0107","08/03/16 0107","Mortensen Road and Seagrave Boulevard","Arrest","operating while intoxicated",-93.6713608,42.0120265
+"16-000803","08/03/16 0141","08/03/16 0141","08/03/16 0141","Lot 59E","Arrest","public intoxication",-93.64992,42.0236716
+"16-000804","08/03/16 0221","08/03/16 0221","08/03/16 0221","Lincoln Way and Welch Avenue","Arrest","public intoxication",-93.6501393,42.0227328
+"16-000805","08/04/16 0206","08/04/16 0206","08/04/16 0206","36 Frederiksen Court","Arrest","operating while intoxicated",-93.6412736,42.0353215
+"16-000807","08/04/16 1743",NA,"08/04/16 1743","College of Veterinary Medicine","Open","theft",NA,NA
+"16-000808","08/04/16 2308",NA,"08/04/16 2308","363 Farm House Lane","Open","vandalism",-93.6437099,42.0258617
+"16-000809","08/05/16 0225","08/05/16 0225","08/05/16 0225","Coconino Road and Mortensen Road","Arrest","operating while intoxicated",-93.6762975,42.0120724
+"16-000810","08/05/16 1115","08/05/16 1115","08/05/16 1115","2119 Edeburn Drive","Arrest","harassment",-93.6441086,42.0427535
+"16-000811","08/05/16 1318",NA,"08/05/16 1318","Carver Hall","Open","disorderly conduct",-93.648337,42.0252611
+"16-000816","08/07/16 0206","08/07/16 0206","08/07/16 0206","Lot 4","Arrest","public intoxication",NA,NA
+"16-000818","08/07/16 0242","08/07/16 0242","08/07/16 0242","Storm Street and Welch Avenue","Arrest","public intoxication",-93.6500563,42.0161339
+"16-000821","08/08/16 0755",NA,"08/08/16 0755","Linden Hall","Open","theft",-93.6403252,42.0231404
+"16-000822","08/08/16 1439","08/08/16 1439","08/08/16 1439","1111 Hayward Avenue","Arrest","driving violation",-93.655653,42.014096
+"16-000823","08/09/16 0232","08/09/16 0232","08/09/16 0232","Hayward Avenue and Lincoln Way","Arrest","operating while intoxicated",-93.6517059,42.0228461
+"16-000823","08/09/16 0232","08/09/16 0232","08/09/16 0232","Hayward Avenue and Lincoln Way","Arrest","drug violation",-93.6517059,42.0228461
+"16-000824","08/09/16 0733",NA,"08/09/16 0733","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-000825","08/09/16 1615","08/09/16 1615","08/10/16 1106","219 Main Street","Arrest","disorderly conduct",-93.6129769,42.0253432
+"16-000825","08/09/16 1615","08/09/16 1615","08/10/16 1106","219 Main Street","Arrest","theft",-93.6129769,42.0253432
+"16-000825","08/09/16 1615","08/09/16 1615","08/10/16 1106","219 Main Street","Arrest","harassment",-93.6129769,42.0253432
+"16-000826","08/09/16 1821",NA,"08/09/16 1821","Howe Hall","Open","theft",-93.6528316,42.0269191
+"16-000827","08/10/16 0132","08/10/16 0132","08/10/16 0132","University Boulevard and US Highway 30","Arrest","operating while intoxicated",NA,NA
+"16-000829","08/10/16 1713",NA,"08/10/16 1713","Armory Building","Open","drug violation",-93.6509474,42.029626
+"16-000830","08/10/16 1713",NA,"08/10/16 1713","Armory Building","Open","drug violation",-93.6509474,42.029626
+"16-000831","08/10/16 2146","08/10/16 2146","08/10/16 2146","Hyland Avenue and Ross Road","Arrest","driving violation",-93.6556243,42.033296
+"16-000833","08/12/16 0205","08/12/16 0205","08/12/16 0205","Chamberlain Street and Stanton Avenue","Open","disorderly conduct",-93.6484903,42.0214258
+"16-000834","08/12/16 1249","08/12/16 1249","08/12/16 1249","Barton Hall","Arrest","driving violation",-93.6416296,42.0241903
+"16-000835","08/12/16 1933",NA,"08/12/16 1933","University Village Laundry","Open","theft",-93.642113,42.041253
+"16-000836","08/12/16 2225","08/12/16 2225","08/12/16 2225","Lot 61A","Arrest","alcohol violation",-93.6483506,42.0124764
+"16-000837","08/13/16 0312","08/13/16 0312","08/13/16 0312","Oakland Street and Sheldon Avenue","Arrest","operating while intoxicated",NA,NA
+"16-000838","08/14/16 0152","08/14/16 0152","08/14/16 0152","Hayward Avenue and Mortensen Road","Arrest","operating while intoxicated",-93.6516786,42.0118612
+"16-000840","08/15/16 0131",NA,"08/15/16 0131","2633 Mortensen Road","Open","vandalism",-93.6521512,42.0118639
+"16-000841","08/15/16 0221","08/15/16 0221","08/15/16 0221","Ash Avenue and Gable Lane","Arrest","operating while intoxicated",-93.6444023,42.0214733
+"16-000841","08/15/16 0221","08/15/16 0221","08/15/16 0221","Ash Avenue and Gable Lane","Arrest","drug violation",-93.6444023,42.0214733
+"16-000843","08/15/16 0918","08/15/16 0918","08/15/16 0918","Ames Intermodal Facility","Closed","trespass",-93.6523433,42.0210166
+"16-000844","08/15/16 1621","08/15/16 1621","08/15/16 1621","Morrill Road and Union Drive","Arrest","driving violation",-93.6467417,42.0247336
+"16-000846","08/16/16 0912",NA,"08/16/16 0912","Music Hall","Open","theft",-93.6482276,42.0246423
+"16-000851","08/17/16 2033","08/17/16 2033","08/17/16 2033","University Village","Arrest","drug violation",-93.6441672,42.0427435
+"16-000852","08/18/16 0202","08/18/16 0202","08/18/16 0202","2600 block of Lincoln Way","Arrest","public intoxication",-93.6517229,42.0227346
+"16-000853","08/18/16 0225","08/18/16 0225","08/18/16 0225","4500 block Mortensen Road","Open","assault",-93.678636,42.012084
+"16-000854","08/18/16 1446","01/03/17 0906","08/18/16 1446","Lagomarcino Hall","Open","harassment",-93.6456391,42.0297367
+"16-000855","08/18/16 2041","08/18/16 2041","08/18/16 2041","Hilton Coliseum","Arrest","public intoxication",-93.635074,42.022693
+"16-000856","08/19/16 0101","08/19/16 0101","08/19/16 0101","200 block of Sheldon Avenue","Arrest","alcohol violation",-93.6543157,42.0261159
+"16-000857","08/19/16 0134","08/19/16 0134","08/19/16 0134","Arbor Street and South Sheldon Avenue","Arrest","public intoxication",-93.6542412,42.0209168
+"16-000858","08/19/16 0237","08/19/16 0237","08/19/16 0237","Gateway Hills Park Drive and Mortensen Parkway","Arrest","operating while intoxicated",-93.649344,42.0118567
+"16-000859","08/19/16 1118",NA,"08/19/16 1118","Carver Hall","Open","harassment",-93.648337,42.0252611
+"16-000860","08/19/16 1440",NA,"08/19/16 1440","Wilson Hall","Open","theft",-93.651021,42.0139143
+"16-000862","08/19/16 2302","08/19/16 2302","08/19/16 2302","Linden Hall","Arrest","alcohol violation",-93.6403252,42.0231404
+"16-000863","08/20/16 0141","08/20/16 0141","08/20/16 0141","Storm Street and Welch Avenue","Arrest","alcohol violation",-93.6500563,42.0161339
+"16-000864","08/20/16 0223","08/20/16 0223","08/20/16 0223","Storm Street and Welch Avenue","Arrest","operating while intoxicated",-93.6500563,42.0161339
+"16-000865","08/20/16 0226","08/20/16 0226","08/20/16 0226","Lincoln Way and Marshall Avenue","Arrest","operating while intoxicated",-93.6689375,42.0229021
+"16-000866","08/20/16 1513","08/20/16 1513","08/20/16 1513","Ames Intermodal Facility","Arrest","public intoxication",-93.6523433,42.0210166
+"16-000868","08/20/16 1514","08/20/16 1514","08/20/16 1514","119 Stanton Avenue","Arrest","trespass",-93.6489377,42.0219747
+"16-000868","08/20/16 1514","08/20/16 1514","08/20/16 1514","119 Stanton Avenue","Arrest","disorderly conduct",-93.6489377,42.0219747
+"16-000868","08/20/16 1514","08/20/16 1514","08/20/16 1514","119 Stanton Avenue","Arrest","public intoxication",-93.6489377,42.0219747
+"16-000869","08/20/16 1647","08/20/16 1647","08/20/16 1647","Chamberlain Street and Lynn Avenue","Arrest","alcohol violation",-93.6464356,42.0215381
+"16-000870","08/20/16 1821","08/20/16 1821","08/20/16 1821","119 Stanton Avenue","Arrest","public intoxication",-93.6489377,42.0219747
+"16-000871","08/20/16 1850","08/20/16 1850","08/20/16 1850","Hayward Avenue and Knapp Street","Arrest","alcohol violation",-93.6517339,42.0191154
+"16-000872","08/20/16 1946","08/20/16 1946","08/20/16 1946","Armory Building","Arrest","theft",-93.6509474,42.029626
+"16-000873","08/20/16 2054","08/20/16 2054","08/20/16 2054","1799 Center Drive","Arrest","alcohol violation",-93.6369842,42.0196241
+"16-000874","08/20/16 2258","08/20/16 2258","08/20/16 2258","612 Stanton Avenue","Arrest","public intoxication",NA,NA
+"16-000875","08/21/16 0024","08/21/16 0024","08/21/16 0024","119 Stanton Avenue","Arrest","public intoxication",-93.6489377,42.0219747
+"16-000875","08/21/16 0024","08/21/16 0024","08/21/16 0024","119 Stanton Avenue","Arrest","alcohol violation",-93.6489377,42.0219747
+"16-000876","08/21/16 0103","08/21/16 0103","08/21/16 0103","2300 block of Knapp Street","Arrest","alcohol violation",-93.6463997,42.0191478
+"16-000877","08/21/16 0118","08/21/16 0118","08/21/16 0118","Knapp Street and Welch Avenue","Arrest","alcohol violation",-93.6500882,42.0191138
+"16-000878","08/21/16 0131","08/21/16 0131","08/21/16 0131","Beach Road and Lincoln Way","Arrest","alcohol violation",-93.6394928,42.0227678
+"16-000880","08/21/16 0207","08/21/16 0207","08/21/16 0207","Ash Avenue and Knapp Street","Arrest","alcohol violation",-93.6443655,42.019142
+"16-000880","08/21/16 0207","08/21/16 0207","08/21/16 0207","Ash Avenue and Knapp Street","Arrest","drug violation",-93.6443655,42.019142
+"16-000881","08/21/16 0212","08/21/16 0212","08/21/16 0212","Ash Avenue and Lincoln Way","Arrest","alcohol violation",-93.64441,42.0226961
+"16-000882","08/21/16 0224","08/21/16 0224","08/21/16 0224","Buchanan Hall","Arrest","alcohol violation",-93.642449,42.022653
+"16-000882","08/21/16 0224","08/21/16 0224","08/21/16 0224","Buchanan Hall","Arrest","drug violation",-93.642449,42.022653
+"16-000883","08/21/16 0246","08/21/16 0246","08/21/16 0246","500 block of Welch Avenue","Arrest","alcohol violation",-93.650078,42.0176185
+"16-000884","08/21/16 0441","08/21/16 0441","08/21/16 0441","Lot 100","Arrest","operating while intoxicated",-93.6377706,42.0258047
+"16-000886","08/22/16 0953","08/22/16 0953","08/22/16 0953","Clark Avenue and Main Street","Arrest","driving violation",NA,NA
+"16-000887","08/22/16 1045",NA,"08/22/16 1045","Parks Library","Open","theft",-93.6488141,42.0281254
+"16-000888","08/23/16 0734",NA,"08/23/16 0734","Hoover Hall","Open","theft",-93.6511839,42.0266539
+"16-000890","08/23/16 1610",NA,"08/23/16 1610","Armory Building","Open","theft",-93.6509474,42.029626
+"16-000893","08/23/16 2211",NA,"09/01/16 1317","Lot B3","Unfounded","theft",-93.6365568,42.0192735
+"16-000894","08/24/16 1127","08/24/16 1127","08/24/16 1127","Armory Building","Open","drug violation",-93.6509474,42.029626
+"16-000895","08/24/16 1512",NA,"09/01/16 1317","Frederiksen Court","Unfounded","theft",-93.6440878,42.0340306
+"16-000897","08/24/16 2036","08/24/16 2036","08/24/16 2036","Welch Hall","Arrest","drug violation",-93.6420811,42.0236532
+"16-000899","08/25/16 0548",NA,"08/25/16 0548","Lied Recreation Center","Closed","theft",-93.6372142,42.0267276
+"16-000900","08/25/16 1407",NA,"08/25/16 1407","Armory Building","Open","harassment",-93.6509474,42.029626
+"16-000901","08/26/16 0159","08/26/16 0159","08/26/16 0159","4518 Mortensen Road","Closed","domestic dispute",-93.6795569,42.0110687
+"16-000902","08/26/16 0343","08/26/16 0343","08/26/16 0343","3915 Mortensen Road","Arrest","public intoxication",-93.6716726,42.0132915
+"16-000904","08/26/16 1125",NA,"08/26/16 1125","Lot 82","Open","vandalism",-93.6396571,42.0250672
+"16-000907","08/27/16 0105","08/27/16 0105","08/27/16 0105","2519 Hunt Street","Arrest","public intoxication",-93.6512741,42.020471
+"16-000908","08/27/16 0145","08/27/16 0145","08/27/16 0145","Wilson Hall","Arrest","drug violation",-93.651021,42.0139143
+"16-000909","08/27/16 0442","08/27/16 0442","08/27/16 0442","Lot 63","Arrest","operating while intoxicated",-93.6367573,42.0239698
+"16-000909","08/27/16 0442","08/27/16 0442","08/27/16 0442","Lot 63","Arrest","weapon violation",-93.6367573,42.0239698
+"16-000910","08/27/16 1332",NA,"08/27/16 1332","Lot 63","Open","vandalism",-93.6367573,42.0239698
+"16-000911","08/27/16 2150",NA,"08/27/16 2150","Lot 63","Open","vandalism",-93.6367573,42.0239698
+"16-000912","08/28/16 0005","08/28/16 0005","08/28/16 0005","Lake Laverne","Arrest","public intoxication",-93.6479874,42.0237049
+"16-000912","08/28/16 0005","08/28/16 0005","08/28/16 0005","Lake Laverne","Arrest","interference",-93.6479874,42.0237049
+"16-000912","08/28/16 0005","08/28/16 0005","08/28/16 0005","Lake Laverne","Arrest","assault",-93.6479874,42.0237049
+"16-000913","08/28/16 0044","08/28/16 0044","08/28/16 0044","Mortensen Parkway and University Boulevard","Arrest","operating while intoxicated",-93.6393859,42.0083324
+"16-000919","08/28/16 0417","08/28/16 0417","08/28/16 0417","North Dakota Avenue and Ontario Street","Arrest","public intoxication",-93.6787439,42.034582
+"16-000919","08/28/16 0417","08/28/16 0417","08/28/16 0417","North Dakota Avenue and Ontario Street","Arrest","interference",-93.6787439,42.034582
+"16-000920","08/28/16 1523",NA,"08/28/16 1523","Lot 63","Open","vandalism",-93.6367573,42.0239698
+"16-000922","08/28/16 1844","08/28/16 1844","08/28/16 1844","Memorial Union Parking Ramp","Open","vandalism",-93.6449075,42.0234906
+"16-000921","08/28/16 1852",NA,"08/28/16 1852","119 Stanton Avenue","Open","theft",-93.6489377,42.0219747
+"16-000924","08/28/16 2050",NA,"08/29/16 1558","University Village","Arrest","harassment",-93.6441672,42.0427435
+"16-000925","08/28/16 2244","08/28/16 2244","08/28/16 2244","114 University Village","Arrest","drug violation",-93.6424229,42.0396176
+"16-000926","08/29/16 0843",NA,"08/29/16 0843","Physics Hall","Open","theft",-93.6472746,42.0295226
+"16-000929","08/30/16 0221","08/30/16 0221","08/30/16 0221","Campus Avenue and Lincoln Way","Arrest","alcohol violation",-93.6570426,42.0227269
+"16-000930","08/30/16 0238","08/30/16 0238","08/30/16 0238","3400 block of Lincoln Way","Arrest","driving violation",-93.6648334,42.0225512
+"16-000932","08/30/16 1355",NA,"08/30/16 1355","Lot 52","Open","theft",NA,NA
+"16-000936","08/30/16 1921","08/30/16 1921","08/30/16 1921","800 block of State Avenue","Arrest","public intoxication",NA,NA
+"16-000938","08/31/16 1056",NA,"08/31/16 1056","Armory Building","Open","harassment",-93.6509474,42.029626
+"16-000942","08/31/16 1723",NA,"08/31/16 1723","Memorial Union","Open","theft",-93.6459454,42.0236502
+"16-000944","08/31/16 2051",NA,"08/31/16 2051","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-000945","09/01/16 0159","09/01/16 0159","09/01/16 0159","Beach Road and Richardson Court","Arrest","public intoxication",-93.639189,42.02383
+"16-000946","09/01/16 0222","09/01/16 0222","09/01/16 0222","Lettie Street and State Avenue","Arrest","public intoxication",-93.6591273,42.0214744
+"16-000949","09/01/16 1231",NA,"09/01/16 1231","71 Frederiksen Court","Open","theft",-93.6398095,42.0330842
+"16-000950","09/01/16 1553","09/01/16 1553","09/01/16 1553","Helser Hall","Open","assault",-93.6518379,42.02424
+"16-000951","09/01/16 2227",NA,"09/01/16 2227","Parks Library","Open","theft",-93.6488141,42.0281254
+"16-000952","09/02/16 0008","09/02/16 0008","09/02/16 0008","Catt Hall","Arrest","public intoxication",-93.6456974,42.0278902
+"16-000952","09/02/16 0008","09/02/16 0008","09/02/16 0008","Catt Hall","Arrest","interference",-93.6456974,42.0278902
+"16-000954","09/02/16 0218",NA,"09/02/16 0218","Ash Avenue and Sunset Drive","Open","theft",-93.6443636,42.0201199
+"16-000955","09/02/16 0436",NA,"09/02/16 0436","Food Sciences Building","Open","vandalism",-93.6425228,42.0268836
+"16-000956","09/02/16 0932","09/02/16 0932","09/02/16 0932","South 16th Street and University Boulevard","Arrest","driving violation",-93.6337562,42.0114627
+"16-000957","09/02/16 1009",NA,"09/02/16 1009","Forker Building","Open","theft",-93.6403143,42.0268097
+"16-000958","09/02/16 2020","09/02/16 2020","09/02/16 2020","Wallace Hall","Arrest","drug violation",-93.6499279,42.0142261
+"16-000959","09/03/16 0014","09/03/16 0014","09/03/16 0014","Ash Avenue and Sunset Drive","Arrest","alcohol violation",-93.6443636,42.0201199
+"16-000960","09/03/16 0034","09/03/16 0034","09/03/16 0034","1029 State Street","Arrest","public intoxication",-93.658933,42.0119157
+"16-000962","09/03/16 0144","09/03/16 0144","09/03/16 0144","Knapp Street and Stanton Avenue","Arrest","alcohol violation",-93.6485073,42.0191298
+"16-000963","09/03/16 0156","09/03/16 0156","09/03/16 0156","Knapp Street and Welch Avenue","Arrest","operating while intoxicated",-93.6500882,42.0191138
+"16-000966","09/03/16 1508","09/03/16 1508","09/03/16 1508","South 4th Street and University Boulevard","Arrest","public intoxication",-93.63108,42.016262
+"16-000967","09/03/16 1536","09/03/16 1536","09/03/16 1536","Lot G3","Arrest","alcohol violation",-93.6227301,42.0493019
+"16-000968","09/03/16 1544","09/03/16 1544","09/03/16 1544","Lot G3","Arrest","alcohol violation",-93.6227301,42.0493019
+"16-000969","09/03/16 1558","09/03/16 1558","09/03/16 1558","Lot G8","Arrest","alcohol violation",-93.6286452,42.0096516
+"16-000970","09/03/16 1644","09/03/16 1644","09/03/16 1644","Lot S6","Arrest","alcohol violation",-93.6333696,42.0132547
+"16-000971","09/03/16 1646","09/03/16 1646","09/03/16 1646","Lot G3","Arrest","alcohol violation",-93.6227301,42.0493019
+"16-000972","09/03/16 1648","09/03/16 1648","09/03/16 1648","Lot G2","Arrest","alcohol violation",-93.6363807,42.010106
+"16-000974","09/03/16 1654","09/03/16 1654","09/03/16 1654","Lot G3","Arrest","alcohol violation",-93.6227301,42.0493019
+"16-000973","09/03/16 1658","09/03/16 1658","09/03/16 1658","Lot G3","Arrest","alcohol violation",-93.6227301,42.0493019
+"16-000975","09/03/16 1706","09/03/16 1706","09/03/16 1706","Lot G3","Arrest","alcohol violation",-93.6227301,42.0493019
+"16-000978","09/03/16 1714","09/03/16 1714","09/03/16 1714","Lot 85E","Arrest","public intoxication",-93.6344334,42.0157296
+"16-000978","09/03/16 1714","09/03/16 1714","09/03/16 1714","Lot 85E","Arrest","alcohol violation",-93.6344334,42.0157296
+"16-000978","09/03/16 1714","09/03/16 1714","09/03/16 1714","Lot 85E","Arrest","interference",-93.6344334,42.0157296
+"16-000976","09/03/16 1717","09/03/16 1717","09/03/16 1717","Lot 85E","Arrest","alcohol violation",-93.6344334,42.0157296
+"16-000977","09/03/16 1718","09/03/16 1718","09/03/16 1718","Lot G3","Arrest","public intoxication",-93.6227301,42.0493019
+"16-000979","09/03/16 1718","09/03/16 1718","09/03/16 1718","Lot G2","Arrest","public intoxication",-93.6363807,42.010106
+"16-000980","09/03/16 1725","09/03/16 1725","09/03/16 1725","Lot S7","Open","disorderly conduct",-93.6331516,42.0140523
+"16-000981","09/03/16 1752","09/03/16 1752","09/03/16 1752","South 16th Street and University Boulevard","Arrest","alcohol violation",-93.6337562,42.0114627
+"16-000982","09/03/16 1803","09/03/16 1803","09/03/16 1803","South 4th Street and University Boulevard","Arrest","alcohol violation",-93.63108,42.016262
+"16-000983","09/03/16 1815","09/03/16 1815","09/03/16 1815","South 16th Street and University Boulevard","Arrest","alcohol violation",-93.6337562,42.0114627
+"16-000984","09/03/16 1819","09/03/16 1819","09/03/16 1819","Lot G3","Arrest","alcohol violation",-93.6227301,42.0493019
+"16-000985","09/03/16 1835","09/03/16 1835","09/03/16 1835","Lot G2","Arrest","public intoxication",-93.6363807,42.010106
+"16-000986","09/03/16 1839","09/03/16 1839","09/03/16 1839","Lot G3","Arrest","public intoxication",-93.6227301,42.0493019
+"16-000988","09/03/16 1851","09/03/16 1851","09/03/16 1851","Lot G6","Open","assault",-93.6420154,42.0237318
+"16-000987","09/03/16 1901","09/03/16 1901","09/03/16 1901","Jack Trice Stadium","Arrest","alcohol violation",-93.635664,42.016144
+"16-000990","09/03/16 1918","09/03/16 1918","09/03/16 1918","Lot 85E","Arrest","alcohol violation",-93.6344334,42.0157296
+"16-000991","09/03/16 1924","09/03/16 1924","09/03/16 1924","Lot G3","Arrest","public intoxication",-93.6227301,42.0493019
+"16-000989","09/03/16 1925","09/03/16 1925","09/03/16 1925","South 16th Street and University Boulevard","Arrest","public intoxication",-93.6337562,42.0114627
+"16-000992","09/03/16 1934","09/03/16 1934","09/03/16 1934","Lot 85E","Arrest","alcohol violation",-93.6344334,42.0157296
+"16-000992","09/03/16 1934","09/03/16 1934","09/03/16 1934","Lot 85E","Arrest","unlawful use of license",-93.6344334,42.0157296
+"16-000994","09/03/16 1959","09/03/16 1959","09/03/16 1959","Lot G3","Arrest","public intoxication",-93.6227301,42.0493019
+"16-000994","09/03/16 1959","09/03/16 1959","09/03/16 1959","Lot G3","Arrest","interference",-93.6227301,42.0493019
+"16-000995","09/03/16 2007","09/03/16 2007","09/03/16 2007","South 16th Street and University Boulevard","Arrest","public intoxication",-93.6337562,42.0114627
+"16-000996","09/03/16 2012","09/03/16 2012","09/03/16 2012","Lot G3","Arrest","alcohol violation",-93.6227301,42.0493019
+"16-000998","09/03/16 2021","09/03/16 2021","09/03/16 2021","Lot G8","Arrest","public intoxication",-93.6286452,42.0096516
+"16-000997","09/03/16 2023","09/03/16 2023","09/03/16 2023","Lot G3","Arrest","alcohol violation",-93.6227301,42.0493019
+"16-000999","09/03/16 2030","09/03/16 2030","09/03/16 2030","Lot S3","Arrest","public intoxication",-93.6348588,42.0120423
+"16-001000","09/03/16 2039","09/03/16 2039","09/03/16 2039","Lot G3","Arrest","public intoxication",-93.6227301,42.0493019
+"16-001001","09/03/16 2133","09/03/16 2133","09/03/16 2133","Lot G3","Arrest","alcohol violation",-93.6227301,42.0493019
+"16-001004","09/03/16 2341","09/03/16 2341","09/03/16 2341","212 Beyer Court","Arrest","public intoxication",-93.65045,42.0239234
+"16-001005","09/04/16 0158","09/04/16 0158","09/04/16 0158","North Dakota Avenue and Timber Ridge Drive","Arrest","alcohol violation",-93.6788234,42.0273617
+"16-000106","09/04/16 0204","09/04/16 0204","09/04/16 0204","4530 Mortensen Road","Arrest","operating while intoxicated",-93.6804576,42.0114767
+"16-000107","09/04/16 0250",NA,"09/04/16 0250","Campanile","Open","vandalism",-93.6460669,42.0254176
+"16-001008","09/04/16 1232",NA,"09/04/16 1232","Lot D4","Open","theft",-93.6331915,42.016812
+"16-001010","09/04/16 1929",NA,"09/04/16 1929","2320 Lincoln Way","Open","theft",-93.6473538,42.0224886
+"16-001011","09/05/16 0032","09/04/16 0032","09/04/16 0032","Ames Intermodal Facility","Arrest","public intoxication",-93.6523433,42.0210166
+"16-001013","09/05/16 2302","09/05/16 2302","09/05/16 2302","Bruner Drive and Stange Road","Arrest","operating while intoxicated",-93.6448075,42.0389323
+"16-001015","09/06/16 0046","09/06/16 0046","09/06/16 0046","137 University Village","Open","drug violation",-93.6424737,42.0407092
+"16-001017","09/06/16 1115",NA,"09/06/16 1115","Beach Road","Open","harassment",NA,NA
+"16-001019","09/07/16 0020","09/07/16 0020","09/07/16 0020","Lincoln Way and State Avenue","Arrest","driving violation",-93.6591203,42.0227266
+"16-001022","09/07/16 2234","09/07/16 2234","09/07/16 2234","Lincoln Way and University Boulevard","Arrest","alcohol violation",-93.6332661,42.0228746
+"16-001024","09/08/16 0216","09/08/16 0216","09/08/16 0216","2519 Chamberlain Street","Arrest","public intoxication",-93.651538,42.021589
+"16-001024","09/08/16 0216","09/08/16 0216","09/08/16 0216","2519 Chamberlain Street","Arrest","drug violation",-93.651538,42.021589
+"16-001025","09/08/16 0302","09/08/16 0302","09/08/16 0302","Beedle Drive and Lincoln Swing","Arrest","operating while intoxicated",-93.6732501,42.0225312
+"16-001029","09/08/16 1113",NA,"09/08/16 1113","University Village Laundry","Open","theft",-93.642113,42.041253
+"16-001032","09/08/16 1749",NA,"09/08/16 1749","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-001034","09/09/16 0145",NA,"09/09/16 0145","Lot 61B","Open","vandalism",-93.6483675,42.0135352
+"16-001035","09/09/16 1119",NA,"09/09/16 1119","Armory Building","Open","theft",-93.6509474,42.029626
+"16-001037","09/09/16 1214",NA,"09/09/16 1214","Armory Building","Open","harassment",-93.6509474,42.029626
+"16-001038","09/09/16 1319",NA,"09/09/16 1319","Gilman Hall","Open","theft",-93.6486442,42.0294215
+"16-001041","09/09/16 1522",NA,"09/09/16 1522","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-001042","09/09/16 1638",NA,"09/09/16 1638","Forker Building","Open","vandalism",-93.6403143,42.0268097
+"16-001044","09/10/16 0228","09/10/16 0228","09/10/16 0228","South Dakota Avenue and US Highway 30","Arrest","operating while intoxicated",-93.6387198,42.0030346
+"16-001044","09/10/16 0228","09/10/16 0228","09/10/16 0228","South Dakota Avenue and US Highway 30","Arrest","alcohol violation",-93.6387198,42.0030346
+"16-001045","09/10/16 0329","09/10/16 0329","09/10/16 0329","Hayward Avenue and Knapp Street","Arrest","operating while intoxicated",-93.6517339,42.0191154
+"16-001045","09/10/16 0329","09/10/16 0329","09/10/16 0329","Hayward Avenue and Knapp Street","Arrest","weapon violation",-93.6517339,42.0191154
+"16-001046","09/10/16 1656","09/10/16 1656","09/10/16 1656","Hyland Avenue and Ross Road","Arrest","public intoxication",-93.6556243,42.033296
+"16-001049","09/11/16 0027","09/11/16 0027","09/11/16 0027","Pearson Hall","Arrest","public intoxication",-93.6498675,42.0260288
+"16-001050","09/11/16 0207","09/11/16 0207","09/11/16 0207","Lincoln Way and University Boulevard","Arrest","operating while intoxicated",-93.6332661,42.0228746
+"16-001051","09/11/16 1442",NA,"09/11/16 1442","Armory Building","Open","theft",-93.6509474,42.029626
+"16-001052","09/12/16 0103","09/12/16 0103","09/12/16 0103","1200 block of Delaware Avenue","Arrest","operating while intoxicated",-93.6798721,42.0333857
+"16-001052","09/12/16 0103","09/12/16 0103","09/12/16 0103","1200 block of Delaware Avenue","Arrest","driving violation",-93.6798721,42.0333857
+"16-001053","09/12/16 0207","09/12/16 0207","09/12/16 0207","Mortensen Road and South Dakota Avenue","Arrest","operating while intoxicated",-93.6786567,42.0120839
+"16-001055","09/12/16 1550",NA,"09/12/16 1550","Friley Hall","Open","theft",-93.65045,42.0239234
+"16-001057","09/12/16 2138",NA,"09/12/16 2138","Helser Hall","Open","theft",-93.6518379,42.02424
+"16-001059","09/12/16 2318",NA,"09/12/16 2318","University Village","Open","harassment",-93.6441672,42.0427435
+"16-001060","09/13/16 0126",NA,"09/13/16 0126","Memorial Union","Open","vandalism",-93.6459454,42.0236502
+"16-001061","09/13/16 0755",NA,"09/13/16 0755","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-001062","09/13/16 0916",NA,"09/13/16 0916","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-001063","09/13/16 0929",NA,"09/13/16 0929","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-001065","09/13/16 1206",NA,"09/13/16 1206","Student Services Building","Open","theft",-93.6501447,42.0253226
+"16-001066","09/13/16 1308",NA,"09/13/16 1308","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-001067","09/13/16 1339",NA,"09/13/16 1339","Physics Hall","Open","theft",-93.6472746,42.0295226
+"16-001070","09/13/16 1623",NA,"09/13/16 1623","Oak Hall","Open","sexual assault",-93.6399695,42.0251247
+"16-001069","09/13/16 1630",NA,"09/13/16 1630","Lot S7","Open","theft",-93.6331516,42.0140523
+"16-001071","09/13/16 2209",NA,"09/13/16 2209","2500 block of Mortensen Road","Open","harassment",-93.6494426,42.0118551
+"16-001074","09/14/16 1224",NA,"09/14/16 1224","Friley Hall","Open","theft",-93.65045,42.0239234
+"16-001076","09/14/16 1257",NA,"09/14/16 1257","Lot S7","Open","theft",-93.6331516,42.0140523
+"16-001079","09/14/16 1827",NA,"11/04/16 1842","Buchanan Hall","Recovered","theft",-93.642449,42.022653
+"16-001080","09/14/16 2038",NA,"09/14/16 2038","University Village","Open","harassment",-93.6441672,42.0427435
+"16-001081","09/14/16 2116",NA,"09/14/16 2116","State Gymnasium","Open","theft",-93.6538021,42.0246748
+"16-001082","09/15/16 0112","09/15/16 0112","09/15/16 0112","Howard Avenue and Lincoln Way","Arrest","public intoxication",-93.6584515,42.0227284
+"16-001083","09/15/16 0244","09/15/16 0244","09/15/16 0244","200 block Welch Avenue","Arrest","public intoxication",-93.6501941,42.0214439
+"16-001084","09/15/16 1218",NA,"09/15/16 1218","Lot S7","Open","theft",-93.6331516,42.0140523
+"16-001085","09/15/16 1419",NA,"09/15/16 1419","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-001086","09/15/16 1448",NA,"09/15/16 1448","Armory Building","Open","theft",-93.6509474,42.029626
+"16-001087","09/15/16 1659","09/15/16 1659","09/15/16 1659","North University Boulevard and Wallace Road","Arrest","driving violation",-93.6415414,42.0305048
+"16-001088","09/15/16 1818",NA,"09/15/16 1818","Buchanan Hall","Open","theft",-93.642449,42.022653
+"16-001090","09/16/16 0300","09/16/16 0300","09/16/16 0300","Hach Hall","Arrest","public intoxication",-93.6496834,42.0301324
+"16-001091","09/16/16 0835",NA,"09/16/16 0835","Buchanan Hall","Open","vandalism",-93.642449,42.022653
+"16-001092","09/16/16 1159","09/16/16 1159","09/16/16 1159","Frederiksen Court","Arrest","drug violation",-93.6440878,42.0340306
+"16-001094","09/16/16 1331","09/16/16 1331","09/16/16 1331","Memorial Union","Arrest","theft",-93.6459454,42.0236502
+"16-001096","09/16/16 2207","09/16/16 2207","09/16/16 2207","Lot 39","Arrest","driving violation",-93.6424207,42.029879
+"16-001097","09/17/16 0127","09/17/16 0127","09/17/16 0127","Lincoln Way and Stanton Avenue","Arrest","public intoxication",-93.6485139,42.0227359
+"16-001098","09/17/16 0157","09/17/16 0157","09/17/16 0157","Legacy Tower","Arrest","alcohol violation",-93.6489377,42.0219747
+"16-001099","09/17/16 0315","09/17/16 0315","09/17/16 0315","Lincoln Way and Sheldon Avenue","Arrest","operating while intoxicated",-93.6542392,42.0227224
+"16-001100","09/17/16 0809",NA,"09/17/16 0809","Frederiksen Court","Unfounded","theft",-93.6440878,42.0340306
+"16-001101","09/17/16 1357",NA,"09/17/16 1357","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-001102","09/17/16 1759","09/17/16 1759","09/17/16 1759","Hawthorn Court Drive and Stange Road","Arrest","driving violation",-93.64473,42.0338708
+"16-001103","09/17/16 1845",NA,"09/17/16 1845","Lot S6","Open","theft",-93.6333696,42.0132547
+"16-001104","09/17/16 1908",NA,"09/17/16 1908","Lot S6","Open","theft",-93.6333696,42.0132547
+"16-001105","09/17/16 2030","09/17/16 2030","09/17/16 2030","Dotson Drive and Harris Street","Arrest","drug violation",NA,NA
+"16-001106","09/18/16 0059","09/18/16 0059","09/18/16 0059","Ash Avenue and Gable Lane","Arrest","driving violation",-93.6444023,42.0214733
+"16-001107","09/18/16 0112","09/18/16 0112","09/18/16 0112","154 Sheldon Avenue","Arrest","public intoxication",-93.6542723,42.0242827
+"16-001108","09/18/16 0207","09/18/16 0207","09/18/16 0207","210 Beach Road","Arrest","public intoxication",-93.6367006,42.0246261
+"16-001108","09/18/16 0207","09/18/16 0207","09/18/16 0207","210 Beach Road","Arrest","alcohol violation",-93.6367006,42.0246261
+"16-001109","09/18/16 0240","09/18/16 0240","09/18/16 0240","Dotson Drive and Tripp Street","Arrest","operating while intoxicated",-93.6713604,42.0198722
+"16-001111","09/18/16 1423",NA,"09/18/16 1423","Lot 80","Open","vandalism",-93.6387182,42.0231395
+"16-001112","09/18/16 1937","09/18/16 1937","09/18/16 1937","Maple Hall","Arrest","alcohol violation",-93.6387491,42.023654
+"16-001114","09/18/16 2350",NA,"09/18/16 2350","Memorial Union","Open","vandalism",-93.6459454,42.0236502
+"16-001115","09/19/16 0925",NA,"09/19/16 0925","3900 block of Maricopa Drive","Open","theft",-93.6689045,42.008411
+"16-001116","09/19/16 1212",NA,"09/19/16 1212","Armory Building","Open","drug violation",-93.6509474,42.029626
+"16-001117","09/19/16 1404",NA,"09/19/16 1404","Lot S7","Open","theft",-93.6331516,42.0140523
+"16-001118","09/19/16 2152",NA,"09/19/16 2152","Lot 14B","Open","theft",NA,NA
+"16-001119","09/19/16 2357",NA,"09/19/16 2357","Memorial Union","Open","vandalism",-93.6459454,42.0236502
+"16-001122","09/20/16 1321",NA,"09/20/16 1321","Friley Hall","Open","theft",-93.65045,42.0239234
+"16-001125","09/21/16 1016",NA,"09/21/16 1016","Eaton Hall","Open","theft",-93.6528168,42.0245839
+"16-001126","09/21/16 1113",NA,"09/21/16 1113","Helser Hall","Open","theft",-93.6518379,42.02424
+"16-001128","09/21/16 1204",NA,"09/21/16 1204","1102 Southern Hills Drive","Referred","theft",-93.6257787,42.00268
+"16-001129","09/21/16 1402",NA,"09/21/16 1402","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-001130","09/21/16 2050",NA,"09/21/16 2050","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-001131","09/22/16 0106","09/22/16 0106","09/22/16 0106","Lot 63","Arrest","drug violation",-93.6367573,42.0239698
+"16-001132","09/22/16 0346","09/22/16 0346","09/22/16 0346","1406 Mayfield Drive","Closed","disorderly conduct",-93.6719499,42.0095341
+"16-001134","09/22/16 0919",NA,"09/22/16 0919","1220 Walton Drive","Open","vandalism",-93.6694178,42.0116982
+"16-001136","09/22/16 1407","09/22/16 1407","09/22/16 1407","Small Animal Hospital","Closed","disorderly conduct",NA,NA
+"16-001139","09/22/16 1835","09/22/16 1835","09/22/16 1835","Wallace Hall","Arrest","alcohol violation",-93.6499279,42.0142261
+"16-001141","09/22/16 2219","09/22/16 2219","09/22/16 2219","Helser Hall","Arrest","drug violation",-93.6518379,42.02424
+"16-001142","09/23/16 0153","09/23/16 0153","09/23/16 0153","Ames Intermodal Facility","Arrest","public intoxication",-93.6523433,42.0210166
+"16-001145","09/23/16 1414",NA,"09/23/16 1414","Armory Building","Open","drug violation",-93.6509474,42.029626
+"16-001146","09/23/16 1414",NA,"09/23/16 1414","Armory Building","Open","drug violation",-93.6509474,42.029626
+"16-001148","09/23/16 1558","09/23/16 1558","09/23/16 1558","119 Stanton Avenue","Arrest","drug violation",-93.6489377,42.0219747
+"16-001150","09/23/16 2017",NA,"09/23/16 2017","Sukup Hall","Open","theft",-93.6532914,42.0276286
+"16-001151","09/24/16 0043","09/24/16 0043","09/24/16 0043","Ash Avenue and Sunset Drive","Arrest","operating while intoxicated",-93.6443636,42.0201199
+"16-001151","09/24/16 0043","09/24/16 0043","09/24/16 0043","Ash Avenue and Sunset Drive","Arrest","alcohol violation",-93.6443636,42.0201199
+"16-001152","09/24/16 0124","09/24/16 0124","09/24/16 0124","Ash Avenue and Knapp Street","Arrest","operating while intoxicated",-93.6443655,42.019142
+"16-001152","09/24/16 0124","09/24/16 0124","09/24/16 0124","Ash Avenue and Knapp Street","Arrest","alcohol violation",-93.6443655,42.019142
+"16-001153","09/24/16 0149","09/24/16 0149","09/24/16 0149","Mortensen Road and State Avenue","Arrest","operating while intoxicated",-93.6589323,42.0118849
+"16-001155","09/24/16 0245","09/24/16 0245","09/24/16 0245","Ash Avenue and Lincoln Way","Arrest","public intoxication",-93.64441,42.0226961
+"16-001155","09/24/16 0245","09/24/16 0245","09/24/16 0245","Ash Avenue and Lincoln Way","Arrest","assault",-93.64441,42.0226961
+"16-001156","09/24/16 0254","09/24/16 0254","09/24/16 0254","Ash Avenue and Lincoln Way","Arrest","operating while intoxicated",-93.64441,42.0226961
+"16-001157","09/24/16 0426","09/24/16 0426","09/24/16 0426","Town Engineering Building","Arrest","public intoxication",-93.65265,42.0295468
+"16-001158","09/24/16 0844","09/24/16 0844","09/24/16 0844","Lot B3","Arrest","alcohol violation",-93.6365568,42.0192735
+"16-001159","09/24/16 0918","09/24/16 0918","09/24/16 0918","2121 Sunset Drive","Arrest","alcohol violation",-93.6427211,42.0210512
+"16-001160","09/24/16 0932","09/24/16 0932","09/24/16 0932","Lot 62","Arrest","alcohol violation",-93.6431646,42.0217945
+"16-001161","09/24/16 0943","09/24/16 0943","09/24/16 0943","Beach Avenue and Greeley Street","Arrest","alcohol violation",-93.6394602,42.0200608
+"16-001162","09/24/16 0947","09/24/16 0947","09/24/16 0947","Lot 85E","Arrest","alcohol violation",-93.6344334,42.0157296
+"16-001163","09/24/16 0956","09/24/16 0956","09/24/16 0956","Lot G6","Arrest","alcohol violation",-93.6420154,42.0237318
+"16-001164","09/24/16 1003","09/24/16 1003","09/24/16 1003","Gray Avenue and Sunset Drive","Arrest","alcohol violation",-93.6411862,42.0212956
+"16-001165","09/24/16 1009","09/24/16 1009","09/24/16 1009","Lot S7","Arrest","alcohol violation",-93.6331516,42.0140523
+"16-001166","09/24/16 1012","09/24/16 1012","09/24/16 1012","Lot G6","Arrest","alcohol violation",-93.6420154,42.0237318
+"16-001167","09/24/16 1013","09/24/16 1013","09/24/16 1013","Beach Avenue and Sunset Drive","Arrest","alcohol violation",-93.6394759,42.0214033
+"16-001168","09/24/16 1020","09/24/16 1020","09/24/16 1020","Lot G6","Arrest","alcohol violation",-93.6420154,42.0237318
+"16-001170","09/24/16 1025","09/24/16 1025","09/24/16 1025","Lot S5","Arrest","alcohol violation",-93.633969,42.0126321
+"16-001169","09/24/16 1026","09/24/16 1026","09/24/16 1026","Lot G6","Arrest","alcohol violation",-93.6420154,42.0237318
+"16-001171","09/24/16 1031","09/24/16 1031","09/24/16 1031","South 4th Street","Arrest","alcohol violation",-93.6267181,42.0192005
+"16-001172","09/24/16 1034","09/24/16 1034","09/24/16 1034","Lot S3","Arrest","drug violation",-93.6348588,42.0120423
+"16-001172","09/24/16 1034","09/24/16 1034","09/24/16 1034","Lot S3","Arrest","interference",-93.6348588,42.0120423
+"16-001172","09/24/16 1034","09/24/16 1034","09/24/16 1034","Lot S3","Arrest","public intoxication",-93.6348588,42.0120423
+"16-001172","09/24/16 1034","09/24/16 1034","09/24/16 1034","Lot S3","Arrest","unlawful use of license",-93.6348588,42.0120423
+"16-001173","09/24/16 1058","09/24/16 1058","09/24/16 1058","1400 South 4th Street","Arrest","alcohol violation",-93.628037,42.016425
+"16-001174","09/24/16 1100","09/24/16 1100","09/24/16 1100","Lot C6","Arrest","public intoxication",-93.6347647,42.0167821
+"16-001174","09/24/16 1100","09/24/16 1100","09/24/16 1100","Lot C6","Arrest","alcohol violation",-93.6347647,42.0167821
+"16-001175","09/24/16 1110","09/24/16 1110","09/24/16 1110","1400 South 4th Street","Arrest","public intoxication",-93.628037,42.016425
+"16-001175","09/24/16 1110","09/24/16 1110","09/24/16 1110","1400 South 4th Street","Arrest","interference",-93.628037,42.016425
+"16-001176","09/24/16 1132","09/24/16 1132","09/24/16 1132","1400 South 4th Street","Arrest","public intoxication",-93.628037,42.016425
+"16-001176","09/24/16 1132","09/24/16 1132","09/24/16 1132","1400 South 4th Street","Arrest","alcohol violation",-93.628037,42.016425
+"16-001176","09/24/16 1132","09/24/16 1132","09/24/16 1132","1400 South 4th Street","Arrest","unlawful use of license",-93.628037,42.016425
+"16-001178","09/24/16 1137","09/24/16 1137","10/14/16 1137","1400 South 4th Street","Arrest","public intoxication",-93.628037,42.016425
+"16-001179","09/24/16 1148","09/24/16 1148","09/24/16 1148","1400 South 4th Street","Arrest","public intoxication",-93.628037,42.016425
+"16-001179","09/24/16 1148","09/24/16 1148","09/24/16 1148","1400 South 4th Street","Arrest","alcohol violation",-93.628037,42.016425
+"16-001179","09/24/16 1148","09/24/16 1148","09/24/16 1148","1400 South 4th Street","Arrest","interference",-93.628037,42.016425
+"16-001179","09/24/16 1148","09/24/16 1148","09/24/16 1148","1400 South 4th Street","Arrest","false information",-93.628037,42.016425
+"16-001177","09/24/16 1153","09/24/16 1153","09/24/16 1153","1400 South 4th Street","Arrest","public intoxication",-93.628037,42.016425
+"16-001177","09/24/16 1153","09/24/16 1153","09/24/16 1153","1400 South 4th Street","Arrest","alcohol violation",-93.628037,42.016425
+"16-001177","09/24/16 1153","09/24/16 1153","09/24/16 1153","1400 South 4th Street","Arrest","unlawful use of license",-93.628037,42.016425
+"16-001177","09/24/16 1153","09/24/16 1153","09/24/16 1153","1400 South 4th Street","Arrest","interference",-93.628037,42.016425
+"16-001180","09/24/16 1250","09/24/16 1250","09/24/16 1250","1400 South 4th Street","Arrest","alcohol violation",-93.628037,42.016425
+"16-001181","09/24/16 1255","09/24/16 1255","09/24/16 1255","Lot G6","Arrest","alcohol violation",-93.6420154,42.0237318
+"16-001182","09/24/16 1306","09/24/16 1306","09/24/16 1306","1400 South 4th Street","Arrest","alcohol violation",-93.628037,42.016425
+"16-001184","09/24/16 1309","09/24/16 1309","09/24/16 1309","1400 South 4th Street","Arrest","alcohol violation",-93.628037,42.016425
+"16-001186","09/24/16 1323","09/24/16 1323","09/24/16 1323","1400 South 4th Street","Arrest","alcohol violation",-93.628037,42.016425
+"16-001185","09/24/16 1324","09/24/16 1324","09/24/16 1324","1400 South 4th Street","Arrest","alcohol violation",-93.628037,42.016425
+"16-001188","09/24/16 1327","09/24/16 1327","09/24/16 1327","South 4th Street","Arrest","alcohol violation",-93.6267181,42.0192005
+"16-001187","09/24/16 1332","09/24/16 1332","09/24/16 1332","Lot G7","Arrest","alcohol violation",-93.6420154,42.0237318
+"16-001192","09/24/16 1336","09/24/16 1336","09/24/16 1336","1400 South 4th Street","Arrest","public intoxication",-93.628037,42.016425
+"16-001192","09/24/16 1336","09/24/16 1336","09/24/16 1336","1400 South 4th Street","Arrest","interference",-93.628037,42.016425
+"16-001192","09/24/16 1336","09/24/16 1336","09/24/16 1336","1400 South 4th Street","Arrest","alcohol violation",-93.628037,42.016425
+"16-001189","09/24/16 1337","09/24/16 1337","09/24/16 1337","1400 South 4th Street","Arrest","alcohol violation",-93.628037,42.016425
+"16-001190","09/24/16 1337","09/24/16 1337","09/24/16 1337","1400 South 4th Street","Arrest","alcohol violation",-93.628037,42.016425
+"16-001191","09/24/16 1344","09/24/16 1344","09/24/16 1344","1400 South 4th Street","Arrest","alcohol violation",-93.628037,42.016425
+"16-001193","09/24/16 1356","09/24/16 1356","09/24/16 1356","1400 South 4th Street","Arrest","alcohol violation",-93.628037,42.016425
+"16-001194","09/24/16 1418","09/24/16 1418","09/24/16 1418","Lot B6","Arrest","public intoxication",-93.6365107,42.0167789
+"16-001196","09/24/16 1422",NA,"09/24/16 1422","Armory Building","Open","harassment",-93.6509474,42.029626
+"16-001195","09/24/16 1456","09/24/16 1456","09/24/16 1456","Lot B5","Arrest","alcohol violation",-93.6365052,42.0178088
+"16-001198","09/24/16 1516","09/24/16 1516","09/24/16 1516","Lot C4","Arrest","alcohol violation",-93.6347608,42.0186377
+"16-001197","09/24/16 1526","09/24/16 1526","09/24/16 1526","1400 South 4th Street","Arrest","alcohol violation",-93.628037,42.016425
+"16-001199","09/24/16 1950",NA,"09/24/16 1950","State Gymnasium","Open","theft",-93.6538021,42.0246748
+"16-001202","09/25/16 0227","09/25/16 0227","09/25/16 0227","Sunflower Drive and Tripp Street","Arrest","operating while intoxicated",-93.6676173,42.020146
+"16-001204","09/25/16 1111",NA,"09/25/16 1111","Buchanan Hall","Open","theft",-93.642449,42.022653
+"16-001205","09/25/16 1712",NA,"09/25/16 1712","Linden Hall","Open","theft",-93.6403252,42.0231404
+"16-001206","09/26/16 0211","09/26/16 0211","09/26/16 0211","Ash Avenue and Lincoln Way","Arrest","public intoxication",-93.64441,42.0226961
+"16-001209","09/26/16 1357",NA,"09/26/16 1357","Lot S7","Open","theft",-93.6331516,42.0140523
+"16-001211","09/26/16 1746",NA,"09/26/16 1746","Lot 1","Open","theft",-93.6540123,42.0236158
+"16-001212","09/26/16 1909","09/26/16 1909","09/26/16 1909","Lot 61F","Arrest","drug violation",-93.6513849,42.0147812
+"16-001218","09/27/16 1253",NA,"09/27/16 1253","Friley Hall","Open","sexual assault",-93.65045,42.0239234
+"16-001220","09/28/16 1223",NA,"09/28/16 1223","Beardshear Hall","Open","fraud",-93.6484405,42.0261746
+"16-001221","09/28/16 1300",NA,"09/28/16 1300","Wilson Hall","Open","theft",-93.651021,42.0139143
+"16-001226","09/28/16 2103",NA,"09/28/16 2103","Friley Hall","Open","theft",-93.65045,42.0239234
+"16-001228","09/29/16 0045",NA,"09/29/16 0045","104 University Village","Open","vandalism",-93.6441358,42.0403768
+"16-001229","09/29/16 0123","09/29/16 0123","09/29/16 0123","Buchanan Hall","Arrest","public intoxication",-93.642449,42.022653
+"16-001230","09/29/16 0215",NA,"09/29/16 0215","Memorial Union","Open","theft",-93.6459454,42.0236502
+"16-001231","09/29/16 2258",NA,"09/29/16 2258","2131 Union Drive","Open","theft",-93.6496968,42.024591
+"16-001232","09/30/16 0055","09/30/16 0055","09/30/16 0055","Southwest Recreation Complex","Arrest","operating while intoxicated",-93.6571453,42.0163142
+"16-001232","09/30/16 0055","09/30/16 0055","09/30/16 0055","Southwest Recreation Complex","Arrest","drug violation",-93.6571453,42.0163142
+"16-001233","09/30/16 0158","09/30/16 0158","09/30/16 0158","Dotson Drive and Mortensen Road","Arrest","operating while intoxicated",-93.6736251,42.0120505
+"16-001234","09/30/16 1059",NA,"09/30/16 1059","2129 Hawthorn Court Drive","Arrest","theft",-93.6429145,42.0339213
+"16-001235","09/30/16 1352",NA,"09/30/16 1352","Armory Building","Open","harassment",-93.6509474,42.029626
+"16-001237","09/30/16 1829","09/30/16 1829","09/30/16 1829","Friley Hall","Arrest","alcohol violation",-93.65045,42.0239234
+"16-001238","10/01/16 0257","10/01/16 0257","10/01/16 0257","440 Welch Avenue","Arrest","public intoxication",-93.6496956,42.01781
+"16-001239","10/01/16 0859","10/01/16 0859","10/01/16 0859","South 4th Street and University Boulevard","Arrest","alcohol violation",-93.63108,42.016262
+"16-001240","10/01/16 0951","10/01/16 0951","10/01/16 0951","Lot B4","Arrest","alcohol violation",-93.6366017,42.0186242
+"16-001241","10/01/16 0953","10/01/16 0953","10/01/16 0953","Lot G2","Arrest","alcohol violation",-93.6363807,42.010106
+"16-001242","10/01/16 0953","10/01/16 0953","10/01/16 0953","Lot G2","Arrest","alcohol violation",-93.6363807,42.010106
+"16-001243","10/01/16 1007","10/01/16 1007","10/01/16 1007","Lot C6","Arrest","alcohol violation",-93.6347647,42.0167821
+"16-001244","10/01/16 1023","10/01/16 1023","10/01/16 1023","Lot C6","Arrest","alcohol violation",-93.6347647,42.0167821
+"16-001245","10/01/16 1033","10/01/16 1033","10/01/16 1033","Lot G6","Arrest","alcohol violation",-93.6420154,42.0237318
+"16-001246","10/01/16 1040","10/01/16 1040","10/01/16 1040","Lot G6","Arrest","alcohol violation",-93.6420154,42.0237318
+"16-001247","10/01/16 1044","10/01/16 1044","10/01/16 1044","Lot C6","Arrest","alcohol violation",-93.6347647,42.0167821
+"16-001248","10/01/16 1053","10/01/16 1053","10/01/16 1053","Lot C6","Arrest","alcohol violation",-93.6347647,42.0167821
+"16-001249","10/01/16 1129","10/01/16 1129","10/01/16 1129","Lot D4","Arrest","alcohol violation",-93.6331915,42.016812
+"16-001252","10/01/16 1130","10/01/16 1130","10/01/16 1130","Lot 85W","Arrest","public intoxication",-93.6365824,42.0157193
+"16-001252","10/01/16 1130","10/01/16 1130","10/01/16 1130","Lot 85W","Arrest","interference",-93.6365824,42.0157193
+"16-001252","10/01/16 1130","10/01/16 1130","10/01/16 1130","Lot 85W","Arrest","alcohol violation",-93.6365824,42.0157193
+"16-001250","10/01/16 1138","10/01/16 1138","10/01/16 1138","Lot G2","Arrest","alcohol violation",-93.6363807,42.010106
+"16-001251","10/01/16 1159","10/01/16 1159","10/01/16 1159","Lot G6","Arrest","public intoxication",-93.6420154,42.0237318
+"16-001253","10/01/16 1315","10/01/16 1315","10/01/16 1315","1400 South 4th Street","Arrest","alcohol violation",-93.628037,42.016425
+"16-001254","10/01/16 1317","10/01/16 1317","10/01/16 1317","1400 South 4th Street","Arrest","alcohol violation",-93.628037,42.016425
+"16-001254","10/01/16 1317","10/01/16 1317","10/01/16 1317","1400 South 4th Street","Arrest","public intoxication",-93.628037,42.016425
+"16-001255","10/01/16 1333","10/01/16 1333","10/01/16 1333","1400 South 4th Street","Arrest","public intoxication",-93.628037,42.016425
+"16-001255","10/01/16 1333","10/01/16 1333","10/01/16 1333","1400 South 4th Street","Arrest","alcohol violation",-93.628037,42.016425
+"16-001256","10/01/16 1337","10/01/16 1337","10/01/16 1337","1400 South 4th Street","Arrest","public intoxication",-93.628037,42.016425
+"16-001257","10/02/16 0030","10/02/16 0030","10/02/16 0030","119 Stanton Avenue","Open","assault",-93.6489377,42.0219747
+"16-001258","10/02/16 0047","10/02/16 0047","10/02/16 0047","Eaton Hall","Arrest","public intoxication",-93.6528168,42.0245839
+"16-001259","10/02/16 0223","10/02/16 0223","10/02/16 0223","Chamberlain Street and Hayward Avenue","Arrest","public intoxication",-93.6517204,42.0214474
+"16-001260","10/02/16 0350","10/02/16 0350","10/02/16 0350","120 Stanton Avenue","Arrest","operating while intoxicated",-93.6485119,42.0226266
+"16-001261","10/02/16 0946",NA,"10/02/16 0946","Larch Hall","Open","theft",-93.6382868,42.0232779
+"16-001262","10/02/16 1656","10/02/16 1656","10/02/16 1656","Martin Hall","Open","drug violation",-93.6529424,42.0238665
+"16-001264","10/03/16 0201","10/03/16 0201","10/03/16 0201","2715 Bobcat Drive","Arrest","weapon violation",-93.6526505,41.9965463
+"16-001264","10/03/16 0201","10/03/16 0201","10/03/16 0201","2715 Bobcat Drive","Arrest","drug violation",-93.6526505,41.9965463
+"16-001264","10/03/16 0201","10/03/16 0201","10/03/16 0201","2715 Bobcat Drive","Arrest","driving violation",-93.6526505,41.9965463
+"16-001265","10/03/16 1244",NA,"10/03/16 1244","Bessey Hall","Open","theft",-93.644629,42.0284863
+"16-001267","10/03/16 1346",NA,"10/03/16 1346","Armory Building","Open","harassment",-93.6509474,42.029626
+"16-001268","10/03/16 1609",NA,"10/03/16 1609","Elm Hall","Open","harassment",-93.6403311,42.0251392
+"16-001269","10/04/16 1130",NA,"10/04/16 1130","Maple Hall","Open","theft",-93.6387491,42.023654
+"16-001270","10/04/16 1536",NA,"10/04/16 1536","East Side Market - MWL Commons","Open","theft",NA,NA
+"16-001272","10/05/16 1122",NA,"10/05/16 1122","Memorial Union Parking Ramp","Open","vandalism",-93.6449075,42.0234906
+"16-001273","10/05/16 1541",NA,"10/05/16 1541","119 University Village","Open","theft",-93.6420832,42.0396648
+"16-001276","10/05/16 2233","10/05/16 2233",NA,"Willow Hall","Arrest","theft",-93.6377325,42.0239136
+"16-001276","10/05/16 2233","10/05/16 2233",NA,"Willow Hall","Arrest","vandalism",-93.6377325,42.0239136
+"16-001277","10/05/16 2316",NA,"10/05/16 2316","College of Design","Open","theft",-93.6531506,42.0285641
+"16=001280","10/06/16 1204","10/06/16 1204","10/06/16 1204","106 University Village","Open","theft",-93.6432883,42.0395243
+"16-001280","10/06/16 1204","10/06/16 1204","10/06/16 1204","106 University Village","Open","theft",-93.6432883,42.0395243
+"16-001281","10/06/16 1632","10/06/16 1632","10/06/16 1632","Memorial Union","Open","theft",-93.6459454,42.0236502
+"16-001287","10/07/16 1332","10/07/16 1332","10/07/16 1332","Kingsbury Ave","Open","drug violation",NA,NA
+"16-001288","10/07/16 1430","10/02/16 1930","10/07/16 1332","Willow Hall","Open","theft",-93.6377325,42.0239136
+"16-001289","10/07/16 1541","10/07/16 1541","10/07/16 1541","Hixson Lied Center","Open","disorderly conduct",NA,NA
+"16-001292","10/08/16 1114","01/03/17 0907","10/08/16 1114","Armory Building","Open","harassment",-93.6509474,42.029626
+"16-001293","10/08/16 1850","10/08/16 1850","10/08/16 1850","Ames Intermodal Facility","Open","vandalism",-93.6523433,42.0210166
+"16-001294","10/08/16 2303","10/08/16 2303","10/08/16 2303","4008 Maricopa Dr","Arrest","assault",-93.6708406,42.0080236
+"16-001298","10/09/16 1920","10/09/16 0200","10/09/16 1920","Parks Library","Open","theft",-93.6488141,42.0281254
+"16-001300","10/10/16 1425","10/04/16 0000","10/10/16 0000","164 University Village","Open","theft",-93.6421641,42.042591
+"16-001302","10/11/16 1504","10/10/16 2300",NA,"Lot 63","Open","vandalism",-93.6367573,42.0239698
+"16-001303","10/11/16 1514","10/10/16 1245","10/19/16 1040","Cy-ride bus","Unfounded","theft",NA,NA
+"16-001304","10/11/16 1933",NA,"10/11/16 1933","106 University Village","Open","theft",-93.6432883,42.0395243
+"16-001305","10/11/16 2009","10/11/16 2009","10/11/16 2009","2508 Mortensen Rd","Arrest","public intoxication",-93.6502665,42.0110798
+"16-001306","10/11/16 2037","10/11/16 2037","10/11/16 2037","2508 Mortensen Rd","Arrest","public intoxication",-93.6502665,42.0110798
+"16-001307","10/11/16 2118","10/11/16 2118","10/11/16 2118","2508 Mortensen Rd","Arrest","public intoxication",-93.6502665,42.0110798
+"16-001312","10/12/16 1957","09/14/16 1700","10/12/16 1000","Maple Hall","Open","theft",-93.6387491,42.023654
+"16-001314","10/13/16 1131","10/08/16 1300","10/08/16 1900","Memorial Union","Open","theft",-93.6459454,42.0236502
+"16-001316","10/13/16 2134","10/13/16 2134","10/13/16 2134","Linden Hall","Arrest","drug violation",-93.6403252,42.0231404
+"16-001317","10/14/16 0041","10/14/16 0041","10/14/16 0041","Knapp Street and South Sheldon Avenue","Arrest","alcohol violation",-93.6541251,42.0191402
+"16-001318","10/14/16 0059",NA,"10/14/16 0059","Lot 63","Open","theft",-93.6367573,42.0239698
+"16-001319","10/14/16 0158","10/14/16 0158","10/14/16 0158","Chamberlain Street and Stanton Avenue","Arrest","public intoxication",-93.6484903,42.0214258
+"16-001321","10/14/16 2205","10/14/16 2205","10/14/16 2205","Lot 63","Arrest","drug violation",-93.6367573,42.0239698
+"16-001321","10/14/16 2205","10/14/16 2205","10/14/16 2205","Lot 63","Arrest","false information",-93.6367573,42.0239698
+"16-001322","10/14/16 2300",NA,"10/14/16 2300","State Gymnasium","Open","theft",-93.6538021,42.0246748
+"16-001323","10/14/16 2357","10/14/06 2357","10/14/16 2357","Wilson Hall","Arrest","public intoxication",-93.651021,42.0139143
+"16-001324","10/15/16 0028","10/15/16 0028","10/15/16 0028","Ames Intermodal Facility","Arrest","theft",-93.6523433,42.0210166
+"16-001324","10/15/16 0028","10/15/16 0028","10/15/16 0028","Ames Intermodal Facility","Arrest","interference",-93.6523433,42.0210166
+"16-001324","10/15/16 0028","10/15/16 0028","10/15/16 0028","Ames Intermodal Facility","Arrest","vandalism",-93.6523433,42.0210166
+"16-001324","10/15/16 0028","10/15/16 0028","10/15/16 0028","Ames Intermodal Facility","Arrest","fraud",-93.6523433,42.0210166
+"16-001326","10/15/16 1843",NA,"10/15/16 1843","Frederiksen Court","Open","harassment",-93.6440878,42.0340306
+"16-001327","10/16/16 0038","10/16/16 0038","10/16/16 0038","Lincoln Way and State Avenue","Arrest","operating while intoxicated",-93.6591203,42.0227266
+"16-001331","10/17/16 1002",NA,"10/17/16 1002","4820 Mortensen Road","Open","theft",-93.6856592,42.0124965
+"16-001334","10/17/16 1719",NA,"10/17/16 1719","Lot 63","Open","vandalism",-93.6367573,42.0239698
+"16-001335","10/18/16 0521",NA,"10/18/16 0521","Troxel Hall","Open","vandalism",-93.6440411,42.0277898
+"16-001336","10/18/16 1033",NA,"10/18/16 1033","Wallace Hall","Open","theft",-93.6499279,42.0142261
+"16-001337","10/18/16 2251","10/18/16 2251","10/18/16 2251","Lot 61B","Arrest","drug violation",-93.6483675,42.0135352
+"16-001339","10/19/16 1229",NA,"10/19/16 1229","Lot 63","Open","vandalism",-93.6367573,42.0239698
+"16-001342","10/19/16 1316",NA,"10/19/16 1316","36 Frederiksen Court","Open","vandalism",-93.6412736,42.0353215
+"16-001340","10/19/16 1408",NA,"10/19/16 1408","Buchanan Hall","Open","harassment",-93.642449,42.022653
+"16-001344","10/19/16 1529",NA,"10/19/16 1529","Pearson Hall","Open","theft",-93.6498675,42.0260288
+"16-001346","10/19/16 1822","10/19/16 1822","10/19/16 1822","Helser Hall","Arrest","drug violation",-93.6518379,42.02424
+"16-001350","10/20/16 1625",NA,"10/20/16 1625","Armory Building","Open","harassment",-93.6509474,42.029626
+"16-001353","10/21/16 0127","10/21/16 0127","10/21/16 0127","Lincoln Way and Welch Avenue","Arrest","public intoxication",-93.6501393,42.0227328
+"16-001354","10/21/16 0146","10/21/16 0146","10/21/16 0146","100 block of Stanton Avenue","Arrest","drug violation",-93.6485138,42.0227307
+"16-001355","10/21/16 0210","10/21/16 0210","10/21/16 0210","Memorial Union","Arrest","public intoxication",-93.6459454,42.0236502
+"16-001357","10/21/16 1344",NA,"10/21/16 1344","Lot 61C","Open","vandalism",-93.6493851,42.0152891
+"16-001361","10/23/16 0013","10/23/16 0013","10/23/16 0013","Linden Hall","Arrest","public intoxication",-93.6403252,42.0231404
+"16-001362","10/23/16 2147","10/23/16 2147","10/23/16 2147","Friley Hall","Open","drug violation",-93.65045,42.0239234
+"16-001364","10/24/16 0748",NA,"10/24/16 0748","Friley Hall","Open","harassment",-93.65045,42.0239234
+"16-001365","10/24/16 0946",NA,"10/24/16 0946","Marston Hall","Open","theft",-93.6498445,42.0267965
+"16-001367","10/24/16 1538",NA,"10/24/16 1538","Armory Building","Open","theft",-93.6509474,42.029626
+"16-001368","10/24/16 1916",NA,"10/24/16 1916","Welch Hall","Open","vandalism",-93.6420811,42.0236532
+"16-001369","10/25/16 0115","10/25/16 0115","10/25/16 0115","Mortensen Road and South Dakota Avenue","Arrest","operating while intoxicated",-93.6786567,42.0120839
+"16-001370","10/25/16 2127","10/25/16 2127","10/25/16 2127","Helser Hall","Arrest","drug violation",-93.6518379,42.02424
+"16-001372","10/26/16 0944",NA,"10/26/16 0944","Armory Building","Open","harassment",-93.6509474,42.029626
+"16-001374","10/26/16 1146",NA,"10/26/16 1146","Armory Building","Open","theft",-93.6509474,42.029626
+"16-001375","10/26/16 1342",NA,"10/26/16 1342","Helser Hall","Open","theft",-93.6518379,42.02424
+"16-001376","10/26/16 1422",NA,"10/26/16 1422","Armory Building","Open","theft",-93.6509474,42.029626
+"16-001379","10/27/16 0103","10/27/16 0103","10/27/16 0103","200 block Stanton Avenue","Arrest","public intoxication",-93.648229,42.021222
+"16-001380","10/27/16 0118",NA,"10/27/16 0118","517 Welch Avenue","Unfounded","theft",-93.6504227,42.0169624
+"16-001381","10/27/16 0620",NA,"10/27/16 0620","Curtiss Hall","Open","vandalism",-93.6448628,42.0261821
+"16-001382","10/27/16 0826","10/27/16 0826","10/27/16 0826","Thielen Student Health Center","Open","disorderly conduct",-93.6538928,42.0257585
+"16-001383","10/27/16 1416",NA,"10/27/16 1416","College of Design","Open","theft",-93.6531506,42.0285641
+"16-001385","10/27/16 2224","10/27/16 2224","10/27/16 2224","Helser Hall","Arrest","drug violation",-93.6518379,42.02424
+"16-001385","10/27/16 2224","10/27/16 2224","10/27/16 2224","Helser Hall","Arrest","alcohol violation",-93.6518379,42.02424
+"16-001386","10/28/16 0200","10/28/16 0200","10/28/16 0200","2129 Hawthorn Court Drive","Arrest","operating while intoxicated",-93.6429145,42.0339213
+"16-001387","10/28/16 0240","10/28/16 0240","10/28/16 0240","Beach Road and Lincoln Way","Arrest","operating while intoxicated",-93.6394928,42.0227678
+"16-001388","10/28/16 0305","10/28/16 0305","10/28/16 0305","Friley Hall","Arrest","trespass",-93.65045,42.0239234
+"16-001391","10/28/16 1026",NA,"10/28/16 1026","Lot 61C","Open","vandalism",-93.6493851,42.0152891
+"16-001392","10/28/16 1517",NA,"10/28/16 1517","Pearson Hall","Open","harassment",-93.6498675,42.0260288
+"16-001393","10/28/16 2207","10/28/16 2207","10/28/16 2207","215 Beach Road","Arrest","drug violation",-93.6397485,42.0240296
+"16-001393","10/28/16 2207","10/28/16 2207","10/28/16 2207","215 Beach Road","Arrest","alcohol violation",-93.6397485,42.0240296
+"16-001394","10/28/16 2308","10/28/16 2308","10/28/16 2308","119 Stanton Avenue","Open","disorderly conduct",-93.6489377,42.0219747
+"16-001395","10/28/16 2349","10/28/16 2349","10/28/16 2349","Hyland Avenue and West Street","Arrest","driving violation",-93.6556457,42.0253446
+"16-001396","10/29/16 0038",NA,"10/29/16 0038","Lot 59C","Open","vandalism",-93.651515,42.0236259
+"16-001397","10/29/16 0126","10/29/16 0126","10/29/16 0126","1209 Mayfield Drive","Arrest","public intoxication",-93.6720291,42.0114638
+"16-001398","10/29/16 0131",NA,"10/29/16 0131","Memorial Union","Open","vandalism",-93.6459454,42.0236502
+"16-001399","10/29/16 0132","10/29/16 0132","10/29/16 0132","Lot 62","Arrest","public intoxication",-93.6431646,42.0217945
+"16-001399","10/29/16 0132","10/29/16 0132","10/29/16 0132","Lot 62","Arrest","alcohol violation",-93.6431646,42.0217945
+"16-001400","10/29/16 0201","10/29/16 0201","10/29/16 0201","Larch Hall","Arrest","public intoxication",-93.6382868,42.0232779
+"16-001402","10/29/16 0248","10/29/16 0248","10/29/16 0248","South 4th Street and University Boulevard","Arrest","alcohol violation",-93.63108,42.016262
+"16-001402","10/29/16 0248","10/29/16 0248","10/29/16 0248","South 4th Street and University Boulevard","Arrest","drug violation",-93.63108,42.016262
+"16-001401","10/29/16 0253","10/29/16 0253","10/29/16 0253","Mortensen Parkway and University Boulevard","Arrest","operating while intoxicated",-93.6393859,42.0083324
+"16-001403","10/29/16 0500","10/29/16 0500","10/29/16 0500","802 SW 3rd Street","Arrest","driving violation",NA,NA
+"16-001404","10/29/16 0902","10/29/16 0902","10/29/16 0902","Lot G6","Arrest","drug violation",-93.6420154,42.0237318
+"16-001404","10/29/16 0902","10/29/16 0902","10/29/16 0902","Lot G6","Arrest","alcohol violation",-93.6420154,42.0237318
+"16-001405","10/29/16 0952","10/29/16 0952","10/29/16 0952","South 16th Street and University Boulevard","Arrest","alcohol violation",-93.6337562,42.0114627
+"16-001406","10/29/16 0959",NA,"10/29/16 0959","Buchanan Hall","Open","harassment",-93.642449,42.022653
+"16-001413","10/29/16 1011","10/29/16 1011","10/29/16 1011","Lot G3","Arrest","alcohol violation",-93.6227301,42.0493019
+"16-001407","10/29/16 1023","10/29/16 1023","10/29/16 1023","Lot G3","Arrest","alcohol violation",-93.6227301,42.0493019
+"16-001408","10/29/16 1037","10/29/16 1037","10/29/16 1037","Jack Trice Stadium","Arrest","alcohol violation",-93.635664,42.016144
+"16-001409","10/29/16 1112","10/29/16 1112","10/29/16 1112","Lot G3","Arrest","alcohol violation",-93.6227301,42.0493019
+"16-001410","10/29/16 1130","10/29/16 1130","10/29/16 1130","Lot G3","Arrest","alcohol violation",-93.6227301,42.0493019
+"16-001411","10/29/16 1145","10/29/16 1145","10/29/16 1145","Lot G2","Arrest","alcohol violation",-93.6363807,42.010106
+"16-001412","10/29/16 1150","10/29/16 1150","10/29/16 1150","Lot G3","Arrest","alcohol violation",-93.6227301,42.0493019
+"16-001414","10/29/16 1158","10/29/16 1158","10/29/16 1158","Lot G3","Arrest","alcohol violation",-93.6227301,42.0493019
+"16-001415","10/29/16 1237","10/29/16 1237","10/29/16 1237","Alumni Center","Arrest","operating while intoxicated",-93.6387083,42.0181584
+"16-001416","10/29/16 1313","10/29/16 1313","10/29/16 1313","Lot G3","Arrest","alcohol violation",-93.6227301,42.0493019
+"16-001417","10/29/16 1322","10/29/16 1322","10/29/16 1322","Lot G6","Arrest","alcohol violation",-93.6420154,42.0237318
+"16-001418","10/29/16 1342","10/29/16 1342","10/29/16 1342","Lot G3","Arrest","public intoxication",-93.6227301,42.0493019
+"16-001419","10/29/16 1408","10/29/16 1408","10/29/16 1408","Lot G3","Arrest","public intoxication",-93.6227301,42.0493019
+"16-001420","10/29/16 1424","10/29/16 1424","10/29/16 1424","Lot G3","Arrest","public intoxication",-93.6227301,42.0493019
+"16-001422","10/29/16 1505",NA,"10/29/16 1505","Lot G3","Open","vandalism",-93.6227301,42.0493019
+"16-001421","10/29/16 1513","10/29/16 1513","10/29/16 1513","Lot S5","Arrest","disorderly conduct",-93.633969,42.0126321
+"16-001425","10/29/16 2141","10/29/16 2141","10/29/16 2141","Lot 63","Arrest","alcohol violation",-93.6367573,42.0239698
+"16-001427","10/30/16 0134","10/30/16 0134","10/30/16 0134","Lincoln Way and Lynn Avenue","Arrest","operating while intoxicated",-93.6464086,42.0227244
+"16-001428","10/30/16 0137","10/30/16 0137","10/30/16 0137","2302 Lincoln Way","Arrest","public intoxication",-93.646577,42.0226341
+"16-001429","10/30/16 0150","10/30/16 0150","10/30/16 0150","Buchanan Hall","Arrest","public intoxication",-93.642449,42.022653
+"16-001430","10/30/16 0344","10/30/16 0344","10/30/16 0344","Larch Hall","Arrest","public intoxication",-93.6382868,42.0232779
+"16-001435","10/30/16 2321","10/30/16 2321","10/30/16 2321","Willow Hall","Arrest","alcohol violation",-93.6377325,42.0239136
+"16-001436","10/31/16 1643",NA,"10/31/16 1643","State Gymnasium","Open","theft",-93.6538021,42.0246748
+"16-001438","11/01/16 0108","11/01/16 0108","11/01/16 0108","611 Hayward Avenue","Arrest","public intoxication",NA,NA
+"16-001439","11/01/16 1409","11/01/16 1409","11/01/16 1409","Helser Hall","Arrest","drug violation",-93.6518379,42.02424
+"16-001441","11/01/16 1951","11/01/16 1951","11/01/16 1951","113 University Village","Arrest","drug violation",-93.6423469,42.0393918
+"16-001442","11/01/16 2354","11/01/16 2354","11/01/16 2354","Lincoln Way and South Dakota Avenue","Arrest","drug violation",-93.6787027,42.0229015
+"16-001443","11/02/16 0018",NA,"11/02/16 0018","Wilson Hall","Open","harassment",-93.651021,42.0139143
+"16-001444","11/02/16 0139","11/02/16 0139","11/02/16 0139","South Dakota Avenue and US Highway 30","Arrest","drug violation",-93.6387198,42.0030346
+"16-001444","11/02/16 0139","11/02/16 0139","11/02/16 0139","South Dakota Avenue and US Highway 30","Arrest","operating while intoxicated",-93.6387198,42.0030346
+"16-001445","11/02/16 0843",NA,"11/02/16 0843","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-001446","11/02/16 0925",NA,"11/02/16 0925","224 Beach Road","Open","theft",-93.6382529,42.0238084
+"16-001447","11/02/16 1015",NA,"11/02/16 1015","Martin Hall","Open","sexual assault",-93.6529424,42.0238665
+"16-001449","11/02/16 1358","11/02/16 1358","11/02/16 1358","Beach Road and Richardson Court","Arrest","alcohol violation",-93.639189,42.02383
+"16-001450","11/02/16 1557",NA,"11/02/16 1557","3910 Maricopa Drive","Open","theft",-93.669227,42.0077659
+"16-001451","11/02/16 1733",NA,"11/02/16 1733","Lot 22","Open","vandalism",-93.650891,42.0301813
+"16-001452","11/02/16 1925",NA,"11/02/16 1925","Lot 112F","Open","theft",-93.6394036,42.0323037
+"16-001455","11/03/16 1532","11/03/16 1532","11/03/16 1532","Gray Avenue and Sunset Drive","Arrest","alcohol violation",-93.6411862,42.0212956
+"16-001456","11/03/16 1658","11/03/16 1658","11/03/16 1658","Lot 85E","Arrest","alcohol violation",-93.6344334,42.0157296
+"16-001457","11/03/16 1703","11/03/16 1703","11/03/16 1703","Lot G3","Arrest","alcohol violation",-93.6227301,42.0493019
+"16-001458","11/03/16 1717","11/03/16 1717","11/03/16 1717","Lot S3","Arrest","public intoxication",-93.6348588,42.0120423
+"16-001460","11/03/16 1749","11/03/16 1749","11/03/16 1749","Lot G3","Arrest","alcohol violation",-93.6227301,42.0493019
+"16-001461","11/03/16 1816","11/03/16 1816","11/03/16 1816","Lot G3","Arrest","alcohol violation",-93.6227301,42.0493019
+"16-001462","11/03/16 1819","11/03/16 1819","11/03/16 1819","1213 University Boulevard","Arrest","alcohol violation",-93.6374053,42.0103662
+"16-001463","11/03/16 1850","11/03/16 1850","11/03/16 1850","Lot G3","Arrest","alcohol violation",-93.6227301,42.0493019
+"16-001464","11/03/16 1854","11/03/16 1854","11/03/16 1854","Lot G3","Arrest","public intoxication",-93.6227301,42.0493019
+"16-001466","11/03/16 1903","11/03/16 1903","11/03/16 1903","Lot G3","Arrest","public intoxication",-93.6227301,42.0493019
+"16-001465","11/03/16 1907","11/03/16 1907","11/03/16 1907","Lot G3","Arrest","alcohol violation",-93.6227301,42.0493019
+"16-001467","11/03/16 1914","11/03/16 1914","11/03/16 1914","Lot G3","Arrest","alcohol violation",-93.6227301,42.0493019
+"16-001468","11/03/16 2020","11/03/16 2020","11/03/16 2020","Lot G3","Arrest","public intoxication",-93.6227301,42.0493019
+"16-001469","11/03/16 2051","11/03/16 2051","11/03/16 2051","Lot G3","Arrest","public intoxication",-93.6227301,42.0493019
+"16-001470","11/03/16 2345","11/03/16 2345","11/03/16 2345","Lot 59F","Open","domestic dispute",-93.6521476,42.0238811
+"16-001471","11/04/16 0131","11/04/16 0131","11/04/16 0131","216 Stanton Avenue","Arrest","public intoxication",-93.6482645,42.0208755
+"16-001473","11/04/16 0951",NA,"11/04/16 0951","Lot B3","Open","theft",-93.6365568,42.0192735
+"16-001475","11/04/16 1257",NA,"11/04/16 1257","Freeman Hall","Open","theft",-93.6416614,42.0247633
+"16-001476","11/04/16 1426",NA,"11/04/16 1426","Sweeney Hall","Open","theft",-93.6509194,42.0278127
+"16-001478","11/04/16 1542",NA,"11/04/16 1542","Sweeney Hall","Open","theft",-93.6509194,42.0278127
+"16-001479","11/04/16 2119",NA,"11/04/16 2119","Agronomy Hall","Open","vandalism",-93.6423456,42.0283477
+"16-001480","11/04/16 2139","11/04/16 2139","11/04/16 2139","Cross Country Course","Arrest","alcohol violation",-93.6525215,42.0131474
+"16-001482","11/05/16 0022","11/05/16 0022","11/05/16 0022","Ames Intermodal Facility","Arrest","public intoxication",-93.6523433,42.0210166
+"16-001483","11/05/16 0115","11/05/16 0115","11/05/16 0115","217 Welch Avenue","Arrest","drug violation",-93.6503633,42.020693
+"16-001484","11/05/16 0138","11/05/16 0138","11/05/16 0138","Franklin Avenue and Lincoln Way","Arrest","operating while intoxicated",-93.6647899,42.0228024
+"16-001486","11/05/16 1124",NA,"11/05/16 1124","Lot 112H","Open","theft",-93.6400729,42.0347726
+"16-001487","11/05/16 1837",NA,"11/05/16 1837","Friley Hall","Open","vandalism",-93.65045,42.0239234
+"16-001488","11/05/16 2329","11/05/16 2329","11/05/16 2329","Friley Hall","Arrest","public intoxication",-93.65045,42.0239234
+"16-001490","11/06/16 0129","11/06/16 0129","11/06/16 0129","Ironwood Court and University Boulevard","Arrest","operating while intoxicated",-93.6393197,42.0058418
+"16-001492","11/06/16 0218","11/06/16 0218","11/06/16 0218","Tripp Street and South Wilmoth Avenue","Arrest","operating while intoxicated",NA,NA
+"16-001493","11/07/16 0808",NA,"11/07/16 0808","Buchanan Hall","Open","theft",-93.642449,42.022653
+"16-001495","11/07/16 1622",NA,"11/07/16 1622","62 Frederiksen Court","Open","theft",-93.640536,42.0332645
+"16-001496","11/07/16 1639","11/07/16 1639","11/07/16 1639","Lot 36","Arrest","operating while intoxicated",-93.6467188,42.0297736
+"16-001497","11/07/16 1721",NA,"11/07/16 1721","1406 Mayfield Drive","Open","theft",-93.6719499,42.0095341
+"16-001503","11/08/16 1553","11/08/16 1553","11/08/16 1553","Union Drive Community Center","Arrest","public intoxication",-93.6515007,42.0249565
+"16-001505","11/08/16 2353",NA,"11/08/16 2353","Larch Hall","Open","harassment",-93.6382868,42.0232779
+"16-001506","11/09/16 0802",NA,"11/09/16 0802","2101 Oakwood Road","Open","theft",-93.6426419,41.9979428
+"16-001507","11/09/16 1030",NA,"11/09/16 1030","Lot 201D","Open","vandalism",NA,NA
+"16-000000","11/09/16 1749",NA,NA,"On campus - specific location unknown","Open","theft",NA,NA
+"16-001514","11/10/16 1121",NA,"11/10/16 1121","Oak Hall","Open","theft",-93.6399695,42.0251247
+"16-001516","11/10/16 1858",NA,"11/10/16 1858","Mary Greeley Medical Center","Open","sexual assault",NA,NA
+"16-001517","11/10/16 2121","11/10/16 2121","11/10/16 2121","Wallace Wilson Commons","Open","drug violation",-93.6504798,42.0140126
+"16-001518","11/11/16 0128","11/11/16 0128","11/11/16 0128","Hayward Avenue and Lincoln Way","Arrest","public intoxication",-93.6517059,42.0228461
+"16-001521","11/11/16 0917","11/11/16 0917","11/11/16 0917","13th Street and Stange Road","Arrest","driving violation",-93.620521,42.034189
+"16-001522","11/11/16 1036",NA,"11/11/16 1036","Armory Building","Open","theft",-93.6509474,42.029626
+"16-001524","11/11/16 2320","11/11/16 2320","11/11/16 2320","Campanile","Arrest","public intoxication",-93.6460669,42.0254176
+"16-001525","11/12/16 0141","11/12/16 0141","11/12/16 0141","Hayward Avenue and Mortensen Road","Arrest","alcohol violation",-93.6516786,42.0118612
+"16-001526","11/12/16 0226","11/12/16 0226","11/12/16 0226","South Dakota Avenue and Steinbeck Street","Arrest","operating while intoxicated",-93.6786731,42.0145902
+"16-001528","11/12/16 1106",NA,"11/12/16 1106","Lot 54","Open","harassment",NA,NA
+"16-001529","11/12/16 1512","11/12/16 1512","11/12/16 1512","Memorial Union Parking Ramp","Open","vandalism",-93.6449075,42.0234906
+"16-001530","11/12/16 1744","11/12/16 1744","11/12/16 1744","Hilton Coliseum","Open","assault",-93.635074,42.022693
+"16-001531","11/12/16 1852","11/12/16 1852","11/12/16 1852","Friley Hall","Arrest","drug violation",-93.65045,42.0239234
+"16-001534","11/13/16 0233","11/13/16 0233","11/13/16 0233","Sweeney Hall","Arrest","public intoxication",-93.6509194,42.0278127
+"16-001536","11/13/16 1803",NA,"11/13/16 1803","Union Drive Community Center","Open","theft",-93.6515007,42.0249565
+"16-001537","11/13/16 1858","11/13/16 1858","11/13/16 1858","Helser Hall","Open","drug violation",-93.6518379,42.02424
+"16-001538","11/14/16 0135","11/14/16 0135","11/14/16 0135","Beach Avenue and Lincoln Way","Arrest","driving violation",-93.639494,42.022655
+"16-001538","11/14/16 0135","11/14/16 0135","11/14/16 0135","Beach Avenue and Lincoln Way","Arrest","drug violation",-93.639494,42.022655
+"16-001539","11/14/16 1552",NA,"11/14/16 1552","Armory Building","Open","harassment",-93.6509474,42.029626
+"16-001544","11/14/16 2204","11/14/16 2204","11/14/16 2204","Wallace Hall","Arrest","drug violation",-93.6499279,42.0142261
+"16-001545","11/15/16 0031","11/15/16 0031","11/15/16 0031","Lincoln Way and State Avenue","Arrest","drug violation",-93.6591203,42.0227266
+"16-001545","11/15/16 0031","11/15/16 0031","11/15/16 0031","Lincoln Way and State Avenue","Arrest","driving violation",-93.6591203,42.0227266
+"16-001546","11/15/16 0107",NA,"11/15/16 0107","Snedecor Hall","Open","vandalism",-93.6497211,42.0285232
+"16-001547","11/15/16 0612",NA,"11/15/16 0612","Wallace Wilson Commons","Open","theft",-93.6504798,42.0140126
+"16-001548","11/15/16 1425",NA,"11/15/16 1425","Friley Hall","Open","theft",-93.65045,42.0239234
+"16-001549","11/15/16 1510",NA,"11/15/16 1510","Lyon Hall","Open","theft",-93.6424864,42.0245055
+"16-001550","11/15/16 1935",NA,"11/15/16 1935","119 Stanton Avenue","Open","harassment",-93.6489377,42.0219747
+"16-001552","11/15/16 2122",NA,"11/15/16 2122","Lot 82","Open","vandalism",-93.6396571,42.0250672
+"16-001555","11/16/16 2240",NA,"11/16/16 2240","Wilson Hall","Open","vandalism",-93.651021,42.0139143
+"16-001557","11/17/16 0842",NA,"11/17/16 0842","Friley Hall","Open","theft",-93.65045,42.0239234
+"16-001559","11/17/16 2245","11/17/16 2245","11/17/16 2245","Lot 61A","Arrest","drug violation",-93.6483506,42.0124764
+"16-001560","11/18/16 0042","11/18/16 0042","11/18/16 0042","Willow Hall","Arrest","public intoxication",-93.6377325,42.0239136
+"16-001561","11/18/16 0111","11/18/16 0111","11/18/16 0111","East Campus Parking Deck","Arrest","public intoxication",-93.6523433,42.0210166
+"16-001562","11/18/16 0158","11/18/16 0158","11/18/16 0158","Oak Hall","Arrest","public intoxication",-93.6399695,42.0251247
+"16-001563","11/18/16 0207","11/18/16 0207","11/18/16 0207","Ames Intermodal Facility","Arrest","public intoxication",-93.6523433,42.0210166
+"16-001564","11/18/16 1212","11/18/16 1212","11/18/16 1212","Friley Hall","Arrest","drug violation",-93.65045,42.0239234
+"16-001565","11/18/16 1439",NA,"11/18/16 1439","Lot 112D","Open","theft",-93.6405435,42.032131
+"16-001568","11/19/16 0702","11/19/16 0702","11/19/16 0702","36 Frederiksen Court","Arrest","drug violation",-93.6412736,42.0353215
+"16-001570","11/19/16 1217",NA,"11/19/16 1217","Lied Recreation Center","Open","theft",-93.6372142,42.0267276
+"16-001571","11/19/16 1346","11/19/16 1346","11/19/16 1346","Lot G2","Arrest","alcohol violation",-93.6363807,42.010106
+"16-001572","11/19/16 1400","11/19/16 1400","11/19/16 1400","Lot G3","Arrest","alcohol violation",-93.6227301,42.0493019
+"16-001573","11/19/16 1434","11/19/16 1434","11/19/16 1434","Lot G3","Arrest","public intoxication",-93.6227301,42.0493019
+"16-001573","11/19/16 1434",NA,"12/05/16 1632","Helser Hall","Open","drug violation",-93.6518379,42.02424
+"16-001574","11/19/16 1537","11/19/16 1537","11/19/16 1537","Lot S5","Arrest","public intoxication",-93.633969,42.0126321
+"16-001575","11/20/16 0134","11/20/16 0134",NA,"Lincoln Way and North Russell Avenue","Arrest","operating while intoxicated",-93.6283456,42.0228388
+"16-001576","11/20/16 0152","11/20/16 0152","11/20/16 0152","Beyer Court and Union Drive","Arrest","public intoxication",-93.6507255,42.0251486
+"16-001577","11/21/16 0920",NA,"11/21/16 0920","Parks Library","Open","vandalism",-93.6488141,42.0281254
+"16-001578","11/23/16 1808","11/23/16 1808","11/23/16 1808","35 Frederiksen Court","Arrest","theft",-93.6421508,42.0347532
+"16-001579","11/23/16 1931",NA,"11/23/16 1931","Armory Building","Open","theft",-93.6509474,42.029626
+"16-001580","11/27/16 0156","11/27/16 0156","11/27/16 0156","South Dakota Avenue and Todd Drive","Arrest","driving violation",-93.6787042,42.0212118
+"16-001581","11/27/16 0337","11/27/16 0337","11/27/16 0337","Pinon Drive","Arrest","operating while intoxicated",NA,NA
+"16-001582","11/27/16 2348","11/27/16 2348","11/27/16 2348","Lyon Hall","Arrest","drug violation",-93.6424864,42.0245055
+"16-001584","11/29/16 0617",NA,"11/30/16 0907","University Village","Arrest","assault",-93.6441672,42.0427435
+"16-001584","11/29/16 0617",NA,"11/30/16 0907","University Village","Arrest","vandalism",-93.6441672,42.0427435
+"16-001584","11/29/16 0617",NA,"11/30/16 0907","University Village","Arrest","drug violation",-93.6441672,42.0427435
+"16-001584","11/29/16 0617",NA,"11/30/16 0907","University Village","Arrest","interference",-93.6441672,42.0427435
+"16-001584","11/29/16 0617",NA,"11/30/16 0907","University Village","Arrest","public intoxication",-93.6441672,42.0427435
+"16-001585","11/29/16 1021",NA,"11/29/16 1021","Armory Building","Open","harassment",-93.6509474,42.029626
+"16-001586","11/29/16 1149",NA,"11/29/16 1149","Armory Building","Open","theft",-93.6509474,42.029626
+"16-001587","11/29/16 1502",NA,"11/29/16 1502","Armory Building","Open","theft",-93.6509474,42.029626
+"16-001588","11/29/16 1650","11/29/16 1650","11/29/16 1650","Lot 36","Arrest","drug violation",-93.6467188,42.0297736
+"16-001592","11/30/16 1704",NA,"11/30/16 1704","Osborn Drive and Wallace Road","Open","vandalism",-93.6415098,42.0288854
+"16-001593","11/30/16 1726","11/30/16 1726","11/30/16 1726","Mortensen Road and State Avenue","Arrest","driving violation",-93.6589323,42.0118849
+"16-001594","11/30/16 1735",NA,"11/30/16 1735","Willow Hall","Open","drug violation",-93.6377325,42.0239136
+"16-001595","11/30/16 1829",NA,"11/30/16 1829","Armory Building","Open","harassment",-93.6509474,42.029626
+"16-001596","11/30/16 1917",NA,"11/30/16 1917","3914 Maricopa Drive","Open","vandalism",-93.6698627,42.0084232
+"16-001597","11/30/16 2144","11/30/16 2144","11/30/16 2144","Wallace Hall","Arrest","drug violation",-93.6499279,42.0142261
+"16-001598","12/01/16 0207","12/01/16 0207","12/01/16 0207","Knapp Street and Welch Avenue","Arrest","public intoxication",-93.6500882,42.0191138
+"16-001599","12/01/16 0307","12/01/16 0307","12/01/16 0307","Raphael Avenue and Todd Drive","Arrest","operating while intoxicated",-93.6796472,42.0212874
+"16-001599","12/01/16 0307","12/01/16 0307","12/01/16 0307","Raphael Avenue and Todd Drive","Arrest","driving violation",-93.6796472,42.0212874
+"16-001600","12/01/16 1413",NA,"12/01/16 1413","Armory Building","Open","theft",-93.6509474,42.029626
+"16-001601","12/01/16 2031","12/01/16 2031","12/01/16 2031","Armory Building","Open","drug violation",-93.6509474,42.029626
+"16-001604","12/02/16 1941","12/02/16 1941","12/02/16 1941","Friley Hall","Arrest","drug violation",-93.65045,42.0239234
+"16-001605","12/02/16 2227","12/02/16 2227","12/02/16 2227","Friley Hall","Arrest","drug violation",-93.65045,42.0239234
+"16-001605","12/02/16 2227","12/02/16 2227","12/02/16 2227","Friley Hall","Arrest","alcohol violation",-93.65045,42.0239234
+"16-001607","12/03/16 0135","12/03/16 0135","12/03/16 0135","Lincoln Way and Sheldon Avenue","Arrest","operating while intoxicated",-93.6542392,42.0227224
+"16-001608","12/03/16 0256","12/03/16 0256","12/03/16 0256","2148 Lincoln Way","Arrest","operating while intoxicated",-93.6396811,42.0226572
+"16-001610","12/03/16 1206",NA,"12/03/16 1206","Legacy Tower","Open","theft",-93.6489377,42.0219747
+"16-001614","12/04/16 0424",NA,"12/04/16 0424","Willow Hall","Open","theft",-93.6377325,42.0239136
+"16-001616","12/04/16 1318","12/04/16 1318","12/04/16 1318","Helser Hall","Arrest","drug violation",-93.6518379,42.02424
+"16-001618","12/05/16 1903",NA,"12/05/16 1903","Wallace Wilson Commons","Open","drug violation",-93.6504798,42.0140126
+"16-001621","12/07/16 1511",NA,"12/07/16 1511","Gerdin Business Building","Open","theft",-93.6444688,42.0254011
+"16-001623","12/08/16 2223",NA,"12/08/16 2223","Buchanan Hall","Open","theft",-93.642449,42.022653
+"16-001624","12/09/16 0253","12/09/16 0253","12/09/16 0253","Arbor Street and State Avenue","Arrest","operating while intoxicated",-93.6591238,42.0209091
+"16-001625","12/09/16 0807","12/08/16 0807","12/09/16 0807","200 University Village","Open","disorderly conduct",-93.6441672,42.0427435
+"16-001626","12/09/16 0958",NA,"12/09/16 0958","Armory Building","Open","harassment",-93.6509474,42.029626
+"16-001627","12/09/16 1628",NA,"12/09/16 1628","Carver Hall","Open","theft",-93.648337,42.0252611
+"16-001629","12/09/16 1920","12/09/16 1920","12/09/16 1920","Buchanan Hall","Arrest","drug violation",-93.642449,42.022653
+"16-001631","12/11/16 0217","12/11/16 0217","12/11/16 0217","Lot 89","Arrest","drug violation",NA,NA
+"16-001632","12/12/16 0226","12/12/16 0226","12/12/16 0226","Ash Avenue and Sunset Drive","Arrest","drug violation",-93.6443636,42.0201199
+"16-001633","12/12/16 0856",NA,"12/12/16 0856","Transportation Services","Open","theft",-93.6390719,42.0307934
+"16-001634","12/12/16 1123","12/12/16 1123","12/12/16 1123","Buchanan Hall","Arrest","drug violation",-93.642449,42.022653
+"16-001637","12/15/16 0204","12/15/16 0204","12/15/16 0204","Lincoln Way and Lynn Avenue","Arrest","drug violation",-93.6464086,42.0227244
+"16-001638","12/15/16 0215","12/15/16 0215","12/15/16 0215","State Avenue and Wood Street","Arrest","operating while intoxicated",-93.6591259,42.0221357
+"16-001640","12/15/16 0856",NA,"12/15/16 0856","Larch Hall","Open","harassment",-93.6382868,42.0232779
+"16-001643","12/15/16 2142","12/15/16 2142","12/15/16 2142","Pammel Drive and WOI Road","Arrest","drug violation",-93.6502722,42.0305197
+"16-001644","12/16/16 0015","12/16/16 0015","12/16/16 0015","Wilson Hall","Arrest","alcohol violation",-93.651021,42.0139143
+"16-001645","12/16/16 0054","12/16/16 0054","12/16/16 0054","Hyland Avenue and West Street","Arrest","operating while intoxicated",-93.6556457,42.0253446
+"16-001646","12/16/16 0845",NA,"12/16/16 0845","Town Engineering Building","Open","vandalism",-93.65265,42.0295468
+"16-001648","12/16/16 0928",NA,"12/16/16 0928","Linden Hall","Open","vandalism",-93.6403252,42.0231404
+"16-001656","12/16/16 0929",NA,"12/16/16 0929","Frederiksen Court","Open","theft",-93.6440878,42.0340306
+"16-001649","12/16/16 1024",NA,"12/16/16 1024","Ross Hall","Open","theft",-93.644204,42.0266305
+"16-001651","12/16/16 1240",NA,"12/16/16 1240","Armory Building","Open","harassment",-93.6509474,42.029626
+"16-001652","12/16/16 1340",NA,"12/16/16 1340","Armory Building","Open","assault",-93.6509474,42.029626
+"16-001653","12/16/16 1550",NA,"12/16/16 1550","Frederiksen Court","Open","harassment",-93.6440878,42.0340306
+"16-001658","12/18/16 0142","12/18/16 0142","12/18/16 0142","Wallace Hall","Arrest","public intoxication",-93.6499279,42.0142261
+"16-001659","12/19/16 0806",NA,"12/19/16 0806","College of Design","Open","vandalism",-93.6531506,42.0285641
+"16-001661","12/20/16 0021","12/20/16 0021","12/20/16 0021","Mortensen Road and State Avenue","Arrest","operating while intoxicated",-93.6589323,42.0118849
+"16-001661","12/20/16 0021","12/20/16 0021","12/20/16 0021","Mortensen Road and State Avenue","Arrest","drug violation",-93.6589323,42.0118849
+"16-001662","12/20/16 0531","12/20/16 0531","12/20/16 0531","808 Hayward Avenue","Arrest","public intoxication",NA,NA
+"16-001663","12/21/16 0951",NA,"12/21/16 0951","Armory Building","Open","harassment",-93.6509474,42.029626
+"16-001664","12/21/16 2138",NA,"12/21/16 2138","Ames Intermodal Facility","Open","theft",-93.6523433,42.0210166
+"16-001665","12/23/16 0034","12/23/16 0034","12/23/16 0034","1062 WOI Road","Arrest","public intoxication",-93.6502812,42.0317164
+"16-001667","12/26/16 0117","12/26/16 0117","12/26/16 0117","Lincoln Way and South Wilmoth Avenue","Arrest","operating while intoxicated",-93.6615998,42.0227611
+"16-001667","12/26/16 0117","12/26/16 0117","12/26/16 0117","Lincoln Way and South Wilmoth Avenue","Arrest","drug violation",-93.6615998,42.0227611
+"16-001669","12/26/16 1917","12/26/16 1917","12/26/16 1917","South 16th Street and University Boulevard","Arrest","driving violation",-93.6337562,42.0114627
+"16-001672","12/28/16 1322",NA,"12/28/16 1322","State Gymnasium","Open","theft",-93.6538021,42.0246748
+"16-001673","12/30/16 1238",NA,"12/30/16 1238","Memorial Union","Open","theft",-93.6459454,42.0236502
+"16-001674","12/30/16 2159","12/30/16 2159","12/30/16 2159","527 E Lincoln Way","Arrest","drug violation",-93.6041911,42.0230566
+"16-001674","12/30/16 2159","12/30/16 2159","12/30/16 2159","527 E Lincoln Way","Arrest","weapon violation",-93.6041911,42.0230566
