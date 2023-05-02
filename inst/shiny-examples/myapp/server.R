@@ -1,43 +1,37 @@
 #' @importFrom lubridate date, mdy_hm
-pd_data <- read.csv("cleaned_data.csv") %>%
+data <- read.csv("") %>%
   mutate(Date.Reported = lubridate::date(mdy_hm(Date.Time.Reported)))
 
 server <- function(input, output) {
 
   filtered_data <- reactive({
-    classification_filter <- evaluate_classification(input$crimeClassify)
+    classification_filter <- evaluate_classification(input$)
 
-    pd_data %>%
-      #filter(pd_data$Classification == 'input$crimeClassify') %>%
-      filter(between(Date.Reported, input$date[1], input$date[2])) %>%
+    data %>%
+
+      filter(between()) %>%
 
       # classification filter
       filter(Category %in% classification_filter)
   })
 
   table_data <- reactive({
-    classification_filter <- evaluate_classification(input$crimeClassify)
+    classification_filter <- evaluate_classification()
 
-    pd_data %>%
-      filter(between(Date.Reported, input$date[1], input$date[2])) %>%
+    data %>%
+      filter(between()) %>%
 
       # classification filter
       filter(Category %in% classification_filter) %>%
 
-      select(Case.Number,
-             Date.Reported,
-             General.Location,
-             Disposition,
-             Category,
-             Classification)
+      select(state,
+             city)
 
   })
 
   output$map <- renderLeaflet({
-    # Use leaflet() here, and only include aspects of the map that
-    # won't need to change dynamically (at least, not unless the
-    # entire map is being torn down and recreated).
-    leaflet(pd_data) %>% addTiles() %>%
+
+    leaflet(data) %>% addTiles() %>%
       fitBounds(~min(longitude), ~min(latitude), ~max(longitude), ~max(latitude))
   })
 
@@ -48,6 +42,6 @@ server <- function(input, output) {
                  popup = ~as.character(Classification))
   })
 
-  output$pd_table <- renderDataTable(table_data())
+  output$table <- renderDataTable(table_data())
 
 }
