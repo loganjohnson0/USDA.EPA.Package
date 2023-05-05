@@ -13,16 +13,16 @@ To use this package, it is necessary that you register for an API key through th
 # install.packages("devtools")
 library(devtools)
 
-# Will change the repository name once we finalize package name (foodRecall)
 devtools::install.github("loganjohnson0/foodRecall")
 
 library(foodRecall)
 ```
 
-To use the `foodRecall` package, you simply need to enter your API key into the `get_fda` function. You will also need to define the number of requests that you would like to request. The limit is 1000 so if you enter a number larger than 1000, an error will occur. (Working on adding in that limitation in the package itself). The `get_fda` function is currently (April 15, 2023) set to only recalls that the FDA considered "Ongoing". Moving forward, we will make this selection more flexible for the user to filter based on their inputs.
+To use the `foodRecall` package, you will need to enter your API key into the `get_fda` function. You will also need to define the number of requests that you would like to request. The limit is 1000 so if you enter a number larger than 1000, an error will occur. (Working on adding in that limitation in the package itself). 
 
 ```{r}
-df <- foodRecall::get_fda(api_key = "YOUR API KEY", limit = "NUMBER OF RECALL EVENTS")
+df <- foodRecall::recall_location(api_key = "YOUR API KEY", 
+                                  limit = "NUMBER OF RECALL EVENTS")
 ```
 
 We also are working on visualizing these data on a location basis. We are working on adding in additional capabilities, such as the scale of the product recall and other interactive capabilities. It is best to not change the column headers from those in the generated `get_fda` function.
@@ -36,4 +36,6 @@ Here is an example output of the type of map that would be generated.
 
 
 Check back for additional updates that we plan to add in soon!
+
+# This product uses the openFDA API but is not endorsed or certified by the Food and Drug Administration.
 

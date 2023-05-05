@@ -37,10 +37,10 @@ recall_location <- function(api_key,
 
   if (input_count > 1) {
     search_mode <- readline(
-"Choose the search mode:
+"Choose how you would like to search:
 
-'AND' for exact matches
-'OR' for any combinations")
+'AND' must contain all of your inputs
+'OR' can contain any combination of your inputs")
 
     while (search_mode != "AND" && search_mode != "OR") {
       search_mode <- readline("Invalid input. Enter either 'AND' or 'OR': ")
@@ -197,7 +197,6 @@ recall_location <- function(api_key,
                               event_id = data$results$event_id)
 
 
-
   new_stuff <- new_stuff %>%
     dplyr::mutate_all(~replace(., . == "", NA)) %>%
     dplyr::mutate(
@@ -207,7 +206,6 @@ recall_location <- function(api_key,
       termination_date = lubridate::ymd(termination_date)) %>%
     dplyr::arrange(desc(report_date)) %>%
     dplyr::arrange((city))
-
 
   return(new_stuff)
 }
