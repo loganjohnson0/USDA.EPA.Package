@@ -6,7 +6,7 @@
 \usage{
 recall_location(
   api_key,
-  limit,
+  limit = NULL,
   city = NULL,
   country = NULL,
   distribution_pattern = NULL,

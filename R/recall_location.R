@@ -10,9 +10,10 @@
 #' @param status The status of the recall
 #'
 #' @importFrom dplyr arrange
+#' @importFrom dplyr desc
 #' @importFrom dplyr mutate
-#' @importFrom dplyr  %>%
 #' @importFrom dplyr mutate_all
+#' @importFrom dplyr  %>%
 #' @importFrom httr content
 #' @importFrom httr GET
 #' @importFrom jsonlite fromJSON
@@ -20,13 +21,36 @@
 #' @importFrom tibble tibble
 #' @export
 recall_location <- function(api_key,
-                            limit,
+                            limit = NULL,
                             city = NULL,
                             country = NULL,
                             distribution_pattern = NULL,
                             recalling_firm = NULL,
                             state = NULL,
                             status = NULL) {
+
+  address_1 <- NULL
+  address_2 <- NULL
+  center_classification_date <- NULL
+  city <- NULL
+  classification <- NULL
+  code_info <- NULL
+  country <- NULL
+  distribution_pattern <- NULL
+  event_id <- NULL
+  initial_firm_notification <- NULL
+  postal_code <- NULL
+  product_description <- NULL
+  product_quantity <- NULL
+  recall_initiation_date <- NULL
+  recall_number <- NULL
+  recalling_firm <- NULL
+  report_date <- NULL
+  state <- NULL
+  status <- NULL
+  termination_date <- NULL
+  voluntary_mandated <- NULL
+
 
   input_count <- sum(!is.null(city),
                      !is.null(country),
@@ -46,6 +70,8 @@ recall_location <- function(api_key,
       search_mode <- readline("Invalid input. Enter either 'AND' or 'OR': ")
     }
     search_mode <- paste0("+", search_mode, "+")
+  } else {
+    search_mode <- NULL
   }
 
   base_url <- paste0("https://api.fda.gov/food/enforcement.json?api_key=", api_key, "&search=")
@@ -158,6 +184,12 @@ recall_location <- function(api_key,
     status_search <- NULL
   }
 
+  if (!is.null(limit)) {
+    limit <- limit
+  } else {
+    limit <- 1000
+  }
+
 
   limit <- paste0("&limit=", limit)
 
@@ -204,7 +236,7 @@ recall_location <- function(api_key,
       report_date = lubridate::ymd(report_date),
       center_classification_date = lubridate::ymd(center_classification_date),
       termination_date = lubridate::ymd(termination_date)) %>%
-    dplyr::arrange(desc(report_date)) %>%
+    dplyr::arrange(dplyr::desc(report_date)) %>%
     dplyr::arrange((city))
 
   return(new_stuff)
