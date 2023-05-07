@@ -26,3 +26,7 @@ RoxygenNote: 7.2.3
 URL: https://github.com/loganjohnson0/USDA.EPA.Package,
     https://loganjohnson0.github.io/USDA.EPA.Package/
 BugReports: https://github.com/loganjohnson0/USDA.EPA.Package/issues
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
