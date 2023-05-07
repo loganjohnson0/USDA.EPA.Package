@@ -1,3 +1,22 @@
+
+create_search_param <- function(input, param_name) {
+  if (!is.null(input)) {
+    input <- strsplit(input, ", ")[[1]]
+    input <- gsub(" ", "+", input)
+    param_search <- NULL
+
+    if (length(input) == 1) {
+      param_search <- paste0(param_name, ":(%22", input, "%22)")
+    } else {
+      param_search <- paste0("%22", input, "%22", collapse = "+OR+")
+      param_search <- paste0(param_name, ":(", param_search, ")")
+    }
+  } else {
+    param_search <- NULL
+  }
+  return(param_search)
+}
+
 #' This function scrapes the FDA website for food product recall data
 #'
 #' @param api_key Your free api key from FDA website
@@ -32,11 +51,8 @@ recall_location <- function(api_key,
   address_1 <- NULL
   address_2 <- NULL
   center_classification_date <- NULL
-  city <- NULL
   classification <- NULL
   code_info <- NULL
-  country <- NULL
-  distribution_pattern <- NULL
   event_id <- NULL
   initial_firm_notification <- NULL
   postal_code <- NULL
@@ -44,13 +60,9 @@ recall_location <- function(api_key,
   product_quantity <- NULL
   recall_initiation_date <- NULL
   recall_number <- NULL
-  recalling_firm <- NULL
   report_date <- NULL
-  state <- NULL
-  status <- NULL
   termination_date <- NULL
   voluntary_mandated <- NULL
-
 
   input_count <- sum(!is.null(city),
                      !is.null(country),
@@ -74,124 +86,38 @@ recall_location <- function(api_key,
     search_mode <- NULL
   }
 
-  base_url <- paste0("https://api.fda.gov/food/enforcement.json?api_key=", api_key, "&search=")
-
-  if (!is.null(city)) {
-    city <- strsplit(city, ", ")[[1]]
-    city <- gsub(" ", "+", city)
-    city_search <- NULL
-
-    if (length(city) == 1) {
-      city_search <- paste0("city:(%22",city, "%22)")
-    } else {
-      city_search <- paste0("%22", city, "%22", collapse = "+OR+")
-      city_search <- paste0("city:(", city_search, ")")
-    }
-  }
-  if (is.null(city)) {
-    city_search <- NULL
-  }
-
-  if (!is.null(country)) {
-    country <- strsplit(country, ", ")[[1]]
-    country <- gsub(" ", "+", country)
-    country_search <- NULL
-
-    if (length(country) == 1) {
-      country_search <- paste0("country:(%22",country, "%22)")
-    } else {
-      country_search <- paste0("%22", country, "%22", collapse = "+OR+")
-      country_search <- paste0("country:(", country_search, ")")
-    }
-  }
-  if (is.null(country)) {
-    country_search <- NULL
-  }
-
-  if (!is.null(distribution_pattern)) {
-    distribution_pattern <- strsplit(distribution_pattern, ", ")[[1]]
-    distribution_pattern <- gsub(" ", "+", distribution_pattern)
-    distribution_pattern_search <- NULL
-
-    if (length(distribution_pattern) == 1) {
-      distribution_pattern_search <- paste0("distribution_pattern:(%22",distribution_pattern, "%22)")
-    } else {
-      distribution_pattern_search <- paste0("%22", distribution_pattern, "%22", collapse = "+OR+")
-      distribution_pattern_search <- paste0("distribution_pattern:(", distribution_pattern_search, ")")
-    }
-  }
-  if (is.null(distribution_pattern)) {
-    distribution_pattern_search <- NULL
-  }
-
-  if (!is.null(recalling_firm)) {
-    recalling_firm <- strsplit(recalling_firm, ", ")[[1]]
-    recalling_firm <- gsub(" ", "+", recalling_firm)
-    recalling_firm_search <- NULL
-
-    if (length(recalling_firm) == 1) {
-      recalling_firm_search <- paste0("recalling_firm:(%22",recalling_firm, "%22)")
-    } else {
-      recalling_firm_search <- paste0("%22", recalling_firm, "%22", collapse = "+OR+")
-      recalling_firm_search <- paste0("recalling_firm:(", recalling_firm_search, ")")
-    }
-  }
-  if (is.null(recalling_firm)) {
-    recalling_firm_search <- NULL
-  }
-
   if (!is.null(state)) {
-
     state_vector <- unlist(strsplit(state, ", "))
 
-    state_vector_abbrev <- sapply(state_vector, function(x) {
-      x_lower <- tolower(x)
-      state_name_lower <- tolower(state.name)
-      if (x_lower %in% state_name_lower) {
-        index <- match(x_lower, state_name_lower)
-        return(state.abb[index])
+    state <- sapply(state_vector, function(x) {
+      if (x %in% state.abb) {
+        return(x)
+      } else {
+        x <- tolower(x)
+        state_name <- tolower(state.name)
+        if (x %in% state_name) {
+          index <- match(x, state_name)
+          return(state.abb[index])
+        }
       }
     })
-
-    state <- state_vector_abbrev
-    state <- gsub(" ", "+", state)
-    state_search <- NULL
-
-    if (length(state) == 1) {
-      state_search <- paste0("state:(%22",state, "%22)")
-    } else {
-      state_search <- paste0("%22", state, "%22", collapse = "+OR+")
-      state_search <- paste0("state:(", state_search, ")")
-    }
-  }
-  if (is.null(state)) {
-    state_search <- NULL
+    state <- paste(state, collapse = ", ")
   }
 
-  if (!is.null(status)) {
-    status <- strsplit(status, ", ")[[1]]
-    status <- gsub(" ", "+", status)
-    status_search <- NULL
-
-    if (length(status) == 1) {
-      status_search <- paste0("status:(%22",status, "%22)")
-    } else {
-      status_search <- paste0("%22", status, "%22", collapse = "+OR+")
-      status_search <- paste0("status:(", state_search, ")")
-    }
-  }
-  if (is.null(status)) {
-    status_search <- NULL
-  }
+  state_search <- create_search_param(state, "state")
+  city_search <- create_search_param(city, "city")
+  country_search <- create_search_param(country, "country")
+  distribution_pattern_search <- create_search_param(distribution_pattern, "distribution_pattern")
+  recalling_firm_search <- create_search_param(recalling_firm, "recalling_firm")
+  status_search <- create_search_param(status, "status")
 
   if (!is.null(limit)) {
-    limit <- limit
+    limit <- paste0("&limit=", limit)
   } else {
-    limit <- 1000
+    limit <- paste0("&limit=", 1000)
   }
 
-
-  limit <- paste0("&limit=", limit)
+  base_url <- paste0("https://api.fda.gov/food/enforcement.json?api_key=", api_key, "&search=")
 
   search_parameters <- list(city_search, country_search, distribution_pattern_search, recalling_firm_search, state_search, status_search)
 
@@ -227,7 +153,6 @@ recall_location <- function(api_key,
                               code_info = data$results$code_info,
                               distribution_pattern = data$results$distribution_pattern,
                               event_id = data$results$event_id)
-
 
   new_stuff <- new_stuff %>%
     dplyr::mutate_all(~replace(., . == "", NA)) %>%

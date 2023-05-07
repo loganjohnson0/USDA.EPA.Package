@@ -14,9 +14,9 @@ Maintainer: Logan Johnson <logan01@iastate.edu>
 Description: An easy way to access and visualize food recall data from the
     openFDA API.
 License: MIT + file LICENSE
-URL: https://github.com/loganjohnson0/USDA.EPA.Package,
-    https://loganjohnson0.github.io/USDA.EPA.Package/
-BugReports: https://github.com/loganjohnson0/USDA.EPA.Package/issues
+URL: https://github.com/loganjohnson0/foodRecall,
+    https://loganjohnson0.github.io/foodRecall/
+BugReports: https://github.com/loganjohnson0/foodRecall/issues
 Imports:
     dplyr,
     htmltools,
