@@ -1,4 +1,4 @@
-# foodRecall <a href="https://loganjohnson0.github.io/foodRecall/"><img src="man/figures/logo.png" align="right" height="139" /></a>
+# foodRecall <a href="https://loganjohnson0.github.io/foodRecall/"><img src="man/figures/hex-foodRecall.png" align="right" height="139" /></a>
 
   <!-- badges: start -->
   [![R-CMD-check](https://github.com/loganjohnson0/foodRecall/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/loganjohnson0/foodRecall/actions/workflows/R-CMD-check.yaml)
