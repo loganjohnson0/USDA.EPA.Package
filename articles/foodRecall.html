@@ -79,18 +79,35 @@ data from the openFDA API. This document provides descriptions and
 examples of the functions included in the package and some information
 explaining the process to complete this project for STAT 585 - Data
 Technologies for Statistical Analysis at Iowa State University.</p>
-<p>##Bakground/Motivation</p>
+<div class="section level2">
+<h2 id="backgroundmotivation">Background/Motivation<a class="anchor" aria-label="anchor" href="#backgroundmotivation"></a>
+</h2>
+</div>
 <div class="section level2">
 <h2 id="functions-and-applications">Functions and applications<a class="anchor" aria-label="anchor" href="#functions-and-applications"></a>
 </h2>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/loganjohnson0/foodRecall" class="external-link">foodRecall</a></span><span class="op">)</span></span>
+<code class="sourceCode R"><span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/loganjohnson0/foodRecall" class="external-link">foodRecall</a></span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># Before running any of the package functions, the user will need an API key.</span></span>
+<span><span class="co"># To get the API key, go to https://open.fda.gov/apis/authentication/. It is free, only requires</span></span>
+<span><span class="co"># an email address, and you will get it immediately.</span></span>
+<span></span>
 <span></span>
 <span><span class="co"># Get food recall locations</span></span>
+<span><span class="co"># recall_location() - this function uses search criteria such as api_key, city, and state.</span></span>
+<span></span>
+<span><span class="co"># df &lt;- foodRecall::recall_location(api_key = api_key, limit = 1000, city = "Kansas City, Ames", state = "Iowa, Missouri")</span></span>
+<span></span>
 <span></span>
 <span><span class="co"># Map food recall locations</span></span>
+<span><span class="co"># map_recall()</span></span>
 <span></span>
-<span><span class="co"># Working with food recall dates</span></span></code></pre></div>
+<span><span class="co"># map &lt;- foodRecall::map_recall(data = df)</span></span>
+<span></span>
+<span><span class="co"># Working with food recall dates</span></span>
+<span><span class="co"># recall_date()</span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="limitations">Limitations<a class="anchor" aria-label="anchor" href="#limitations"></a>
