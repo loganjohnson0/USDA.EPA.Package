@@ -5,6 +5,7 @@
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/loganjohnson0/foodRecall/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/loganjohnson0/foodRecall/actions/workflows/R-CMD-check.yaml)
+[![codecov](https://codecov.io/gh/loganjohnson0/foodRecall/branch/main/graph/badge.svg?token=BE2QWZYKNE)](https://codecov.io/gh/loganjohnson0/foodRecall)
 <!-- badges: end -->
 
 ## Installation
@@ -20,11 +21,10 @@ library(foodRecall)
 
 ## Introduction
 
-To use this package, it is necessary that you register for an API key
-through the [openFDA
-website](https://open.fda.gov/apis/authentication/). This is a free API
-key that only requires your email address. You should receive it
-immediately upon request. Upon any issues with the API key itself,
+To use this package, you must register for an API key through the
+[openFDA website](https://open.fda.gov/apis/authentication/). This is a
+free API key that only requires your email address. You should receive
+it immediately upon request. Upon any issues with the API key itself,
 please contact the openFDA office. Be sure to not share your API key
 with anyone!
 
@@ -38,9 +38,9 @@ api_key <- "YOUR API KEY"
 ```
 
 We have developed a few different functions for you to search for
-different kinds of data. You can use either <b>recall_location</b> or
-<b>recall_date</b> to search for data on food recalls. See notation
-below as an example.
+different kinds of data. You can use either `recall_location` or
+`recall_date` to search for data on food recalls. See notation below as
+an example.
 
 ``` r
 location <- foodRecall::recall_location(api_key = api_key, 
@@ -51,10 +51,18 @@ date <- foodRecall::recall_date(api_key = api_key,
                                 recall_initiation_date = )
 ```
 
-You can also map the resulting data to see the loca
+You can also map the resulting data to see the location of the recall
+events, the impact of recall, and the number of recall events and
+individual products each recalling firm has recalled.
 
 ``` r
 foodRecall::map_recall(data = df)
 ```
+
+Here is a basic output of the `map_recall` function. This output is an
+interactive map by `leaflet` that would include more detailed
+descriptions of the map.
+
+![](man/figures/Iowa.png)
 
 Check back for additional updates that we plan to add in soon!
