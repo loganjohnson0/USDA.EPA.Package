@@ -25,6 +25,7 @@ create_search_param <- function(input, param_name) {
 #' @param country The country where the food was produced
 #' @param distribution_pattern Locations where food was distributed to
 #' @param recalling_firm The company recalling the product
+#' @param search_mode This gives the user flexibility to search for exact matches of inputs or any combination of inputs
 #' @param state The U.S. state in which the recalling firm is located
 #' @param status The status of the recall
 #'

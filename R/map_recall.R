@@ -21,6 +21,7 @@ map_recall <- function(data) {
   address_1 <- NULL
   city <- NULL
   count <- NULL
+  event_id <- NULL
   event_data <- NULL
   full_address <- NULL
   latitude <- NULL

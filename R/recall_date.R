@@ -55,6 +55,7 @@ date_search_param <- function(input, param_name) {
 #' @param recall_initiation_date Date for which recall was initiated
 #' @param recalling_firm The company recalling the product
 #' @param report_date The date the FDA issued the enforcement report for the product recall
+#' @param search_mode This gives the user flexibility to search for exact matches of inputs or any combination of inputs
 #' @param status The status of the recall
 #' @param termination_date The date the recall was terminated
 #'
@@ -84,6 +85,7 @@ recall_date <- function(api_key,
 
   address_1 <- NULL
   address_2 <- NULL
+  city <- NULL
   classification <- NULL
   code_info <- NULL
   event_id <- NULL

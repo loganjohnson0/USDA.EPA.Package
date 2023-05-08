@@ -32,6 +32,8 @@ recall_date(
 
 \item{report_date}{The date the FDA issued the enforcement report for the product recall}
 
+\item{search_mode}{This gives the user flexibility to search for exact matches of inputs or any combination of inputs}
+
 \item{status}{The status of the recall}
 
 \item{termination_date}{The date the recall was terminated}

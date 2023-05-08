@@ -29,6 +29,8 @@ recall_location(
 
 \item{recalling_firm}{The company recalling the product}
 
+\item{search_mode}{This gives the user flexibility to search for exact matches of inputs or any combination of inputs}
+
 \item{state}{The U.S. state in which the recalling firm is located}
 
 \item{status}{The status of the recall}
