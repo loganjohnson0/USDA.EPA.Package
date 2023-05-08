@@ -1,15 +1,15 @@
-# foodRecall <a href="https://loganjohnson0.github.io/foodRecall/"><img src="man/figures/hex-foodRecall.png" align="right" height="150" style="float:right; height:150px;" /></a>
 
-  <!-- badges: start -->
-  [![R-CMD-check](https://github.com/loganjohnson0/foodRecall/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/loganjohnson0/foodRecall/actions/workflows/R-CMD-check.yaml)
-  <!-- badges: end -->
+<!-- README.md is generated from README.Rmd. Please edit that file -->
 
-## Introduction
-To use this package, it is necessary that you register for an API key through the [openFDA website](https://open.fda.gov/apis/authentication/). This is a free API key that only requires your email address. You should receive it immediately upon request. Upon any issues with the API key itself, please contact the openFDA office. Be sure to not share your API key with anyone!
+# foodRecall <a href="https://loganjohnson0.github.io/foodRecall/"><img src="man/figures/hex-foodRecall.png" align="right" height="175" style="float:right; height:175px;" /></a>
+
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/loganjohnson0/foodRecall/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/loganjohnson0/foodRecall/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
 
 ## Installation
 
-```{r}
+``` r
 # install.packages("devtools")
 library(devtools)
 
@@ -18,24 +18,43 @@ devtools::install.github("loganjohnson0/foodRecall")
 library(foodRecall)
 ```
 
-To use the `foodRecall` package, you will need to enter your API key into the `get_fda` function. You will also need to define the number of requests that you would like to request. The limit is 1000 so if you enter a number larger than 1000, an error will occur. (Working on adding in that limitation in the package itself). 
+## Introduction
 
-```{r}
-df <- foodRecall::recall_location(api_key = "YOUR API KEY", 
-                                  limit = "NUMBER OF RECALL EVENTS")
+To use this package, it is necessary that you register for an API key
+through the [openFDA
+website](https://open.fda.gov/apis/authentication/). This is a free API
+key that only requires your email address. You should receive it
+immediately upon request. Upon any issues with the API key itself,
+please contact the openFDA office. Be sure to not share your API key
+with anyone!
+
+<b>This product uses the openFDA API but is not endorsed or certified by
+the Food and Drug Administration.</b>
+
+## Save Your API Key
+
+``` r
+api_key <- "YOUR API KEY"
 ```
 
-We also are working on visualizing these data on a location basis. We are working on adding in additional capabilities, such as the scale of the product recall and other interactive capabilities. It is best to not change the column headers from those in the generated `get_fda` function.
+We have developed a few different functions for you to search for
+different kinds of data. You can use either <b>recall_location</b> or
+<b>recall_date</b> to search for data on food recalls. See notation
+below as an example.
 
-```{r}
+``` r
+location <- foodRecall::recall_location(api_key = api_key, 
+                                        city = "Ames", 
+                                        state = "Iowa")
+
+date <- foodRecall::recall_date(api_key = api_key,
+                                recall_initiation_date = )
+```
+
+You can also map the resulting data to see the loca
+
+``` r
 foodRecall::map_recall(data = df)
 ```
-Here is an example output of the type of map that would be generated.
-
-![Rplot.pdf](Rplot.pdf)
-
 
 Check back for additional updates that we plan to add in soon!
-
-# This product uses the openFDA API but is not endorsed or certified by the Food and Drug Administration.
-

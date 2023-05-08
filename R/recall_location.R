@@ -112,7 +112,12 @@ recall_location <- function(api_key,
   status_search <- create_search_param(status, "status")
 
   if (!is.null(limit)) {
-    limit <- paste0("&limit=", limit)
+    if (limit > 1000){
+      warning("The openFDA API is limited to 1000 results per API call. Defaulting to 1000 results. Try a more specific search to return a dataset that contains all of the desired results.")
+      limit <- paste0("&limit=", 1000)
+    } else {
+      limit <- paste0("&limit=", limit)
+      }
   } else {
     limit <- paste0("&limit=", 1000)
   }
@@ -129,7 +134,15 @@ recall_location <- function(api_key,
 
   fda_data <- httr::GET(url = url)
 
+  if (fda_data$status_code !=200) {
+    stop("The API call failed. Make sure the inputs were entered correctly. Retry the request again.")
+  }
+
   data <- jsonlite::fromJSON(httr::content(fda_data, "text"))
+
+  if (data$meta$results$total >1000) {
+    warning("The total number of results is greater than the number of returned results; therefore, the returned results may be an incomplete representation of the data. Try a more specific search criteria to return a more complete dataset containing all the desired results.")
+  }
 
   new_stuff <- tibble::tibble(recall_number = data$results$recall_number,
                               recalling_firm = data$results$recalling_firm,
@@ -163,7 +176,6 @@ recall_location <- function(api_key,
       termination_date = lubridate::ymd(termination_date)) %>%
     dplyr::arrange((city)) %>%
     dplyr::arrange(dplyr::desc(report_date))
-
 
   return(new_stuff)
 }
