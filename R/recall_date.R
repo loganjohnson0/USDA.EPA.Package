@@ -19,13 +19,13 @@ create_search_param <- function(input, param_name) {
 date_search_param <- function(input, param_name) {
   if (!is.null(input)) {
     if(!is.character(input)) {
-      stop("Please enter the date as a character vector. Example: '01-01-2023'")
+      stop("Please enter the date as a character vector. Example: '01-01-2023' or 'January 1, 2023'")
     } else {
       input <- strsplit(input, " to ")[[1]]
       input_search <- NULL
       if (length(input) == 1) {
         input <- lubridate::parse_date_time(input, orders = c("ymd", "mdy", "dmy", "Y", "my"), quiet = TRUE)
-        warning(sprintf("Defaulting to a range of %s to %s.", input, lubridate::today()))
+        # warning(sprintf("Defaulting to a range of %s to %s.", input, lubridate::today()))
         today <- lubridate::today()
         input <- gsub("-", "", input)
         today <- gsub("-", "", today)
@@ -78,6 +78,7 @@ recall_date <- function(api_key,
                         recall_initiation_date = NULL,
                         recalling_firm = NULL,
                         report_date = NULL,
+                        search_mode = NULL,
                         status = NULL,
                         termination_date = NULL) {
 
@@ -91,29 +92,6 @@ recall_date <- function(api_key,
   product_quantity <- NULL
   recall_number <- NULL
   voluntary_mandated <- NULL
-
-  input_count <- sum(!is.null(center_classification_date),
-                     !is.null(product_description),
-                     !is.null(recall_initiation_date),
-                     !is.null(recalling_firm),
-                     !is.null(report_date),
-                     !is.null(status),
-                     !is.null(termination_date))
-
-  if (input_count > 1) {
-    search_mode <- readline(
-      "Choose how you would like to search:
-
-'AND' must contain all of your inputs
-'OR' can contain any combination of your inputs")
-
-    while (search_mode != "AND" && search_mode != "OR") {
-      search_mode <- readline("Invalid input. Enter either 'AND' or 'OR': ")
-    }
-    search_mode <- paste0("+", search_mode, "+")
-  } else {
-    search_mode <- NULL
-  }
 
   recall_initiation_date_search <- date_search_param(recall_initiation_date, "recall_initiation_date")
   center_classification_date_search <- date_search_param(center_classification_date, "center_classification_date")
@@ -132,6 +110,16 @@ recall_date <- function(api_key,
     }
   } else {
     limit <- paste0("&limit=", 1000)
+  }
+
+  if (!is.null(search_mode)) {
+    search_mode <- toupper(search_mode)
+    while (search_mode != "AND" && search_mode != "OR") {
+      search_mode <- readline("Invalid input. Enter either 'AND' or 'OR':")
+    }
+    search_mode <- paste0("+", search_mode, "+")
+  } else {
+    search_mode <- "+AND+"
   }
 
   base_url <- paste0("https://api.fda.gov/food/enforcement.json?api_key=", api_key, "&search=")

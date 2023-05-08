@@ -12,6 +12,7 @@ recall_date(
   recall_initiation_date = NULL,
   recalling_firm = NULL,
   report_date = NULL,
+  search_mode = NULL,
   status = NULL,
   termination_date = NULL
 )

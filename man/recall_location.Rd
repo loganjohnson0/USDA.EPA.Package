@@ -11,6 +11,7 @@ recall_location(
   country = NULL,
   distribution_pattern = NULL,
   recalling_firm = NULL,
+  search_mode = NULL,
   state = NULL,
   status = NULL
 )

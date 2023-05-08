@@ -45,6 +45,7 @@ recall_location <- function(api_key,
                             country = NULL,
                             distribution_pattern = NULL,
                             recalling_firm = NULL,
+                            search_mode = NULL,
                             state = NULL,
                             status = NULL) {
 
@@ -63,28 +64,6 @@ recall_location <- function(api_key,
   report_date <- NULL
   termination_date <- NULL
   voluntary_mandated <- NULL
-
-  input_count <- sum(!is.null(city),
-                     !is.null(country),
-                     !is.null(distribution_pattern),
-                     !is.null(recalling_firm),
-                     !is.null(state),
-                     !is.null(status))
-
-  if (input_count > 1) {
-    search_mode <- readline(
-"Choose how you would like to search:
-
-'AND' must contain all of your inputs
-'OR' can contain any combination of your inputs")
-
-    while (search_mode != "AND" && search_mode != "OR") {
-      search_mode <- readline("Invalid input. Enter either 'AND' or 'OR': ")
-    }
-    search_mode <- paste0("+", search_mode, "+")
-  } else {
-    search_mode <- NULL
-  }
 
   if (!is.null(state)) {
     state_vector <- unlist(strsplit(state, ", "))
@@ -120,6 +99,16 @@ recall_location <- function(api_key,
       }
   } else {
     limit <- paste0("&limit=", 1000)
+  }
+
+  if (!is.null(search_mode)) {
+    search_mode <- toupper(search_mode)
+    while (search_mode != "AND" && search_mode != "OR") {
+      search_mode <- readline("Invalid input. Enter either 'AND' or 'OR':")
+    }
+    search_mode <- paste0("+", search_mode, "+")
+  } else {
+    search_mode <- "+AND+"
   }
 
   base_url <- paste0("https://api.fda.gov/food/enforcement.json?api_key=", api_key, "&search=")
