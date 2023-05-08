@@ -79,6 +79,8 @@ data from the openFDA API. This document provides descriptions and
 examples of the functions included in the package and some information
 explaining the process to complete this project for STAT 585 - Data
 Technologies for Statistical Analysis at Iowa State University.</p>
+<p>Disclaimer: This product uses the openFDA API but is not endorsed or
+certified by the Food and Drug Administration.</p>
 <div class="section level2">
 <h2 id="backgroundmotivation">Background/Motivation<a class="anchor" aria-label="anchor" href="#backgroundmotivation"></a>
 </h2>
@@ -92,22 +94,25 @@ Technologies for Statistical Analysis at Iowa State University.</p>
 <span></span>
 <span><span class="co"># Before running any of the package functions, the user will need an API key.</span></span>
 <span><span class="co"># To get the API key, go to https://open.fda.gov/apis/authentication/. It is free, only requires</span></span>
-<span><span class="co"># an email address, and you will get it immediately.</span></span>
+<span><span class="co"># an email address, and you will get it immediately.Do not share your API key with anyone.</span></span>
+<span></span>
+<span><span class="co"># api_key &lt;- "YOUR API KEY"</span></span>
+<span></span>
+<span><span class="co">## Get food recall locations</span></span>
+<span></span>
+<span><span class="co"># location &lt;- foodRecall::recall_location(api_key = api_key, limit = 1000, city = "Kansas City, Ames", state = "Iowa, Missouri")</span></span>
 <span></span>
 <span></span>
-<span><span class="co"># Get food recall locations</span></span>
-<span><span class="co"># recall_location() - this function uses search criteria such as api_key, city, and state.</span></span>
+<span><span class="co">## Map food recall locations</span></span>
 <span></span>
-<span><span class="co"># df &lt;- foodRecall::recall_location(api_key = api_key, limit = 1000, city = "Kansas City, Ames", state = "Iowa, Missouri")</span></span>
-<span></span>
-<span></span>
-<span><span class="co"># Map food recall locations</span></span>
 <span><span class="co"># map_recall()</span></span>
+<span><span class="co"># map &lt;- foodRecall::map_recall(data = location)</span></span>
 <span></span>
-<span><span class="co"># map &lt;- foodRecall::map_recall(data = df)</span></span>
+<span><span class="co">## Working with food recall dates</span></span>
+<span><span class="co"># recall_date()</span></span>
 <span></span>
-<span><span class="co"># Working with food recall dates</span></span>
-<span><span class="co"># recall_date()</span></span></code></pre></div>
+<span> <span class="co"># date &lt;- foodRecall::recall_date(api_key = api_key,</span></span>
+<span> <span class="co">#                                report_date = "January 2023 to May 2023")</span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="limitations">Limitations<a class="anchor" aria-label="anchor" href="#limitations"></a>
