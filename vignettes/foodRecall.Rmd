@@ -16,14 +16,22 @@ knitr::opts_chunk$set(
 
 foodRecall is an R package that facilitates accessing and visualizing data from the openFDA API. This document provides descriptions and examples of the functions included in the package and some information explaining the process to complete this project for STAT 585 - Data Technologies for Statistical Analysis at Iowa State University.
 
-## Food recalls locations
+##Bakground/Motivation
+
+## Functions and applications
 
 ```{r setup}
 library(foodRecall)
+
+# Get food recall locations
+
+# Map food recall locations
+
+# Working with food recall dates
 ```
 
-## Map food recall locations
+## Limitations 
 
+## Future Work
 
-## Food recall dates
 
