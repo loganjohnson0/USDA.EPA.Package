@@ -7,7 +7,7 @@
 recall_date(
   api_key,
   center_classification_date = NULL,
-  limit,
+  limit = NULL,
   product_description = NULL,
   recall_initiation_date = NULL,
   recalling_firm = NULL,
