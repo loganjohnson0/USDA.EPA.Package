@@ -18,28 +18,28 @@ create_search_param <- function(input, param_name) {
 }
 date_search_param <- function(input, param_name) {
   if (!is.null(input)) {
-    if (!grepl(" to ", input)) {
-      warning("Please provide a date range using ' to ' as a separator.
-              Example: January 1, 2023 to May 1, 2023")
+    if(!is.character(input)) {
+      stop("Please enter the date as a character vector. Example: '01-01-2023'")
+    } else {
+      input <- strsplit(input, " to ")[[1]]
+      input_search <- NULL
+      if (length(input) == 1) {
+        input <- lubridate::parse_date_time(input, orders = c("ymd", "mdy", "dmy", "Y", "my"), quiet = TRUE)
+        warning(sprintf("Defaulting to a range of %s to %s.", input, lubridate::today()))
+        today <- lubridate::today()
+        input <- gsub("-", "", input)
+        today <- gsub("-", "", today)
+        input <- paste0(input, "+TO+", today)
+        input_search <- paste0(param_name,":([", input, "])")
+      }
+      if (length(input) > 2) {
+        stop("Please enter only two date options.")
+      } else if (length(input) == 2) {
+        input <- lubridate::parse_date_time(input, orders = c("ymd", "mdy", "dmy", "Y", "my"), quiet = TRUE)
+        input <- gsub("-", "", input)
+        input <- paste0(input, collapse = "+TO+")
+        input_search <- paste0(param_name,":([", input, "])")
     }
-    input <- strsplit(input, " to ")[[1]]
-    input_search <- NULL
-    if (length(input) == 1) {
-      input <- lubridate::parse_date_time(input, orders = c("ymd", "mdy", "dmy", "Y", "my"), quiet = TRUE)
-      warning(sprintf("Only a single date option given. Defaulting to a range of %s to %s.", input, lubridate::today()))
-      today <- lubridate::today()
-      input <- gsub("-", "", input)
-      today <- gsub("-", "", today)
-      input <- paste0(input, "+TO+", today)
-      input_search <- paste0(param_name,":([", input, "])")
-    }
-    if (length(input) > 2) {
-      stop("Please enter only two date options.")
-    } else if (length(input) == 2) {
-    input <- lubridate::parse_date_time(input, orders = c("ymd", "mdy", "dmy", "Y", "my"), quiet = TRUE)
-    input <- gsub("-", "", input)
-    input <- paste0(input, collapse = "+TO+")
-    input_search <- paste0(param_name,":([", input, "])")
     }
   } else {
     input_search <- NULL
