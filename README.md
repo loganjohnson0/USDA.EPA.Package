@@ -48,7 +48,7 @@ location <- foodRecall::recall_location(api_key = api_key,
                                         state = "Iowa")
 
 date <- foodRecall::recall_date(api_key = api_key,
-                                recall_initiation_date = )
+                                report_date = "January 2023 to May 2023")
 ```
 
 You can also map the resulting data to see the location of the recall

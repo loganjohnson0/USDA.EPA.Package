@@ -19,7 +19,8 @@ create_search_param <- function(input, param_name) {
 date_search_param <- function(input, param_name) {
   if (!is.null(input)) {
     if (!grepl(" to ", input)) {
-      warning("User input does not contain ' to '. Please provide a date range using ' to ' as a separator.")
+      warning("Please provide a date range using ' to ' as a separator.
+              Example: January 1, 2023 to May 1, 2023")
     }
     input <- strsplit(input, " to ")[[1]]
     input_search <- NULL
@@ -118,7 +119,7 @@ recall_date <- function(api_key,
   center_classification_date_search <- date_search_param(center_classification_date, "center_classification_date")
   report_date_search <- date_search_param(report_date, "report_date")
   termination_date <- date_search_param(termination_date, "termination_date")
-  product_description_search <- create_search_param(product_description, "distribution_pattern")
+  product_description_search <- create_search_param(product_description, "product_description")
   recalling_firm_search <- create_search_param(recalling_firm, "recalling_firm")
   status_search <- create_search_param(status, "status")
 
