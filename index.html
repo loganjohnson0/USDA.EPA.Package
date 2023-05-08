@@ -82,7 +82,7 @@
 <div class="section level2">
 <h2 id="introduction">Introduction<a class="anchor" aria-label="anchor" href="#introduction"></a>
 </h2>
-<p>To use this package, it is necessary that you register for an API key through the <a href="https://open.fda.gov/apis/authentication/" class="external-link">openFDA website</a>. This is a free API key that only requires your email address. You should receive it immediately upon request. Upon any issues with the API key itself, please contact the openFDA office. Be sure to not share your API key with anyone!</p>
+<p>To use this package, you must register for an API key through the <a href="https://open.fda.gov/apis/authentication/" class="external-link">openFDA website</a>. This is a free API key that only requires your email address. You should receive it immediately upon request. Upon any issues with the API key itself, please contact the openFDA office. Be sure to not share your API key with anyone!</p>
 <p><b>This product uses the openFDA API but is not endorsed or certified by the Food and Drug Administration.</b></p>
 </div>
 <div class="section level2">
@@ -90,7 +90,7 @@
 </h2>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">api_key</span> <span class="op">&lt;-</span> <span class="st">"YOUR API KEY"</span></span></code></pre></div>
-<p>We have developed a few different functions for you to search for different kinds of data. You can use either <b>recall_location</b> or <b>recall_date</b> to search for data on food recalls. See notation below as an example.</p>
+<p>We have developed a few different functions for you to search for different kinds of data. You can use either <code>recall_location</code> or <code>recall_date</code> to search for data on food recalls. See notation below as an example.</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">location</span> <span class="op">&lt;-</span> <span class="fu">foodRecall</span><span class="fu">::</span><span class="fu"><a href="reference/recall_location.html">recall_location</a></span><span class="op">(</span>api_key <span class="op">=</span> <span class="va">api_key</span>, </span>
 <span>                                        city <span class="op">=</span> <span class="st">"Ames"</span>, </span>
@@ -98,9 +98,11 @@
 <span></span>
 <span><span class="va">date</span> <span class="op">&lt;-</span> <span class="fu">foodRecall</span><span class="fu">::</span><span class="fu"><a href="reference/recall_date.html">recall_date</a></span><span class="op">(</span>api_key <span class="op">=</span> <span class="va">api_key</span>,</span>
 <span>                                recall_initiation_date <span class="op">=</span> <span class="op">)</span></span></code></pre></div>
-<p>You can also map the resulting data to see the loca</p>
+<p>You can also map the resulting data to see the location of the recall events, the impact of recall, and the number of recall events and individual products each recalling firm has recalled.</p>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu">foodRecall</span><span class="fu">::</span><span class="fu"><a href="reference/map_recall.html">map_recall</a></span><span class="op">(</span>data <span class="op">=</span> <span class="va">df</span><span class="op">)</span></span></code></pre></div>
+<p>Here is a basic output of the <code>map_recall</code> function. This output is an interactive map by <code>leaflet</code> that would include more detailed descriptions of the map.</p>
+<p><img src="reference/figures/Iowa.png"></p>
 <p>Check back for additional updates that we plan to add in soon!</p>
 </div>
 </div>
@@ -142,6 +144,7 @@
 <h2 data-toc-skip>Dev status</h2>
 <ul class="list-unstyled">
 <li><a href="https://github.com/loganjohnson0/foodRecall/actions/workflows/R-CMD-check.yaml" class="external-link"><img src="https://github.com/loganjohnson0/foodRecall/actions/workflows/R-CMD-check.yaml/badge.svg" alt="R-CMD-check"></a></li>
+<li><a href="https://codecov.io/gh/loganjohnson0/foodRecall" class="external-link"><img src="https://codecov.io/gh/loganjohnson0/foodRecall/branch/main/graph/badge.svg?token=BE2QWZYKNE" alt="codecov"></a></li>
 </ul>
 </div>
 
