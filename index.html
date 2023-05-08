@@ -63,41 +63,47 @@
 </nav><div class="container template-home">
 <div class="row">
   <main id="main" class="col-md-9"><div class="section level1">
-<div class="page-header"><h1 id="foodrecall-">foodRecall <a href="https://loganjohnson0.github.io/foodRecall/"><img src="reference/figures/hex-foodRecall.png" align="right" height="150" style="float:right; height:150px;"></a>
+<div class="page-header"><h1 id="foodrecall-">foodRecall <a href="https://loganjohnson0.github.io/foodRecall/"><img src="reference/figures/hex-foodRecall.png" align="right" height="175" style="float:right; height:175px;"></a>
 <a class="anchor" aria-label="anchor" href="#foodrecall-"></a>
 </h1></div>
-<p><!-- badges: start --> <a href="https://github.com/loganjohnson0/foodRecall/actions/workflows/R-CMD-check.yaml" class="external-link"><img src="https://github.com/loganjohnson0/foodRecall/actions/workflows/R-CMD-check.yaml/badge.svg" alt="R-CMD-check"></a> <!-- badges: end --></p>
-<div class="section level2">
-<h2 id="introduction">Introduction<a class="anchor" aria-label="anchor" href="#introduction"></a>
-</h2>
-<p>To use this package, it is necessary that you register for an API key through the <a href="https://open.fda.gov/apis/authentication/" class="external-link">openFDA website</a>. This is a free API key that only requires your email address. You should receive it immediately upon request. Upon any issues with the API key itself, please contact the openFDA office. Be sure to not share your API key with anyone!</p>
-</div>
+<!-- badges: start -->
+
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
-<pre class="{r}"><code><span><span class="co"># install.packages("devtools")</span></span>
+<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># install.packages("devtools")</span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://devtools.r-lib.org/" class="external-link">devtools</a></span><span class="op">)</span></span>
 <span></span>
 <span><span class="fu">devtools</span><span class="fu">::</span><span class="fu">install.github</span><span class="op">(</span><span class="st">"loganjohnson0/foodRecall"</span><span class="op">)</span></span>
 <span></span>
-<span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/loganjohnson0/foodRecall" class="external-link">foodRecall</a></span><span class="op">)</span></span></code></pre>
-<p>To use the <code>foodRecall</code> package, you will need to enter your API key into the <code>get_fda</code> function. You will also need to define the number of requests that you would like to request. The limit is 1000 so if you enter a number larger than 1000, an error will occur. (Working on adding in that limitation in the package itself).</p>
-<pre class="{r}"><code><span><span class="va">df</span> <span class="op">&lt;-</span> <span class="fu">foodRecall</span><span class="fu">::</span><span class="fu"><a href="reference/recall_location.html">recall_location</a></span><span class="op">(</span>api_key <span class="op">=</span> <span class="st">"YOUR API KEY"</span>, </span>
-<span>                                  limit <span class="op">=</span> <span class="st">"NUMBER OF RECALL EVENTS"</span><span class="op">)</span></span></code></pre>
-<p>We also are working on visualizing these data on a location basis. We are working on adding in additional capabilities, such as the scale of the product recall and other interactive capabilities. It is best to not change the column headers from those in the generated <code>get_fda</code> function.</p>
-<pre class="{r}"><code><span><span class="fu">foodRecall</span><span class="fu">::</span><span class="fu"><a href="reference/map_recall.html">map_recall</a></span><span class="op">(</span>data <span class="op">=</span> <span class="va">df</span><span class="op">)</span></span></code></pre>
-<p>Here is an example output of the type of map that would be generated.</p>
-<div class="figure">
-<embed src="Rplot.pdf"></embed><p class="caption">Rplot.pdf</p>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/loganjohnson0/foodRecall" class="external-link">foodRecall</a></span><span class="op">)</span></span></code></pre></div>
 </div>
+<div class="section level2">
+<h2 id="introduction">Introduction<a class="anchor" aria-label="anchor" href="#introduction"></a>
+</h2>
+<p>To use this package, it is necessary that you register for an API key through the <a href="https://open.fda.gov/apis/authentication/" class="external-link">openFDA website</a>. This is a free API key that only requires your email address. You should receive it immediately upon request. Upon any issues with the API key itself, please contact the openFDA office. Be sure to not share your API key with anyone!</p>
+<p><b>This product uses the openFDA API but is not endorsed or certified by the Food and Drug Administration.</b></p>
+</div>
+<div class="section level2">
+<h2 id="save-your-api-key">Save Your API Key<a class="anchor" aria-label="anchor" href="#save-your-api-key"></a>
+</h2>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="va">api_key</span> <span class="op">&lt;-</span> <span class="st">"YOUR API KEY"</span></span></code></pre></div>
+<p>We have developed a few different functions for you to search for different kinds of data. You can use either <b>recall_location</b> or <b>recall_date</b> to search for data on food recalls. See notation below as an example.</p>
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="va">location</span> <span class="op">&lt;-</span> <span class="fu">foodRecall</span><span class="fu">::</span><span class="fu"><a href="reference/recall_location.html">recall_location</a></span><span class="op">(</span>api_key <span class="op">=</span> <span class="va">api_key</span>, </span>
+<span>                                        city <span class="op">=</span> <span class="st">"Ames"</span>, </span>
+<span>                                        state <span class="op">=</span> <span class="st">"Iowa"</span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">date</span> <span class="op">&lt;-</span> <span class="fu">foodRecall</span><span class="fu">::</span><span class="fu"><a href="reference/recall_date.html">recall_date</a></span><span class="op">(</span>api_key <span class="op">=</span> <span class="va">api_key</span>,</span>
+<span>                                recall_initiation_date <span class="op">=</span> <span class="op">)</span></span></code></pre></div>
+<p>You can also map the resulting data to see the loca</p>
+<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu">foodRecall</span><span class="fu">::</span><span class="fu"><a href="reference/map_recall.html">map_recall</a></span><span class="op">(</span>data <span class="op">=</span> <span class="va">df</span><span class="op">)</span></span></code></pre></div>
 <p>Check back for additional updates that we plan to add in soon!</p>
 </div>
 </div>
-<div class="section level1">
-<h1 id="this-product-uses-the-openfda-api-but-is-not-endorsed-or-certified-by-the-food-and-drug-administration">This product uses the openFDA API but is not endorsed or certified by the Food and Drug Administration.<a class="anchor" aria-label="anchor" href="#this-product-uses-the-openfda-api-but-is-not-endorsed-or-certified-by-the-food-and-drug-administration"></a>
-</h1>
-</div>
-
   </main><aside class="col-md-3"><div class="links">
 <h2 data-toc-skip>Links</h2>
 <ul class="list-unstyled">
@@ -132,7 +138,12 @@
 </ul>
 </div>
 
-
+<div class="dev-status">
+<h2 data-toc-skip>Dev status</h2>
+<ul class="list-unstyled">
+<li><a href="https://github.com/loganjohnson0/foodRecall/actions/workflows/R-CMD-check.yaml" class="external-link"><img src="https://github.com/loganjohnson0/foodRecall/actions/workflows/R-CMD-check.yaml/badge.svg" alt="R-CMD-check"></a></li>
+</ul>
+</div>
 
   </aside>
 </div>
