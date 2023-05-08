@@ -16,6 +16,8 @@ knitr::opts_chunk$set(
 
 foodRecall is an R package that facilitates accessing and visualizing data from the openFDA API. This document provides descriptions and examples of the functions included in the package and some information explaining the process to complete this project for STAT 585 - Data Technologies for Statistical Analysis at Iowa State University.
 
+Disclaimer: This product uses the openFDA API but is not endorsed or certified by the Food and Drug Administration.
+
 ## Background/Motivation
 
 ## Functions and applications
@@ -26,23 +28,25 @@ library(foodRecall)
 
 # Before running any of the package functions, the user will need an API key.
 # To get the API key, go to https://open.fda.gov/apis/authentication/. It is free, only requires
-# an email address, and you will get it immediately.
+# an email address, and you will get it immediately.Do not share your API key with anyone.
+
+# api_key <- "YOUR API KEY"
+
+## Get food recall locations
+
+# location <- foodRecall::recall_location(api_key = api_key, limit = 1000, city = "Kansas City, Ames", state = "Iowa, Missouri")
 
 
-# Get food recall locations
-# recall_location() - this function uses search criteria such as api_key, city, and state.
+## Map food recall locations
 
-# df <- foodRecall::recall_location(api_key = api_key, limit = 1000, city = "Kansas City, Ames", state = "Iowa, Missouri")
-
-
-# Map food recall locations
 # map_recall()
+# map <- foodRecall::map_recall(data = location)
 
-# map <- foodRecall::map_recall(data = df)
-
-# Working with food recall dates
+## Working with food recall dates
 # recall_date()
 
+ # date <- foodRecall::recall_date(api_key = api_key,
+ #                                report_date = "January 2023 to May 2023")
 
 ```
 
