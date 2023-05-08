@@ -1,3 +1,50 @@
+
+create_search_param <- function(input, param_name) {
+  if (!is.null(input)) {
+    input <- strsplit(input, ", ")[[1]]
+    input <- gsub(" ", "+", input)
+    param_search <- NULL
+
+    if (length(input) == 1) {
+      param_search <- paste0(param_name, ":(%22", input, "%22)")
+    } else {
+      param_search <- paste0("%22", input, "%22", collapse = "+OR+")
+      param_search <- paste0(param_name, ":(", param_search, ")")
+    }
+  } else {
+    param_search <- NULL
+  }
+  return(param_search)
+}
+date_search_param <- function(input, param_name) {
+  if (!is.null(input)) {
+    if (!grepl(" to ", input)) {
+      warning("User input does not contain ' to '. Please provide a date range using ' to ' as a separator.")
+    }
+    input <- strsplit(input, " to ")[[1]]
+    input_search <- NULL
+    if (length(input) == 1) {
+      input <- lubridate::parse_date_time(input, orders = c("ymd", "mdy", "dmy", "Y", "my"), quiet = TRUE)
+      warning(sprintf("Only a single date option given. Defaulting to a range of %s to %s.", input, lubridate::today()))
+      today <- lubridate::today()
+      input <- gsub("-", "", input)
+      today <- gsub("-", "", today)
+      input <- paste0(input, "+TO+", today)
+      input_search <- paste0(param_name,":([", input, "])")
+    }
+    if (length(input) > 2) {
+      stop("Please enter only two date options.")
+    } else if (length(input) == 2) {
+    input <- lubridate::parse_date_time(input, orders = c("ymd", "mdy", "dmy", "Y", "my"), quiet = TRUE)
+    input <- gsub("-", "", input)
+    input <- paste0(input, collapse = "+TO+")
+    input_search <- paste0(param_name,":([", input, "])")
+    }
+  } else {
+    input_search <- NULL
+  }
+  return(input_search)
+}
 #' This function scrapes the FDA website for food product recall data
 #'
 #' @param api_key Your free api key from FDA website
@@ -11,17 +58,21 @@
 #' @param termination_date The date the recall was terminated
 #'
 #' @importFrom dplyr arrange
+#' @importFrom dplyr desc
 #' @importFrom dplyr mutate
 #' @importFrom dplyr mutate_all
 #' @importFrom httr content
 #' @importFrom httr GET
+#' @importFrom httr status_code
 #' @importFrom jsonlite fromJSON
+#' @importFrom lubridate parse_date_time
 #' @importFrom lubridate ymd
+#' @importFrom lubridate today
 #' @importFrom tibble tibble
 #' @export
 recall_date <- function(api_key,
                         center_classification_date = NULL,
-                        limit,
+                        limit = NULL,
                         product_description = NULL,
                         recall_initiation_date = NULL,
                         recalling_firm = NULL,
@@ -29,140 +80,68 @@ recall_date <- function(api_key,
                         status = NULL,
                         termination_date = NULL) {
 
-  input_count <- sum(!is.null(city),
-                     !is.null(country),
-                     !is.null(distribution_pattern),
+  address_1 <- NULL
+  address_2 <- NULL
+  classification <- NULL
+  code_info <- NULL
+  event_id <- NULL
+  initial_firm_notification <- NULL
+  postal_code <- NULL
+  product_quantity <- NULL
+  recall_number <- NULL
+  voluntary_mandated <- NULL
+
+  input_count <- sum(!is.null(center_classification_date),
+                     !is.null(product_description),
+                     !is.null(recall_initiation_date),
                      !is.null(recalling_firm),
-                     !is.null(state),
-                     !is.null(status))
+                     !is.null(report_date),
+                     !is.null(status),
+                     !is.null(termination_date))
 
   if (input_count > 1) {
     search_mode <- readline(
-      "Choose the search mode:
+      "Choose how you would like to search:
 
-'AND' for exact matches
-'OR' for any combinations")
+'AND' must contain all of your inputs
+'OR' can contain any combination of your inputs")
 
     while (search_mode != "AND" && search_mode != "OR") {
       search_mode <- readline("Invalid input. Enter either 'AND' or 'OR': ")
     }
     search_mode <- paste0("+", search_mode, "+")
+  } else {
+    search_mode <- NULL
+  }
+
+  recall_initiation_date_search <- date_search_param(recall_initiation_date, "recall_initiation_date")
+  center_classification_date_search <- date_search_param(center_classification_date, "center_classification_date")
+  report_date_search <- date_search_param(report_date, "report_date")
+  termination_date <- date_search_param(termination_date, "termination_date")
+  product_description_search <- create_search_param(product_description, "distribution_pattern")
+  recalling_firm_search <- create_search_param(recalling_firm, "recalling_firm")
+  status_search <- create_search_param(status, "status")
+
+  if (!is.null(limit)) {
+    if (limit > 1000){
+      warning("The openFDA API is limited to 1000 results per API call. Defaulting to 1000 results. Try a more specific search to return a dataset that contains all of the desired results.")
+      limit <- paste0("&limit=", 1000)
+    } else {
+      limit <- paste0("&limit=", limit)
+    }
+  } else {
+    limit <- paste0("&limit=", 1000)
   }
 
   base_url <- paste0("https://api.fda.gov/food/enforcement.json?api_key=", api_key, "&search=")
 
-  if (!is.null(city)) {
-    city <- strsplit(city, ", ")[[1]]
-    city <- gsub(" ", "+", city)
-    city_search <- NULL
-
-    if (length(city) == 1) {
-      city_search <- paste0("city:(%22",city, "%22)")
-    } else {
-      city_search <- paste0("%22", city, "%22", collapse = "+OR+")
-      city_search <- paste0("city:(", city_search, ")")
-    }
-  }
-  if (is.null(city)) {
-    city_search <- NULL
-  }
-
-  if (!is.null(country)) {
-    country <- strsplit(country, ", ")[[1]]
-    country <- gsub(" ", "+", country)
-    country_search <- NULL
-
-    if (length(country) == 1) {
-      country_search <- paste0("country:(%22",country, "%22)")
-    } else {
-      country_search <- paste0("%22", country, "%22", collapse = "+OR+")
-      country_search <- paste0("country:(", country_search, ")")
-    }
-  }
-  if (is.null(country)) {
-    country_search <- NULL
-  }
-
-  if (!is.null(distribution_pattern)) {
-    distribution_pattern <- strsplit(distribution_pattern, ", ")[[1]]
-    distribution_pattern <- gsub(" ", "+", distribution_pattern)
-    distribution_pattern_search <- NULL
-
-    if (length(distribution_pattern) == 1) {
-      distribution_pattern_search <- paste0("distribution_pattern:(%22",distribution_pattern, "%22)")
-    } else {
-      distribution_pattern_search <- paste0("%22", distribution_pattern, "%22", collapse = "+OR+")
-      distribution_pattern_search <- paste0("distribution_pattern:(", distribution_pattern_search, ")")
-    }
-  }
-  if (is.null(distribution_pattern)) {
-    distribution_pattern_search <- NULL
-  }
-
-  if (!is.null(recalling_firm)) {
-    recalling_firm <- strsplit(recalling_firm, ", ")[[1]]
-    recalling_firm <- gsub(" ", "+", recalling_firm)
-    recalling_firm_search <- NULL
-
-    if (length(recalling_firm) == 1) {
-      recalling_firm_search <- paste0("recalling_firm:(%22",recalling_firm, "%22)")
-    } else {
-      recalling_firm_search <- paste0("%22", recalling_firm, "%22", collapse = "+OR+")
-      recalling_firm_search <- paste0("recalling_firm:(", recalling_firm_search, ")")
-    }
-  }
-  if (is.null(recalling_firm)) {
-    recalling_firm_search <- NULL
-  }
-
-  if (!is.null(state)) {
-
-    state_vector <- unlist(strsplit(state, ", "))
-
-    state_vector_abbrev <- sapply(state_vector, function(x) {
-      x_lower <- tolower(x)
-      state_name_lower <- tolower(state.name)
-      if (x_lower %in% state_name_lower) {
-        index <- match(x_lower, state_name_lower)
-        return(state.abb[index])
-      }
-    })
-
-    state <- state_vector_abbrev
-    state <- gsub(" ", "+", state)
-    state_search <- NULL
-
-    if (length(state) == 1) {
-      state_search <- paste0("state:(%22",state, "%22)")
-    } else {
-      state_search <- paste0("%22", state, "%22", collapse = "+OR+")
-      state_search <- paste0("state:(", state_search, ")")
-    }
-  }
-  if (is.null(state)) {
-    state_search <- NULL
-  }
-
-  if (!is.null(status)) {
-    status <- strsplit(status, ", ")[[1]]
-    status <- gsub(" ", "+", status)
-    status_search <- NULL
-
-    if (length(status) == 1) {
-      status_search <- paste0("status:(%22",status, "%22)")
-    } else {
-      status_search <- paste0("%22", status, "%22", collapse = "+OR+")
-      status_search <- paste0("status:(", state_search, ")")
-    }
-  }
-  if (is.null(status)) {
-    status_search <- NULL
-  }
-
-
-  limit <- paste0("&limit=", limit)
-
-  search_parameters <- list(city_search, country_search, distribution_pattern_search, recalling_firm_search, state_search, status_search)
+  search_parameters <- list(recall_initiation_date_search,
+                            center_classification_date_search,
+                            report_date_search,
+                            recalling_firm_search,
+                            termination_date,
+                            status_search,
+                            product_description_search)
 
   search_parameters <- search_parameters[!sapply(search_parameters, is.null)]
 
@@ -172,7 +151,15 @@ recall_date <- function(api_key,
 
   fda_data <- httr::GET(url = url)
 
+  if (fda_data$status_code !=200) {
+    stop("The API call failed. Make sure the inputs were entered correctly. Retry the request again.")
+  }
+
   data <- jsonlite::fromJSON(httr::content(fda_data, "text"))
+
+  if (data$meta$results$total >1000) {
+    warning("The total number of results is greater than the number of returned results; therefore, the returned results may be an incomplete representation of the data. Try a more specific search criteria to return a more complete dataset containing all the desired results.")
+  }
 
   new_stuff <- tibble::tibble(recall_number = data$results$recall_number,
                               recalling_firm = data$results$recalling_firm,
@@ -197,8 +184,6 @@ recall_date <- function(api_key,
                               distribution_pattern = data$results$distribution_pattern,
                               event_id = data$results$event_id)
 
-
-
   new_stuff <- new_stuff %>%
     dplyr::mutate_all(~replace(., . == "", NA)) %>%
     dplyr::mutate(
@@ -206,9 +191,8 @@ recall_date <- function(api_key,
       report_date = lubridate::ymd(report_date),
       center_classification_date = lubridate::ymd(center_classification_date),
       termination_date = lubridate::ymd(termination_date)) %>%
-    dplyr::arrange(desc(report_date)) %>%
-    dplyr::arrange((city))
-
+    dplyr::arrange((city)) %>%
+    dplyr::arrange(dplyr::desc(report_date))
 
   return(new_stuff)
 }
