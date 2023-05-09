@@ -8,9 +8,16 @@ library(tidyverse)
 # ui object
 ui <- fluidPage(
   titlePanel(p("FoodRecall", style = "color:#3474A7")),
-  numericInput("num1", "Enter the first number:", value = 1),
-  numericInput("num2", "Enter the second number:", value = 2),
-  verbatimTextOutput("result")
+    sidebarLayout(
+    sidebarPanel(
+      selectInput("status", "Select Recall Status:",
+                  choices = c("", "Ongoing", "Terminated", "Completed", "Pending"),
+                  selected = "")
+    ),
+    mainPanel(
+      tableOutput("recall_table")
+    )
+  )
 )
 
 
