@@ -63,5 +63,12 @@ library(foodRecall)
 ## Limitations 
 
 ## Future Work
+Currently, our package only provides information relating to foodborne disease outbreaks 
+in the United States.In the future, it would be beneficial to expand this package to include foodborne illness statistics from across the globe. In this manner, it would be
+easy and efficient to compare illness rates from foodborne diseases in different
+countries. Furthermore, it would be possible to track, model, and predict the spread of 
+foodborne illnesses as they move from nation to nation, which could lead to early
+government intervention in containing the spread of various illnesses. One complication with this, however, is that a global database would require the combination and analysis of
+a large number of datasets. Due to this, and the fact that many nations do not consistently track disease statistics, this would be quite ambitious.
 
 
