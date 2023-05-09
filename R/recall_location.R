@@ -170,12 +170,14 @@ recall_location <- function(api_key,
   new_stuff <- new_stuff %>%
     dplyr::mutate_all(~replace(., . == "", NA)) %>%
     dplyr::mutate(
-      recall_initiation_date = lubridate::ymd(recall_initiation_date),
-      report_date = lubridate::ymd(report_date),
-      center_classification_date = lubridate::ymd(center_classification_date),
-      termination_date = lubridate::ymd(termination_date)) %>%
+      recall_initiation_date = as.character(lubridate::ymd(recall_initiation_date)),
+      report_date = as.character(lubridate::ymd(report_date)),
+      center_classification_date = as.character(lubridate::ymd(center_classification_date)),
+      termination_date = as.character(lubridate::ymd(termination_date))) %>%
     dplyr::arrange((city)) %>%
     dplyr::arrange(dplyr::desc(report_date))
+
+
 
   return(new_stuff)
 }
