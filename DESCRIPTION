@@ -33,4 +33,5 @@ VignetteBuilder:
     knitr
 Encoding: UTF-8
 LazyData: true
+ShinyExamples: inst/shiny-examples/myapp
 RoxygenNote: 7.2.3
