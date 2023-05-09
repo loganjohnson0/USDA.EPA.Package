@@ -124,11 +124,15 @@ recall_location <- function(api_key,
 
   fda_data <- httr::GET(url = url)
 
-  if (fda_data$status_code !=200) {
+  data <- jsonlite::fromJSON(httr::content(fda_data, "text"))
+
+  if ("error" %in% names(data)) {
+    if (data$error$message == "No matches found!") {
+      print("No matches were found for the given input.")
+    }
+  } else if (fda_data$status_code !=200) {
     stop("The API call failed. Make sure the inputs were entered correctly. Retry the request again.")
   }
-
-  data <- jsonlite::fromJSON(httr::content(fda_data, "text"))
 
   if (data$meta$results$total >1000) {
     warning("The total number of results is greater than the number of returned results; therefore, the returned results may be an incomplete representation of the data. Try a more specific search criteria to return a more complete dataset containing all the desired results.")
@@ -156,6 +160,12 @@ recall_location <- function(api_key,
                               code_info = data$results$code_info,
                               distribution_pattern = data$results$distribution_pattern,
                               event_id = data$results$event_id)
+
+  if (!("termination_date" %in% names(new_stuff))) {
+    new_stuff <- new_stuff %>%
+      dplyr::mutate(termination_date = NA) %>%
+      dplyr::relocate(termination_date, .after = report_date)
+  }
 
   new_stuff <- new_stuff %>%
     dplyr::mutate_all(~replace(., . == "", NA)) %>%

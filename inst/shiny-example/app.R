@@ -1,12 +1,7 @@
-library(leaflet)
-library(shiny)
-library(DT)
-library(tidyverse)
+
 library(foodRecall)
 
-#' @importFrom leaflet leafletProxy, clearMarkers, addMarkers
-#' @importFrom lubridate date, mdy_hm
-#'
+
 # ui object
 ui <- fluidPage(
   titlePanel(p("FoodRecall", style = "color:#3474A7")),
@@ -21,7 +16,7 @@ ui <- fluidPage(
       #textInput("state", "State"),
       #textInput("status", "Status"),
       selectInput("status", "Select Recall Status:",
-                  choices = c("", "Ongoing", "Terminated", "Completed", "Pending"),
+                  choices = c("", "OnGoing", "Terminated", "Completed", "Pending"),
                   selected = ""),
       br(),
       actionButton("submit_button", "Submit"),
