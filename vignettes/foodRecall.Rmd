@@ -69,6 +69,7 @@ countries. Furthermore, it would be possible to track, model, and predict the sp
 foodborne illnesses as they move from nation to nation, which could lead to early
 government intervention in containing the spread of various illnesses. One complication with this, however, is that a global database would require the combination and analysis of
 a large number of datasets. Due to this, and the fact that many nations do not consistently track disease statistics, this would be quite ambitious.
+
 ## Future Work
 
 In the future, it would be optimal to try and combine this package with other information,
