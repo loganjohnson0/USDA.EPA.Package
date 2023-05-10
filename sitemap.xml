@@ -22,6 +22,9 @@
     <loc>https://loganjohnson0.github.io/foodRecall/index.html</loc>
   </url>
   <url>
+    <loc>https://loganjohnson0.github.io/foodRecall/reference/adverse_events.html</loc>
+  </url>
+  <url>
     <loc>https://loganjohnson0.github.io/foodRecall/reference/index.html</loc>
   </url>
   <url>
@@ -32,5 +35,8 @@
   </url>
   <url>
     <loc>https://loganjohnson0.github.io/foodRecall/reference/recall_location.html</loc>
+  </url>
+  <url>
+    <loc>https://loganjohnson0.github.io/foodRecall/reference/runExample.html</loc>
   </url>
 </urlset>
