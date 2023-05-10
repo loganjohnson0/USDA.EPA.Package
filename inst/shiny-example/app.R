@@ -37,7 +37,7 @@ server <- function(input, output) {
   # Function to update search results when submit button is pressed
   observeEvent(input$submit_button, {
     # Call the recall_location() function and store results in recall_data
-    recall_data$recall_df <- foodRecall::recall_location(api_key = api_key,
+    recall_data$recall_df <- foodRecall::recall_location(api_key = input$api_key,
                                                          city = input$city,
                                                          country = input$country,
                                                          recalling_firm = input$recalling_firm,
