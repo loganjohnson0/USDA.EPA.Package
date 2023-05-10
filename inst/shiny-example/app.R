@@ -1,5 +1,6 @@
 
 library(foodRecall)
+library(leaflet)
 
 
 # ui object
@@ -23,7 +24,9 @@ ui <- fluidPage(
 
     ),
     mainPanel(
-      tableOutput(outputId = "recall_table")
+      tableOutput(outputId = "recall_table"),
+      leafletOutput("map")
+
     )
   )
 )
@@ -54,6 +57,7 @@ server <- function(input, output) {
   output$recall_table <- renderTable({
     recall_data$recall_df
     })
+  output$map <- renderLeaflet({(map_recall(data = recall_data$recall_df))})
 
 }
 
