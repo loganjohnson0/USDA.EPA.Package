@@ -26,7 +26,8 @@ knitr::opts_chunk$set(
 
 ## Background/Motivation
 
-This project is motivated by the need for more visualization in healthcare, especially for food-related problems.
+This project is motivated by the need for more visualization in healthcare, especially for food-related problems. In many instances, one hears about foodborne illnesses in
+the new, but is unclear of where such
 
 Our R package contains code, data, and documentation about the foodborne outbreaks that happened in the United States in the recent decade. The package helps highlight the city, state, country, and time the outbreak occurred.
 
@@ -77,20 +78,28 @@ such as agricultural data from the United States Department of Agriculture (USDA
 . One of the original ideas for our project dealt with analyzing crop progress data from the USDA's National Agricultural Statistics Service (NASS). This service provides information on
 statistics such as crop planting, germination, harvest, etc. Many foodborne illness outbreaks 
 initiate from bacteria, fungi, or insects that emerge at certain crop development stages.
-If foodborne illness and crop progress statistics could be combined and analyzed together with the same package, it would be much easier for organizations such as the FDA to predict the 
-severity of foodborne illnesses and to develop measures for their prevention. It
+If food-borne illness and crop progress statistics could be combined and analyzed together with the same package, it would be much easier for organizations such as the FDA to predict the 
+severity of food-borne illnesses and to develop measures for their prevention. It
 could also be a useful tool for farmers and others whose work entails a key role
 in the prevention of such diseases, such as with the application of herbicides
 and other agricultural chemicals. Additional agricultural statistics from
-livestock facilities could be combined with these datasets in order to 
+livestock facilities could be combined with these data sets in order to 
 provide a more complete picture of how livestock yields over time have impacted
 rates of foodborne illnesses such as salmonella.
 
 Another possibility for a future improvement to this package would be the addition
 of a feature that enables users to track areas that have featured the origin of
-the most foodborne illnesses. If high-risk areas can be identified by simply keeping
+the most food-borne illnesses. If high-risk areas can be identified by simply keeping
 a count of the number of cases of a certain disease over time, it will be easy to
 pinpoint where many diseases are originating and how to prevent the spread of such
 diseases. Essentially, expansions to this package could enable governmental and other
 organizations to work together on joint projects relating to food safety.
+
+Finally, additional functionality could be created that allows for the combination
+of food-borne illness data with other disease related data. In this sense, it could
+be useful to healthcare professionals who are treating such illnesses and may be more
+interested in treatment options rather than origin of disease. Hence, it could be useful
+to develop functionality with regards to symptoms and symptom severity as it relates to
+diseases of interest.
+
 
