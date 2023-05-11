@@ -133,12 +133,14 @@ contamination.</p>
 <span><span class="co"># recall_date()</span></span>
 <span></span>
 <span> <span class="co"># date &lt;- foodRecall::recall_date(api_key = api_key,</span></span>
-<span> <span class="co">#                                report_date = "January 2015 to May 2015")</span></span></code></pre></div>
+<span> <span class="co">#                                report_date = "January 2015 to May 2015", termination_date = "June 2015", recalling_firm = "Tyson Foods")</span></span></code></pre></div>
 <p>This package allows a user to input a date or range of dates in order
 to see what types of food recalls occurred within a certain interval of
-time. For instance, the above example displays all food recalls for a
-specified location for the first 4 months of 2015 using the date reports
-input. ## Limitations</p>
+time. For instance, the above example displays all food recalls for
+Tyson Foods that were reported for the first 4 months of 2015 and ending
+in June of 2015. Other input options include the date of recall
+initiation, the current status of the recall, and the distribution
+pattern. ## Limitations</p>
 <p>Currently, our package only provides information relating to
 foodborne disease outbreaks in the United States.In the future, it would
 be beneficial to expand this package to include foodborne illness
