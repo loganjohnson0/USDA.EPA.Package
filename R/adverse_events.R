@@ -73,35 +73,31 @@ date_search_param <- function(input, param_name) {
 #' @importFrom tibble tibble
 #' @export
 adverse_events <- function(api_key,
-                        center_classification_date = NULL,
-                        limit = NULL,
-                        product_description = NULL,
-                        recall_initiation_date = NULL,
-                        recalling_firm = NULL,
-                        report_date = NULL,
-                        search_mode = NULL,
-                        status = NULL,
-                        termination_date = NULL) {
+                           consumer.gender = NULL,
+                           consumer.age = NULL,
+                           consumer.age_unit = NULL,
+                           date_created = NULL,
+                           date_started = NULL,
+                           limit = NULL,
+                           outcomes = NULL,
+                           products.name_brand = NULL,
+                           products.industry_name = NULL,
+                           products.industry_code = NULL,
+                           reactions = NULL,
+                           report_number = NULL) {
 
-  address_1 <- NULL
-  address_2 <- NULL
-  city <- NULL
-  classification <- NULL
-  code_info <- NULL
-  event_id <- NULL
-  initial_firm_notification <- NULL
-  postal_code <- NULL
-  product_quantity <- NULL
-  recall_number <- NULL
-  voluntary_mandated <- NULL
 
-  recall_initiation_date_search <- date_search_param(recall_initiation_date, "recall_initiation_date")
-  center_classification_date_search <- date_search_param(center_classification_date, "center_classification_date")
-  report_date_search <- date_search_param(report_date, "report_date")
-  termination_date <- date_search_param(termination_date, "termination_date")
-  product_description_search <- create_search_param(product_description, "product_description")
-  recalling_firm_search <- create_search_param(recalling_firm, "recalling_firm")
-  status_search <- create_search_param(status, "status")
+
+  date_created_search <- date_search_param(date_created, "date_created")
+  date_started_search <- date_search_param(date_started, "date_started")
+
+  products.name_brand_search <- create_search_param(products.name_brand, "products.name_brand")
+  products.industry_name_search <- create_search_param(products.industry_name, "products.industry_name")
+  products.industry_code_search <- create_search_param(products.industry_code, "products.industry_code")
+
+  reactions_search <- create_search_param(reactions, "reactions")
+  outcomes_search <- create_search_param(outcomes, "outcomes")
+  consumer.gender_search <- create_search_param(consumer.gender, "consumer.gender")
 
   if (!is.null(limit)) {
     if (limit > 1000){
@@ -126,13 +122,14 @@ adverse_events <- function(api_key,
 
   base_url <- paste0("https://api.fda.gov/food/event.json?api_key=", api_key, "&search=")
 
-  search_parameters <- list(recall_initiation_date_search,
-                            center_classification_date_search,
-                            report_date_search,
-                            recalling_firm_search,
-                            termination_date,
-                            status_search,
-                            product_description_search)
+  search_parameters <- list(date_created_search,
+                            date_started_search,
+                            products.name_brand_search,
+                            products.industry_name_search,
+                            products.industry_code_search,
+                            reactions_search,
+                            outcomes_search,
+                            consumer.gender_search)
 
   search_parameters <- search_parameters[!sapply(search_parameters, is.null)]
 
@@ -156,28 +153,20 @@ adverse_events <- function(api_key,
     warning("The total number of results is greater than the number of returned results; therefore, the returned results may be an incomplete representation of the data. Try a more specific search criteria to return a more complete dataset containing all the desired results.")
   }
 
-  new_stuff <- tibble::tibble(recall_number = data$results$recall_number,
-                              recalling_firm = data$results$recalling_firm,
-                              recall_initiation_date = data$results$recall_initiation_date,
-                              center_classification_date = data$results$center_classification_date,
-                              report_date = data$results$report_date,
-                              termination_date = data$results$termination_date,
-                              voluntary_mandated = data$results$voluntary_mandated,
-                              classification = data$results$classification,
-                              initial_firm_notification = data$results$initial_firm_notification,
-                              status = data$results$status,
-                              country = data$results$country,
-                              state = data$results$state,
-                              city = data$results$city,
-                              address_1 = data$results$address_1,
-                              address_2 = data$results$address_2,
-                              postal_code = data$results$postal_code,
-                              reason_for_recall = data$results$reason_for_recall,
-                              product_description = data$results$product_description,
-                              product_quantity = data$results$product_quantity,
-                              code_info = data$results$code_info,
-                              distribution_pattern = data$results$distribution_pattern,
-                              event_id = data$results$event_id)
+  new_stuff <- tibble::tibble(report_number = data$results$report_number,
+
+                              consumer.age = NULL,
+                              consumer.age_unit = NULL,
+                              date_created = NULL,
+                              date_started = NULL,
+                              limit = NULL,
+                              outcomes = NULL,
+                              products.name_brand = NULL,
+                              products.industry_name = NULL,
+                              products.industry_code = NULL,
+                              reactions = NULL,
+                              consumer.gender
+                               = NULL)
 
   if (!("termination_date" %in% names(new_stuff))) {
     new_stuff <- new_stuff %>%

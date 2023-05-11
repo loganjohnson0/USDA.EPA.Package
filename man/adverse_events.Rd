@@ -6,23 +6,26 @@
 \usage{
 adverse_events(
   api_key,
-  center_classification_date = NULL,
+  consumer.gender = NULL,
+  consumer.age = NULL,
+  consumer.age_unit = NULL,
+  date_created = NULL,
+  date_started = NULL,
   limit = NULL,
-  product_description = NULL,
-  recall_initiation_date = NULL,
-  recalling_firm = NULL,
-  report_date = NULL,
-  search_mode = NULL,
-  status = NULL,
-  termination_date = NULL
+  outcomes = NULL,
+  products.name_brand = NULL,
+  products.industry_name = NULL,
+  products.industry_code = NULL,
+  reactions = NULL,
+  report_number = NULL
 )
 }
 \arguments{
 \item{api_key}{Your free api key from FDA website}
 
-\item{center_classification_date}{A way the FDA classifies a date}
-
 \item{limit}{The number of rows to return for that query}
+
+\item{center_classification_date}{A way the FDA classifies a date}
 
 \item{product_description}{Description of product}
 
