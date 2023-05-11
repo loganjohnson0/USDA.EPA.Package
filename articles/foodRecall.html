@@ -92,7 +92,7 @@ is not endorsed or certified by the Food and Drug Administration
 </h2>
 <p>This project is motivated by the need for more visualization in
 healthcare, especially for food-related problems. In many instances, one
-hears about foodborne illnesses in the new, but is unclear of where
+hears about foodborne illnesses in the news, but is unclear of where
 such</p>
 <p>Our R package contains code, data, and documentation about the
 foodborne outbreaks that happened in the United States in the recent
@@ -114,10 +114,17 @@ the outbreak occurred.</p>
 <span></span>
 <span><span class="co">## Get food recall locations</span></span>
 <span></span>
-<span><span class="co"># location &lt;- foodRecall::recall_location(api_key = api_key, limit = 1000, city = "Kansas City, Ames", state = "Iowa, Missouri")</span></span>
-<span></span>
-<span></span>
-<span><span class="co">## Map food recall locations</span></span>
+<span><span class="co"># location &lt;- foodRecall::recall_location(api_key = api_key, limit = 1000, city = "Milwaukee", state = "Wisconsin", recalling_firm = "Tyson Foods" )</span></span></code></pre></div>
+<p>The recall_location function provides a list of all food recalls for
+a designated city. Additional functionality includes the ability to
+specify inputs such as the firm responsible for each recall, the current
+status of the recall, and the distribution pattern (if known). For
+example, the above code will display all recalls for the city of
+Milwaukee from the company Tyson Foods, which has experienced several
+recalls of their chicken products due to listeria bacteria
+contamination.</p>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co">## Map food recall locations</span></span>
 <span></span>
 <span><span class="co"># map_recall()</span></span>
 <span><span class="co"># map &lt;- foodRecall::map_recall(data = location)</span></span>
@@ -126,11 +133,12 @@ the outbreak occurred.</p>
 <span><span class="co"># recall_date()</span></span>
 <span></span>
 <span> <span class="co"># date &lt;- foodRecall::recall_date(api_key = api_key,</span></span>
-<span> <span class="co">#                                report_date = "January 2023 to May 2023")</span></span></code></pre></div>
+<span> <span class="co">#                                report_date = "January 2015 to May 2015")</span></span></code></pre></div>
 <p>This package allows a user to input a date or range of dates in order
 to see what types of food recalls occurred within a certain interval of
 time. For instance, the above example displays all food recalls for a
-specified location for the first 4 months of 2023. ## Limitations</p>
+specified location for the first 4 months of 2015 using the date reports
+input. ## Limitations</p>
 <p>Currently, our package only provides information relating to
 foodborne disease outbreaks in the United States.In the future, it would
 be beneficial to expand this package to include foodborne illness
