@@ -60,7 +60,10 @@ library(foodRecall)
  #                                report_date = "January 2023 to May 2023")
 
 ```
-
+This package allows a user to input a date or range of dates in order to see 
+what types of food recalls occurred within  a certain interval of time.
+For instance, the above example displays all food recalls for a specified location
+for the first 4 months of 2023.
 ## Limitations 
 
 Currently, our package only provides information relating to foodborne disease outbreaks 
