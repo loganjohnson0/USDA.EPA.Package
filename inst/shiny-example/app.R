@@ -5,30 +5,36 @@ library(leaflet)
 
 # ui object
 ui <- fluidPage(
-  titlePanel(p("FoodRecall", style = "color:#3474A7")),
-  sidebarLayout(
-    sidebarPanel(
-      textInput("api_key", "Enter your API key from FDA:"),
-      textInput("city", "City"),
-      textInput("country", "Country"),
-      textInput("recalling_firm", "Recalling Firm"),
-      textInput("state", "State"),
-      textInput("status", "Status of the Recall"),
-      selectInput("status", "Select Recall Status:",
-                  choices = c("", "OnGoing", "Terminated", "Completed", "Pending"),
-                  selected = ""),
-      br(),
-      actionButton("submit_button", "Submit"),
-      br(),
-      actionButton("clear_button", "Clear")
-
-    ),
-    mainPanel(
-      tableOutput(outputId = "recall_table"),
-      leafletOutput("map")
-
-    )
-  )
+  tabsetPanel(
+    tabPanel("Table",
+             sidebarLayout(
+               sidebarPanel(
+                 textInput("api_key", "Enter your API key from FDA:"),
+                 textInput("city", "City"),
+                 textInput("country", "Country"),
+                 textInput("recalling_firm", "Recalling Firm"),
+                 textInput("state", "State"),
+                 textInput("status", "Status of the Recall"),
+                 selectInput("status", "Select Recall Status:",
+                             choices = c("", "OnGoing", "Terminated", "Completed", "Pending"),
+                             selected = ""),
+                 br(),
+                 actionButton("submit_button", "Submit"),
+                 br(),
+                 actionButton("clear_button", "Clear")),
+               mainPanel(
+                 tableOutput(outputId = "recall_table")
+               ),
+             ),
+            ),
+    tabPanel("Map",
+             mainPanel(
+               leafletOutput("map", height = "600")  #fill whole screen with map
+             )
+            ),
+  ),
+  #titlePanel(p("FoodRecall", style = "color:#3474A7")),
+  fillPage = TRUE # fill the whole screen with the app
 )
 
 server <- function(input, output) {
@@ -57,7 +63,8 @@ server <- function(input, output) {
   output$recall_table <- renderTable({
     recall_data$recall_df
     })
-  output$map <- renderLeaflet({(map_recall(data = recall_data$recall_df))})
+  output$map <- renderLeaflet({(map_recall(data = recall_data$recall_df))
+    })
 
 }
 
