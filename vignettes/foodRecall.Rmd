@@ -45,10 +45,10 @@ library(foodRecall)
 
 ## Get food recall locations
 
-# location <- foodRecall::recall_location(api_key = api_key, limit = 1000, city = "Kansas City, Ames", state = "Iowa, Missouri")
+# location <- foodRecall::recall_location(api_key = api_key, limit = 1000, city = "Milwaukee", state = "Wisconsin", recalling_firm = "Tyson Foods" )
 
 ```
-
+The recall_location function provides a list of all food recalls for a designated city. Additional functionality includes the ability to specify inputs such as the firm responsible for each recall, the current status of the recall, and the distribution pattern (if known). For example, the above code will display all recalls for the city of Milwaukee from the company Tyson Foods, which has experienced several recalls of their chicken products due to listeria bacteria contamination.
 ```{r}
 ## Map food recall locations
 
