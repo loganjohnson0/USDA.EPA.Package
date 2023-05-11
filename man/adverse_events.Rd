@@ -23,23 +23,29 @@ adverse_events(
 \arguments{
 \item{api_key}{Your free api key from FDA website}
 
+\item{consumer.gender}{A way the FDA classifies a date}
+
+\item{consumer.age}{Description of product}
+
+\item{consumer.age_unit}{Date for which recall was initiated}
+
+\item{date_created}{The company recalling the product}
+
+\item{date_started}{The date the FDA issued the enforcement report for the product recall}
+
 \item{limit}{The number of rows to return for that query}
 
-\item{center_classification_date}{A way the FDA classifies a date}
+\item{outcomes}{This gives the user flexibility to search for exact matches of inputs or any combination of inputs}
 
-\item{product_description}{Description of product}
+\item{products.name_brand}{The status of the recall}
 
-\item{recall_initiation_date}{Date for which recall was initiated}
+\item{products.industry_name}{The date the recall was terminated}
 
-\item{recalling_firm}{The company recalling the product}
+\item{products.industry_code}{The date the recall was terminated}
 
-\item{report_date}{The date the FDA issued the enforcement report for the product recall}
+\item{reactions}{The date the recall was terminated}
 
-\item{search_mode}{This gives the user flexibility to search for exact matches of inputs or any combination of inputs}
-
-\item{status}{The status of the recall}
-
-\item{termination_date}{The date the recall was terminated}
+\item{report_number}{The date the recall was terminated}
 }
 \description{
 This function scrapes the FDA website for food product recall data

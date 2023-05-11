@@ -50,14 +50,17 @@ date_search_param <- function(input, param_name) {
 #'
 #' @param api_key Your free api key from FDA website
 #' @param limit The number of rows to return for that query
-#' @param center_classification_date A way the FDA classifies a date
-#' @param product_description Description of product
-#' @param recall_initiation_date Date for which recall was initiated
-#' @param recalling_firm The company recalling the product
-#' @param report_date The date the FDA issued the enforcement report for the product recall
-#' @param search_mode This gives the user flexibility to search for exact matches of inputs or any combination of inputs
-#' @param status The status of the recall
-#' @param termination_date The date the recall was terminated
+#' @param consumer.gender A way the FDA classifies a date
+#' @param consumer.age Description of product
+#' @param consumer.age_unit Date for which recall was initiated
+#' @param date_created The company recalling the product
+#' @param date_started The date the FDA issued the enforcement report for the product recall
+#' @param outcomes This gives the user flexibility to search for exact matches of inputs or any combination of inputs
+#' @param products.name_brand The status of the recall
+#' @param products.industry_name The date the recall was terminated
+#' @param products.industry_code The date the recall was terminated
+#' @param reactions The date the recall was terminated
+#' @param report_number The date the recall was terminated
 #'
 #' @importFrom dplyr arrange
 #' @importFrom dplyr desc
