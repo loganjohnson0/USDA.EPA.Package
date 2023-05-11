@@ -27,7 +27,7 @@ knitr::opts_chunk$set(
 ## Background/Motivation
 
 This project is motivated by the need for more visualization in healthcare, especially for food-related problems. In many instances, one hears about foodborne illnesses in
-the new, but is unclear of where such
+the news, but is unclear of where such
 
 Our R package contains code, data, and documentation about the foodborne outbreaks that happened in the United States in the recent decade. The package helps highlight the city, state, country, and time the outbreak occurred.
 
@@ -47,7 +47,9 @@ library(foodRecall)
 
 # location <- foodRecall::recall_location(api_key = api_key, limit = 1000, city = "Kansas City, Ames", state = "Iowa, Missouri")
 
+```
 
+```{r}
 ## Map food recall locations
 
 # map_recall()
@@ -57,13 +59,14 @@ library(foodRecall)
 # recall_date()
 
  # date <- foodRecall::recall_date(api_key = api_key,
- #                                report_date = "January 2023 to May 2023")
-
+ #                                report_date = "January 2015 to May 2015")
 ```
+
+
 This package allows a user to input a date or range of dates in order to see 
 what types of food recalls occurred within  a certain interval of time.
 For instance, the above example displays all food recalls for a specified location
-for the first 4 months of 2023.
+for the first 4 months of 2015 using the date reports input.
 ## Limitations 
 
 Currently, our package only provides information relating to foodborne disease outbreaks 
