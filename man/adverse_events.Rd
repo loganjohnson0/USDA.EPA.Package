@@ -17,7 +17,8 @@ adverse_events(
   products.industry_name = NULL,
   products.industry_code = NULL,
   reactions = NULL,
-  report_number = NULL
+  report_number = NULL,
+  search_mode = NULL
 )
 }
 \arguments{
@@ -46,6 +47,8 @@ adverse_events(
 \item{reactions}{The date the recall was terminated}
 
 \item{report_number}{The date the recall was terminated}
+
+\item{search_mode}{The way to search for the data}
 }
 \description{
 This function scrapes the FDA website for food product recall data

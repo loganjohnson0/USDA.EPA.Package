@@ -61,6 +61,7 @@ date_search_param <- function(input, param_name) {
 #' @param products.industry_code The date the recall was terminated
 #' @param reactions The date the recall was terminated
 #' @param report_number The date the recall was terminated
+#' @param search_mode The way to search for the data
 #'
 #' @importFrom dplyr arrange
 #' @importFrom dplyr desc
@@ -74,6 +75,7 @@ date_search_param <- function(input, param_name) {
 #' @importFrom lubridate ymd
 #' @importFrom lubridate today
 #' @importFrom tibble tibble
+#' @importFrom tidyr unnest
 #' @export
 adverse_events <- function(api_key,
                            consumer.gender = NULL,
@@ -87,9 +89,10 @@ adverse_events <- function(api_key,
                            products.industry_name = NULL,
                            products.industry_code = NULL,
                            reactions = NULL,
-                           report_number = NULL) {
+                           report_number = NULL,
+                           search_mode = NULL) {
 
-
+  product_role <- NULL
 
   date_created_search <- date_search_param(date_created, "date_created")
   date_started_search <- date_search_param(date_started, "date_started")
@@ -157,35 +160,24 @@ adverse_events <- function(api_key,
   }
 
   new_stuff <- tibble::tibble(report_number = data$results$report_number,
+                              outcomes = sapply(data$results$outcomes, paste0, collapse = ", "),
+                              date_started = data$results$date_started,
+                              date_created = data$results$date_created,
+                              consumer_age = data$results$consumer$age,
+                              consumer_age_unit = data$results$consumer$age_unit,
+                              consumer_gender = data$results$consumer$gender,
+                              reactions = sapply(data$results$reactions, paste0, collapse = ", "),
+                              product_role = data$results$products)
 
-                              consumer.age = NULL,
-                              consumer.age_unit = NULL,
-                              date_created = NULL,
-                              date_started = NULL,
-                              limit = NULL,
-                              outcomes = NULL,
-                              products.name_brand = NULL,
-                              products.industry_name = NULL,
-                              products.industry_code = NULL,
-                              reactions = NULL,
-                              consumer.gender
-                               = NULL)
-
-  if (!("termination_date" %in% names(new_stuff))) {
-    new_stuff <- new_stuff %>%
-      dplyr::mutate(termination_date = NA) %>%
-      dplyr::relocate(termination_date, .after = report_date)
-  }
+  new_stuff <- new_stuff %>%
+    tidyr::unnest(cols = product_role)
 
   new_stuff <- new_stuff %>%
     dplyr::mutate_all(~replace(., . == "", NA)) %>%
     dplyr::mutate(
-      recall_initiation_date = as.character(lubridate::ymd(recall_initiation_date)),
-      report_date = as.character(lubridate::ymd(report_date)),
-      center_classification_date = as.character(lubridate::ymd(center_classification_date)),
-      termination_date = as.character(lubridate::ymd(termination_date))) %>%
-    dplyr::arrange((city)) %>%
-    dplyr::arrange(dplyr::desc(report_date))
+      date_started = as.character(lubridate::ymd(date_started)),
+      date_created = as.character(lubridate::ymd(date_created))) %>%
+    dplyr::arrange(dplyr::desc(date_started))
 
   return(new_stuff)
 }
