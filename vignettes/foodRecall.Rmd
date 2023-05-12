@@ -73,7 +73,7 @@ knitr::include_graphics("Rplot01.png")
 
 ```
 
-This package provides an interactive map food recalls based on the saved location from the recall_location function. All of the inputs from the recall_location function are displayed, including the firm of interest, product type, and dates of recalls. The locations of firms involved with recalled products are marked on the map with red circles. Locations on the map can be interactively sorted either by the number of recall events at a given firm, or by the total number of products recalled. Darker red circles are associated with a greater number of recall incidents.
+This package provides an interactive map food recalls based on the saved location from the recall_location function. All of the inputs from the recall_location function are displayed, including the firm of interest, product type, and dates of recalls. The locations of firms involved with recalled products are marked on the map with red circles. Locations on the map can be interactively sorted either by the number of recall events at a given firm, or by the total number of products recalled. Darker red circles are associated with a greater number of recall incidents. The zoom feature in the upper-left corner enables one to expand or narrow one's field of view.
 
 ```
 
