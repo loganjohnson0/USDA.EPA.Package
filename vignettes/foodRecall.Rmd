@@ -96,6 +96,41 @@ This package allows a user to input a date or range of dates in order to see
 what types of food recalls occurred within  a certain interval of time.
 For instance, the above example displays all food recalls starting on February 1st, 2022 and ending on May 7th of 2-23. Input options include the date of recall initiation, the current status of the recall, and the distribution pattern of the recall. This makes it easy and efficient to see the status of any current or past recalls that might have had an impact within a certain range of time. One current limitation, however, is that it does not provide a visually appealing tabular or graphical format that is similar to aforementioned packages. However, it is beneficial for looking up a single recall or time period of interest.
 
+Shiny application:
+
+To run this package's Shiny Application, use the following code:
+
+```{r}
+#foodRecall::runExample()
+```
+This will open a graphical user interface that appears as follows:
+
+```{r baseball, echo=FALSE, fig.cap="Example of shiny app user interface", out.width = '50%'}
+knitr::include_graphics("Rplot04.png")
+
+```
+Now, if we want to look at recall data with the city specified as Houston, the state as Texas, and only completed recalls to be displayed, we end up with the following for the table tab:
+
+```{r loo, echo=FALSE, fig.cap="Example of shiny app tabular data for Houston, Texas", out.width = '90%'}
+knitr::include_graphics("Rplot05.png")
+
+```
+
+Output appears as follows for the map tab:
+
+```{r hello, echo=FALSE, fig.cap="Map of Houston, Texas completed recalls", out.width = '50%'}
+knitr::include_graphics("Rplot06.png")
+
+```
+
+The date tab allows one to input a recall initiation date and firm of choice, along with a product description if that is desired. Below is an example of completed recalls from Land O' Lakes initiating on May 4th, 2022.
+
+```{r help, echo=FALSE, fig.cap="Land O' Lakes Completed Recalls initiating on May 4th, 2022", out.width = '70%'}
+knitr::include_graphics("Rplot07.png")
+
+```
+
+The shiny app provides an easy, efficient method for working with FDA data without significant knowledge of R programming. Anyone who has some basic knowledge of user interfaces and web applications will be able to use this application to track food recalls across the United States.
 
 ## Limitations 
 
