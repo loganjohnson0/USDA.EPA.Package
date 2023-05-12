@@ -115,6 +115,12 @@ the outbreak occurred.</p>
 <span><span class="co">## Get food recall locations</span></span>
 <span></span>
 <span><span class="co"># location &lt;- foodRecall::recall_location(api_key = api_key, limit = 1000, city = "Milwaukee", state = "Wisconsin", recalling_firm = "Garden-Fresh Foods, Inc." )</span></span></code></pre></div>
+<div class="figure">
+<img src="Rplot02.png" alt="An example of the tabular output of recalls from Garden Fresh Foods in Milwaukee using the recall_location function" width="100%"><p class="caption">
+An example of the tabular output of recalls from Garden Fresh Foods in
+Milwaukee using the recall_location function
+</p>
+</div>
 <p>The recall_location function provides a list of all food recalls for
 a designated city. Additional functionality includes the ability to
 specify inputs such as the firm responsible for each recall, the current
@@ -123,11 +129,13 @@ the recall has affected). One must specify their API key as the first
 input. For example, the above code will display all recalls over time
 for the city of Milwaukee from the company Garden-Fresh Foods, which has
 experienced many recalls, including those that are class 1 over time due
-to contamination of produce. The tabular output includes information
-such as the reason for recall, description of the product, quantities of
-recalled products, and dates of recall. One can specify any of these
-columns as an input to the function if they desire to look more
-specifically at a particular group of recalls.</p>
+to contamination of produce. The tabular output, as shown in the figure
+above, includes information such as the reason for recall, description
+of the product, quantities of recalled products, and dates of recall.
+One can specify any of these columns as an input to the function if they
+desire to look more specifically at a particular group of recalls. This
+tabular format places all FDA recall variables into a tidy, easy-to-read
+format.</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co">## Map food recall locations</span></span>
 <span></span>
