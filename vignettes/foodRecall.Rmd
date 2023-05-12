@@ -27,7 +27,7 @@ knitr::opts_chunk$set(
 ## Background/Motivation
 
 This project is motivated by the need for more visualization in healthcare, especially for food-related problems. In many instances, one hears about foodborne illnesses in
-the news, but is unclear of where such
+the news, but is unclear of the extent or severity of such occurrences. 
 
 Our R package contains code, data, and documentation about the foodborne outbreaks that happened in the United States in the recent decade. The package helps highlight the city, state, country, and time the outbreak occurred.
 
@@ -48,18 +48,26 @@ library(foodRecall)
 # location <- foodRecall::recall_location(api_key = api_key, limit = 1000, city = "Milwaukee", state = "Wisconsin", recalling_firm = "Tyson Foods" )
 
 ```
-The recall_location function provides a list of all food recalls for a designated city. Additional functionality includes the ability to specify inputs such as the firm responsible for each recall, the current status of the recall, and the distribution pattern (if known). For example, the above code will display all recalls for the city of Milwaukee from the company Tyson Foods, which has experienced several recalls of their chicken products due to listeria bacteria contamination.
+The recall_location function provides a list of all food recalls for a designated city. Additional functionality includes the ability to specify inputs such as the firm responsible for each recall, the current status of the recall, and the distribution pattern (if known). For example, the above code will display all recalls for the city of Milwaukee from the company Tyson Foods, which has experienced several recent recalls of their chicken products due to listeria bacteria contamination.
 ```{r}
 ## Map food recall locations
 
 # map_recall()
 # map <- foodRecall::map_recall(data = location)
 
+
+
+```
+This package provides an interactive map food recalls based on the saved location from the recall_location. All of the inputs from the recall_location function are displayed, including the firm of interest, product type, and dates of recalls. The locations of firms involved with recalled products are marked on the map with red circles. Locations on the map can be interactively sorted either by the number of recall events at a given firm, or by the total number of products recalled. Darker red circles are associated with a greater number of recall incidents.
+```{r}
+
 ## Working with food recall dates
 # recall_date()
 
  # date <- foodRecall::recall_date(api_key = api_key,
  #                                report_date = "January 2015 to May 2015", termination_date = "June 2015", recalling_firm = "Tyson Foods")
+```
+
 ```
 
 
