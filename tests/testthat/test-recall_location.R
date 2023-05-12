@@ -20,3 +20,9 @@ test_that("recall_location limit is too large", {
                                                           city = "Ames"),
                  "The openFDA API is limited")
 })
+
+test_that("recall_location incomplete representation of data", {
+  expect_warning(test_data <- foodRecall::recall_location(api_key = "r1CN5Cxbk6UgmZ3d8s2DCT2YCxw0dU7JIrP5FzA6",
+                                                          state = "New York"),
+                 "The total number of results is greater than the number")
+})
