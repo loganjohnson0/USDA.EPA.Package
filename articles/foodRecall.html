@@ -91,9 +91,16 @@ is not endorsed or certified by the Food and Drug Administration
 <h2 id="backgroundmotivation">Background/Motivation<a class="anchor" aria-label="anchor" href="#backgroundmotivation"></a>
 </h2>
 <p>This project is motivated by the need for more visualization in
-healthcare, especially for food-related problems. In many instances, one
-hears about foodborne illnesses in the news, but is unclear of the
-extent or severity of such occurrences.</p>
+healthcare, especially for food-related problems. In many instances,
+people are informed about food recalls and foodborne illnesses in the
+news, but are unclear of the extent or severity of such occurrences.
+Likewise, many healthcare and government organizations maintain
+extensive records of food recalls and related illness, but there are few
+software packages avaialable for visualizing these types of data. The
+foodRecall package strives to make analysis of food recall data more
+accessible and easier to read and use so that scientists and civilians
+alike are able to make informed choices regarding food safety and
+security.</p>
 <p>Our R package contains code, data, and documentation about the
 foodborne outbreaks that happened in the United States in the recent
 decade. The package helps highlight the city, state, country, and time
@@ -147,14 +154,14 @@ Map of Food Recalls in Milwaukee using map_recall function
 </p>
 </div>
 <p>This package provides an interactive map food recalls based on the
-saved location from the recall_location. All of the inputs from the
-recall_location function are displayed, including the firm of interest,
-product type, and dates of recalls. The locations of firms involved with
-recalled products are marked on the map with red circles. Locations on
-the map can be interactively sorted either by the number of recall
-events at a given firm, or by the total number of products recalled.
-Darker red circles are associated with a greater number of recall
-incidents.</p>
+saved location from the recall_location function. All of the inputs from
+the recall_location function are displayed, including the firm of
+interest, product type, and dates of recalls. The locations of firms
+involved with recalled products are marked on the map with red circles.
+Locations on the map can be interactively sorted either by the number of
+recall events at a given firm, or by the total number of products
+recalled. Darker red circles are associated with a greater number of
+recall incidents.</p>
 <pre><code>
 
 ```r
@@ -163,33 +170,42 @@ incidents.</p>
 # recall_date()
 
  # date &lt;- foodRecall::recall_date(api_key = api_key,
- #                                report_date = "2015-01-01", termination_date = "06-30-2015", recalling_firm = "Garden-Fresh Foods")</code></pre>
-<p>```</p>
+ #                                recall_initiation_date = "2022-02-01", termination_date = "2023-05-07", recalling_firm = "Garden-Fresh Foods, Inc.")</code></pre>
+```
+<div class="figure">
+<img src="Rplot03.png" alt="Example of output from recall_date function" width="100%"><p class="caption">
+Example of output from recall_date function
+</p>
+</div>
 <p>This package allows a user to input a date or range of dates in order
 to see what types of food recalls occurred within a certain interval of
-time. For instance, the above example displays all food recalls for
-Garden-Fresh Foods that were reported for the first 4 months of 2015 and
-ending in June of 2015. Other input options include the date of recall
-initiation, the current status of the recall, and the distribution
-pattern of the recall. This makes it easy and efficient to see the
-status of any current or past recalls that might have had an impact at a
-certain time.</p>
+time. For instance, the above example displays all food recalls starting
+on February 1st, 2022 and ending on May 7th of 2-23. Input options
+include the date of recall initiation, the current status of the recall,
+and the distribution pattern of the recall. This makes it easy and
+efficient to see the status of any current or past recalls that might
+have had an impact within a certain range of time. One current
+limitation, however, is that it does not provide a visually appealing
+tabular or graphical format that is similar to aforementioned packages.
+However, it is beneficial for looking up a single recall or time period
+of interest.</p>
 </div>
 <div class="section level2">
 <h2 id="limitations">Limitations<a class="anchor" aria-label="anchor" href="#limitations"></a>
 </h2>
-<p>Currently, our package only provides information relating to
-foodborne disease outbreaks in the United States.In the future, it would
-be beneficial to expand this package to include foodborne illness
-statistics from across the globe. In this manner, it would be easy and
-efficient to compare illness rates from foodborne diseases in different
-countries. Furthermore, it would be possible to track, model, and
-predict the spread of foodborne illnesses as they move from nation to
-nation, which could lead to early government intervention in containing
-the spread of various illnesses. One complication with this, however, is
-that a global database would require the combination and analysis of a
-large number of datasets. Due to this, and the fact that many nations do
-not consistently track disease statistics, this would be quite
+<p>Currently, our package only provides information relating to food
+recalls. In the future, it would be beneficial to expand this package to
+include foodborne illness statistics from across the globe, due to the
+fact that many food recalls are initiated by outbreaks of foodborne
+diseases. In this manner, it would be easy and efficient to compare
+illness rates from foodborne diseases in different countries.
+Furthermore, it would be possible to track, model, and predict the
+spread of foodborne illnesses as they move from nation to nation, which
+could lead to early government intervention in containing the spread of
+various illnesses. One complication with this, however, is that a global
+database would require the combination and analysis of a large number of
+datasets. Due to this, and the fact that many nations do not
+consistently track disease statistics, this would be quite
 ambitious.</p>
 </div>
 <div class="section level2">
