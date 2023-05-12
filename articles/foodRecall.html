@@ -97,10 +97,10 @@ news, but are unclear of the extent or severity of such occurrences.
 Likewise, many healthcare and government organizations maintain
 extensive records of food recalls and related illness, but there are few
 software packages avaialable for visualizing these types of data. The
-foodRecall package strives to make analysis of food recall data more
-accessible and easier to read and use so that scientists and civilians
-alike are able to make informed choices regarding food safety and
-security.</p>
+<em>foodRecall</em> package strives to make analysis of food recall data
+more accessible and easier to read and use so that scientists and
+civilians alike are able to make informed choices regarding food safety
+and security.</p>
 <p>Our R package contains code, data, and documentation about the
 foodborne outbreaks that happened in the United States in the recent
 decade. The package helps highlight the city, state, country, and time
@@ -121,11 +121,14 @@ the outbreak occurred.</p>
 <span></span>
 <span><span class="co">## Get food recall locations</span></span>
 <span></span>
-<span><span class="co"># location &lt;- foodRecall::recall_location(api_key = api_key, limit = 1000, city = "Milwaukee", state = "Wisconsin", recalling_firm = "Garden-Fresh Foods, Inc." )</span></span></code></pre></div>
+<span><span class="co"># location &lt;- foodRecall::recall_location(api_key = api_key, </span></span>
+<span><span class="co">#                                         limit = 1000, city = "Milwaukee", </span></span>
+<span><span class="co">#                                         state = "Wisconsin", </span></span>
+<span><span class="co">#                                         recalling_firm = "Garden-Fresh Foods, Inc." )</span></span></code></pre></div>
 <div class="figure">
-<img src="Rplot02.png" alt="An example of the tabular output of recalls from Garden Fresh Foods in Milwaukee using the recall_location function" width="100%"><p class="caption">
-An example of the tabular output of recalls from Garden Fresh Foods in
-Milwaukee using the recall_location function
+<img src="Rplot02.png" alt="*An example of the tabular output of recalls from Garden Fresh Foods in Milwaukee using the recall_location function*" width="100%"><p class="caption">
+<em>An example of the tabular output of recalls from Garden Fresh Foods
+in Milwaukee using the recall_location function</em>
 </p>
 </div>
 <p>The recall_location function provides a list of all food recalls for
@@ -149,8 +152,8 @@ format.</p>
 <span><span class="co"># map_recall()</span></span>
 <span><span class="co"># map &lt;- foodRecall::map_recall(data = location)</span></span></code></pre></div>
 <div class="figure">
-<img src="Rplot01.png" alt="Map of Food Recalls in Milwaukee using map_recall function" width="100%"><p class="caption">
-Map of Food Recalls in Milwaukee using map_recall function
+<img src="Rplot01.png" alt="*Map of Food Recalls in Milwaukee using map_recall function*" width="100%"><p class="caption">
+<em>Map of Food Recalls in Milwaukee using map_recall function</em>
 </p>
 </div>
 <p>This package provides an interactive map food recalls based on the
@@ -163,59 +166,75 @@ recall events at a given firm, or by the total number of products
 recalled. Darker red circles are associated with a greater number of
 recall incidents. The zoom feature in the upper-left corner enables one
 to expand or narrow one’s field of view.</p>
-<pre><code>
-
-```r
-
-## Working with food recall dates
-# recall_date()
-
- # date &lt;- foodRecall::recall_date(api_key = api_key,
- #                                recall_initiation_date = "2022-02-01", termination_date = "2023-05-07", recalling_firm = "Garden-Fresh Foods, Inc.")</code></pre>
-<pre><code>&lt;div class="figure"&gt;
-&lt;img src="Rplot03.png" alt="Example of output from recall_date function" width="100%" /&gt;
-&lt;p class="caption"&gt;Example of output from recall_date function&lt;/p&gt;
-&lt;/div&gt;
-
-This package allows a user to input a date or range of dates in order to see 
-what types of food recalls occurred within  a certain interval of time.
-For instance, the above example displays all food recalls starting on February 1st, 2022 and ending on May 7th of 2-23. Input options include the date of recall initiation, the current status of the recall, and the distribution pattern of the recall. This makes it easy and efficient to see the status of any current or past recalls that might have had an impact within a certain range of time. One current limitation, however, is that it does not provide a visually appealing tabular or graphical format that is similar to aforementioned packages. However, it is beneficial for looking up a single recall or time period of interest.
-
-Shiny application:
-
-To run this package's Shiny Application, use the following code:
-
-
-```r
-#foodRecall::runExample()</code></pre>
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span></span>
+<span><span class="co">## Working with food recall dates</span></span>
+<span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/loganjohnson0/foodRecall" class="external-link">foodRecall</a></span><span class="op">)</span></span>
+<span></span>
+<span> <span class="co"># date &lt;- foodRecall::recall_date(api_key = api_key,</span></span>
+<span> <span class="co">#                                 limit = 1000,</span></span>
+<span> <span class="co">#                                 recall_initiation_date = "2023-01-01",</span></span>
+<span> <span class="co">#                                 status = "Ongoing")</span></span></code></pre></div>
+<div class="figure">
+<img src="Rplot03.png" alt="*Example of output from recall_date function*" width="100%"><p class="caption">
+<em>Example of output from recall_date function</em>
+</p>
+</div>
+<p>This package allows a user to input a date or range of dates in order
+to see what types of food recalls occurred within a certain interval of
+time. For instance, the above example displays all food recalls starting
+on February 1st, 2022 and ending on May 7th of 2-23. Input options
+include the date of recall initiation, the current status of the recall,
+and the distribution pattern of the recall. This makes it easy and
+efficient to see the status of any current or past recalls that might
+have had an impact within a certain range of time. One current
+limitation, however, is that it does not provide a visually appealing
+tabular or graphical format that is similar to aforementioned packages.
+However, it is beneficial for looking up a single recall or time period
+of interest.</p>
+</div>
+<div class="section level2">
+<h2 id="shiny-application">Shiny application<a class="anchor" aria-label="anchor" href="#shiny-application"></a>
+</h2>
+<p>To run this package’s Shiny Application, use the following code:</p>
+<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co">#foodRecall::runExample()</span></span></code></pre></div>
 <p>This will open a graphical user interface that appears as
 follows:</p>
 <div class="figure">
-<img src="Rplot04.png" alt="Example of shiny app user interface" width="50%"><p class="caption">
-Example of shiny app user interface
+<img src="Rplot04.png" alt="*Example of shiny app user interface*" width="50%"><p class="caption">
+<em>Example of shiny app user interface</em>
 </p>
 </div>
 <p>Now, if we want to look at recall data with the city specified as
-Houston, the state as Texas, and only completed recalls to be displayed,
-we end up with the following for the table tab:</p>
+Miami, the state as Florida, we end up with the following for the table
+tab:</p>
 <div class="figure">
-<img src="Rplot05.png" alt="Example of shiny app tabular data for Houston, Texas" width="90%"><p class="caption">
-Example of shiny app tabular data for Houston, Texas
+<img src="r_shinny_table.png" alt="*Example of shiny app tabular data for Miami, Florida*" width="100%"><p class="caption">
+<em>Example of shiny app tabular data for Miami, Florida</em>
 </p>
 </div>
-<p>Output appears as follows for the map tab:</p>
+<p>Output appears as follows for the “Map” tab:</p>
 <div class="figure">
-<img src="Rplot06.png" alt="Map of Houston, Texas completed recalls" width="50%"><p class="caption">
-Map of Houston, Texas completed recalls
+<img src="r_shinny_map1.png" alt="Map of Miami, Florida and all its food recalls in the FDA database*" width="100%"><p class="caption">
+Map of Miami, Florida and all its food recalls in the FDA database*
 </p>
 </div>
-<p>The date tab allows one to input a recall initiation date and firm of
-choice, along with a product description if that is desired. Below is an
-example of completed recalls from Land O’ Lakes initiating on May 4th,
-2022.</p>
+<p>The “Date” tab allows one to input a recall initiation date and firm
+of choice, along with a product description and status of recalls, if
+that is desired. Below is an example of ongoing recalls since January
+1st, 2023.</p>
 <div class="figure">
-<img src="Rplot07.png" alt="Land O' Lakes Completed Recalls initiating on May 4th, 2022" width="70%"><p class="caption">
-Land O’ Lakes Completed Recalls initiating on May 4th, 2022
+<img src="r_shinny_date.png" alt="*Current Ongoing Recalls initiating on January 1st, 2023*" width="100%"><p class="caption">
+<em>Current Ongoing Recalls initiating on January 1st, 2023</em>
+</p>
+</div>
+<p>To visualize the ongoing recalls since January 1st, 2023 on a map,
+select the “Map2” tab.</p>
+<div class="figure">
+<img src="r_shinny_map2.png" alt="*Map of Ongoing Recalls initiating on January 1st, 2023*" width="100%"><p class="caption">
+<em>Map of Ongoing Recalls initiating on January 1st, 2023</em>
 </p>
 </div>
 <p>The shiny app provides an easy, efficient method for working with FDA
