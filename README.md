@@ -14,7 +14,7 @@
 # install.packages("devtools")
 library(devtools)
 
-devtools::install.github("loganjohnson0/foodRecall")
+devtools::install_github("loganjohnson0/foodRecall")
 
 library(foodRecall)
 ```
