@@ -78,17 +78,17 @@
 body {
 text-align: justify}
 </style>
-<p><em>foodRecall</em> is an R package that facilitates accessing and
-visualizing data from the openFDA API. This document provides
-descriptions and examples of the functions included in the package and
-some information explaining the process to complete this project for
-STAT 585 - Data Technologies for Statistical Analysis at Iowa State
+<p><em>foodRecall</em> accesses and visualizes data from the openFDA
+Food Recall Enforcement Reports API. This document provides descriptions
+and examples of the functions included in the package and some
+information explaining the process to complete this project for STAT 585
+- Data Technologies for Statistical Analysis at Iowa State
 University.</p>
 <p><strong>Disclaimer</strong>: This product uses the openFDA API, but
 is not endorsed or certified by the Food and Drug Administration
 (FDA).</p>
 <div class="section level2">
-<h2 id="backgroundmotivation">Background/Motivation<a class="anchor" aria-label="anchor" href="#backgroundmotivation"></a>
+<h2 id="background-and-motivation">Background and Motivation<a class="anchor" aria-label="anchor" href="#background-and-motivation"></a>
 </h2>
 <p>This project is motivated by the need for more visualization in
 healthcare, especially for food-related problems. In many instances,
@@ -107,21 +107,24 @@ decade. The package helps highlight the city, state, country, and time
 the outbreak occurred.</p>
 </div>
 <div class="section level2">
-<h2 id="functions-and-applications">Functions and applications<a class="anchor" aria-label="anchor" href="#functions-and-applications"></a>
+<h2 id="functions-and-applications">Functions and Applications<a class="anchor" aria-label="anchor" href="#functions-and-applications"></a>
 </h2>
+<p>Before running any of the package functions, the user will need an
+API key. To get the API key, go to the openFDA API <a href="https://open.fda.gov/apis/authentication/" class="external-link">website</a> to register
+for an API key. It is free, only requires an email address. Do not share
+your API key with anyone!</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/loganjohnson0/foodRecall" class="external-link">foodRecall</a></span><span class="op">)</span></span>
 <span></span>
-<span><span class="co"># Before running any of the package functions, the user will need an API key.</span></span>
-<span><span class="co"># To get the API key, go to https://open.fda.gov/apis/authentication/. It is free, only requires</span></span>
-<span><span class="co"># an email address, and you will get it immediately.Do not share your API key with anyone.</span></span>
+<span><span class="va">api_key</span> <span class="op">&lt;-</span> <span class="st">"YOUR API KEY"</span></span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co">## Get food recall locations</span></span>
 <span></span>
-<span><span class="co"># api_key &lt;- "YOUR API KEY"</span></span>
-<span></span>
-<span><span class="co">## Get food recall locations</span></span>
-<span></span>
-<span><span class="co"># location &lt;- foodRecall::recall_location(api_key = api_key, limit = 1000, city = "Milwaukee", state = "Wisconsin", recalling_firm = "Garden-Fresh Foods, Inc." )</span></span></code></pre></div>
+<span><span class="va">location</span> <span class="op">&lt;-</span> <span class="fu">foodRecall</span><span class="fu">::</span><span class="fu"><a href="../reference/recall_location.html">recall_location</a></span><span class="op">(</span>api_key <span class="op">=</span> <span class="va">api_key</span>,</span>
+<span>                                        city <span class="op">=</span> <span class="st">"Milwaukee"</span>, </span>
+<span>                                        state <span class="op">=</span> <span class="st">"Wisconsin"</span>, </span>
+<span>                                        recalling_firm <span class="op">=</span> <span class="st">"Garden-Fresh Foods"</span><span class="op">)</span></span></code></pre></div>
 <div class="figure">
 <img src="Rplot02.png" alt="An example of the tabular output of recalls from Garden Fresh Foods in Milwaukee using the recall_location function" width="100%"><p class="caption">
 An example of the tabular output of recalls from Garden Fresh Foods in
@@ -143,16 +146,24 @@ One can specify any of these columns as an input to the function if they
 desire to look more specifically at a particular group of recalls. This
 tabular format places all FDA recall variables into a tidy, easy-to-read
 format.</p>
-<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="co">## Map food recall locations</span></span>
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># Map food recall locations</span></span>
 <span></span>
-<span><span class="co"># map_recall()</span></span>
-<span><span class="co"># map &lt;- foodRecall::map_recall(data = location)</span></span></code></pre></div>
+<span><span class="va">map</span> <span class="op">&lt;-</span> <span class="fu">foodRecall</span><span class="fu">::</span><span class="fu"><a href="../reference/map_recall.html">map_recall</a></span><span class="op">(</span>data <span class="op">=</span> <span class="va">location</span><span class="op">)</span></span></code></pre></div>
 <div class="figure">
 <img src="Rplot01.png" alt="Map of Food Recalls in Milwaukee using map_recall function" width="100%"><p class="caption">
 Map of Food Recalls in Milwaukee using map_recall function
 </p>
 </div>
+<p>This package provides an interactive map food recalls based on the
+saved location from the recall_location. All of the inputs from the
+recall_location function are displayed, including the firm of interest,
+product type, and dates of recalls. The locations of firms involved with
+recalled products are marked on the map with red circles. Locations on
+the map can be interactively sorted either by the number of recall
+events at a given firm, or by the total number of products recalled.
+Darker red circles are associated with a greater number of recall
+incidents.</p>
 <p>This package provides an interactive map food recalls based on the
 saved location from the recall_location function. All of the inputs from
 the recall_location function are displayed, including the firm of
@@ -162,16 +173,13 @@ Locations on the map can be interactively sorted either by the number of
 recall events at a given firm, or by the total number of products
 recalled. Darker red circles are associated with a greater number of
 recall incidents.</p>
-<pre><code>
-
-```r
-
-## Working with food recall dates
-# recall_date()
-
- # date &lt;- foodRecall::recall_date(api_key = api_key,
- #                                recall_initiation_date = "2022-02-01", termination_date = "2023-05-07", recalling_firm = "Garden-Fresh Foods, Inc.")</code></pre>
-```
+<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># Working with food recall dates</span></span>
+<span></span>
+<span><span class="va">date</span> <span class="op">&lt;-</span> <span class="fu">foodRecall</span><span class="fu">::</span><span class="fu"><a href="../reference/recall_date.html">recall_date</a></span><span class="op">(</span>api_key <span class="op">=</span> <span class="va">api_key</span>,</span>
+<span>                                recall_initiation_date <span class="op">=</span> <span class="st">"2022-02-01"</span>, </span>
+<span>                                termination_date <span class="op">=</span> <span class="st">"2023-05-07"</span>, </span>
+<span>                                recalling_firm <span class="op">=</span> <span class="st">"Garden-Fresh Foods"</span><span class="op">)</span></span></code></pre></div>
 <div class="figure">
 <img src="Rplot03.png" alt="Example of output from recall_date function" width="100%"><p class="caption">
 Example of output from recall_date function
