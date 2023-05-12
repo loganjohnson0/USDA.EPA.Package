@@ -20,73 +20,75 @@ knitr::opts_chunk$set(
 ```
 
 
-*foodRecall* is an R package that facilitates accessing and visualizing data from the openFDA API. This document provides descriptions and examples of the functions included in the package and some information explaining the process to complete this project for STAT 585 - Data Technologies for Statistical Analysis at Iowa State University.
+*foodRecall* accesses and visualizes data from the openFDA Food Recall Enforcement Reports API. This document provides descriptions and examples of the functions included in the package and some information explaining the process to complete this project for STAT 585 - Data Technologies for Statistical Analysis at Iowa State University.
 
 **Disclaimer**: This product uses the openFDA API, but is not endorsed or certified by the Food and Drug Administration (FDA).
 
-## Background/Motivation
+## Background and Motivation
 
 This project is motivated by the need for more visualization in healthcare, especially for food-related problems. In many instances, one hears about foodborne illnesses in
 the news, but is unclear of the extent or severity of such occurrences. 
 
 Our R package contains code, data, and documentation about the foodborne outbreaks that happened in the United States in the recent decade. The package helps highlight the city, state, country, and time the outbreak occurred.
 
-## Functions and applications
+## Functions and Applications
 
-```{r setup}
+Before running any of the package functions, the user will need an API key.
+To get the API key, go to the openFDA API [website](https://open.fda.gov/apis/authentication/) to register for an API key. It is free, only requires an email address. Do not share your API key with anyone!
+
+
+```{r setup, eval = FALSE}
 
 library(foodRecall)
 
-# Before running any of the package functions, the user will need an API key.
-# To get the API key, go to https://open.fda.gov/apis/authentication/. It is free, only requires
-# an email address, and you will get it immediately.Do not share your API key with anyone.
-
-# api_key <- "YOUR API KEY"
+api_key <- "YOUR API KEY"
 
 ## Get food recall locations
 
-# location <- foodRecall::recall_location(api_key = api_key, limit = 1000, city = "Milwaukee", state = "Wisconsin", recalling_firm = "Garden-Fresh Foods, Inc." )
-
-
+location <- foodRecall::recall_location(api_key = api_key,
+                                        city = "Milwaukee", 
+                                        state = "Wisconsin", 
+                                        recalling_firm = "Garden-Fresh Foods")
 ```
 
 
 ```{r knit, echo=FALSE, fig.cap="An example of the tabular output of recalls from Garden Fresh Foods in Milwaukee using the recall_location function", out.width = '100%'}
+
 knitr::include_graphics("Rplot02.png")
 
 ```
 
 
 The recall_location function provides a list of all food recalls for a designated city. Additional functionality includes the ability to specify inputs such as the firm responsible for each recall, the current status of the recall, and the distribution pattern (which states/regions the recall has affected). One must specify their API key as the first input. For example, the above code will display all recalls over time for the city of Milwaukee from the company Garden-Fresh Foods, which has experienced many recalls, including those that are class 1 over time due to contamination of produce. The tabular output, as shown in the figure above, includes information such as the reason for recall, description of the product, quantities of recalled products, and dates of recall. One can specify any of these columns as an input to the function if they desire to look more specifically at a particular group of recalls. This tabular format places all FDA recall variables into a tidy, easy-to-read format.
-```{r}
-## Map food recall locations
 
-# map_recall()
-# map <- foodRecall::map_recall(data = location)
+```{r,eval = FALSE}
+# Map food recall locations
 
-
+map <- foodRecall::map_recall(data = location)
 
 ```
 
+
 ```{r pressure, echo=FALSE, fig.cap="Map of Food Recalls in Milwaukee using map_recall function", out.width = '100%'}
+
 knitr::include_graphics("Rplot01.png")
 
 ```
 
+
 This package provides an interactive map food recalls based on the saved location from the recall_location. All of the inputs from the recall_location function are displayed, including the firm of interest, product type, and dates of recalls. The locations of firms involved with recalled products are marked on the map with red circles. Locations on the map can be interactively sorted either by the number of recall events at a given firm, or by the total number of products recalled. Darker red circles are associated with a greater number of recall incidents.
 
+
+```{r, eval=FALSE}
+
+# Working with food recall dates
+
+date <- foodRecall::recall_date(api_key = api_key,
+                                report_date = "2015-01-01", 
+                                termination_date = "06-30-2015", 
+                                recalling_firm = "Garden-Fresh Foods")
 ```
 
-```{r}
-
-## Working with food recall dates
-# recall_date()
-
- # date <- foodRecall::recall_date(api_key = api_key,
- #                                report_date = "2015-01-01", termination_date = "06-30-2015", recalling_firm = "Garden-Fresh Foods")
-```
-
-```
 
 
 This package allows a user to input a date or range of dates in order to see 
