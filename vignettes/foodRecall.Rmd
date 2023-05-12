@@ -48,7 +48,7 @@ library(foodRecall)
 # location <- foodRecall::recall_location(api_key = api_key, 
 #                                         limit = 1000, city = "Milwaukee", 
 #                                         state = "Wisconsin", 
-#                                         recalling_firm = "Garden-Fresh Foods, Inc." )
+#                                         recalling_firm = "Garden-Fresh Foods" )
 
 
 ```
@@ -111,13 +111,13 @@ To run this package's Shiny Application, use the following code:
 
 This will open a graphical user interface that appears as follows:
 
-```{r baseball, echo=FALSE, fig.cap="*Example of shiny app user interface*", out.width = '50%'}
+```{r baseball, echo=FALSE, fig.cap="*Example of shiny app user interface*", out.width = '40%'}
 knitr::include_graphics("Rplot04.png")
 
 ```
 Now, if we want to look at recall data with the city specified as Miami, the state as Florida, we end up with the following for the table tab:
 
-```{r loo, echo=FALSE, fig.cap="*Example of shiny app tabular data for Miami, Florida*", out.width = '100%'}
+```{r loo, echo=FALSE, fig.cap="*Example of shiny app tabular data for Miami, Florida*", out.width = '110%'}
 knitr::include_graphics("r_shinny_table.png")
 
 ```
@@ -132,7 +132,7 @@ knitr::include_graphics("r_shinny_map1.png")
 The "Date" tab allows one to input a recall initiation date and firm of choice, along with a product description and status of recalls, if that is desired. 
 Below is an example of ongoing recalls since January 1st, 2023.
 
-```{r help, echo=FALSE, fig.cap="*Current Ongoing Recalls initiating on January 1st, 2023*", out.width = '100%'}
+```{r help, echo=FALSE, fig.cap="*Current Ongoing Recalls initiating on January 1st, 2023*", out.width = '110%'}
 knitr::include_graphics("r_shinny_date.png")
 
 ```
