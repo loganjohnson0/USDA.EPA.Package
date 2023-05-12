@@ -19,3 +19,11 @@ test_that("recall_date limit is too large", {
                                                       recall_initiation_date = "January 1, 2023"),
                  "The openFDA API is limited")
 })
+
+test_that("recall_date incomplete representation of data", {
+  expect_warning(test_data <- foodRecall::recall_date(api_key = "r1CN5Cxbk6UgmZ3d8s2DCT2YCxw0dU7JIrP5FzA6",
+                                                      recall_initiation_date = "January 1, 2022"),
+                 "The total number of results is greater than the number")
+})
+
+
