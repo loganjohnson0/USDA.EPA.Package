@@ -48,7 +48,7 @@ library(foodRecall)
 # location <- foodRecall::recall_location(api_key = api_key, limit = 1000, city = "Milwaukee", state = "Wisconsin", recalling_firm = "Garden-Fresh Foods, Inc." )
 
 ```
-The recall_location function provides a list of all food recalls for a designated city. Additional functionality includes the ability to specify inputs such as the firm responsible for each recall, the current status of the recall, and the distribution pattern (which states/regions the recall has affected). One must specify their API key as the first input. For example, the above code will display all recalls over time for the city of Milwaukee from the company Garden-Fresh Foods, which has experienced many recalls, including those that are class 1 over time due to contamination of produce. The tabular output includes information such as the reason for recall, description of the product, quantities of recalled products, and dates of recall.
+The recall_location function provides a list of all food recalls for a designated city. Additional functionality includes the ability to specify inputs such as the firm responsible for each recall, the current status of the recall, and the distribution pattern (which states/regions the recall has affected). One must specify their API key as the first input. For example, the above code will display all recalls over time for the city of Milwaukee from the company Garden-Fresh Foods, which has experienced many recalls, including those that are class 1 over time due to contamination of produce. The tabular output includes information such as the reason for recall, description of the product, quantities of recalled products, and dates of recall. One can specify any of these columns as an input to the function if they desire to look more specifically at a particular group of recalls.
 ```{r}
 ## Map food recall locations
 
@@ -59,6 +59,9 @@ The recall_location function provides a list of all food recalls for a designate
 
 ```
 This package provides an interactive map food recalls based on the saved location from the recall_location. All of the inputs from the recall_location function are displayed, including the firm of interest, product type, and dates of recalls. The locations of firms involved with recalled products are marked on the map with red circles. Locations on the map can be interactively sorted either by the number of recall events at a given firm, or by the total number of products recalled. Darker red circles are associated with a greater number of recall incidents.
+
+```
+
 ```{r}
 
 ## Working with food recall dates
