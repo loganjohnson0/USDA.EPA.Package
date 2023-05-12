@@ -114,15 +114,15 @@ the outbreak occurred.</p>
 <span></span>
 <span><span class="co">## Get food recall locations</span></span>
 <span></span>
-<span><span class="co"># location &lt;- foodRecall::recall_location(api_key = api_key, limit = 1000, city = "Milwaukee", state = "Wisconsin", recalling_firm = "Tyson Foods" )</span></span></code></pre></div>
+<span><span class="co"># location &lt;- foodRecall::recall_location(api_key = api_key, limit = 1000, city = "Milwaukee", state = "Wisconsin", recalling_firm = "Garden-Fresh Foods, Inc." )</span></span></code></pre></div>
 <p>The recall_location function provides a list of all food recalls for
 a designated city. Additional functionality includes the ability to
 specify inputs such as the firm responsible for each recall, the current
-status of the recall, and the distribution pattern (if known). For
-example, the above code will display all recalls for the city of
-Milwaukee from the company Tyson Foods, which has experienced several
-recent recalls of their chicken products due to listeria bacteria
-contamination.</p>
+status of the recall, and the distribution pattern (which states/regions
+the recall has affected). For example, the above code will display all
+recalls for the city of Milwaukee from the company Garden-Fesh Foods,
+which has experienced many recalls, including those that are class 1
+over time due to contamination of produce.</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co">## Map food recall locations</span></span>
 <span></span>
@@ -148,8 +148,8 @@ incidents.</p>
 <p>This package allows a user to input a date or range of dates in order
 to see what types of food recalls occurred within a certain interval of
 time. For instance, the above example displays all food recalls for
-Tyson Foods that were reported for the first 4 months of 2015 and ending
-in June of 2015. Other input options include the date of recall
+Garden-Fresh Foods that were reported for the first 4 months of 2015 and
+ending in June of 2015. Other input options include the date of recall
 initiation, the current status of the recall, and the distribution
 pattern. ## Limitations</p>
 <p>Currently, our package only provides information relating to
