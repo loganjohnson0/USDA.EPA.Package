@@ -77,7 +77,8 @@ This package provides an interactive map food recalls based on the saved locatio
 This package allows a user to input a date or range of dates in order to see 
 what types of food recalls occurred within  a certain interval of time.
 For instance, the above example displays all food recalls for Garden-Fresh Foods
-that were reported for the first 4 months of 2015 and ending in June of 2015. Other input options include the date of recall initiation, the current status of the recall, and the distribution pattern.
+that were reported for the first 4 months of 2015 and ending in June of 2015. Other input options include the date of recall initiation, the current status of the recall, and the distribution pattern of the recall. This makes it easy and efficient to see the status of any current or past recalls that might have had an impact at a certain time.
+
 ## Limitations 
 
 Currently, our package only provides information relating to foodborne disease outbreaks 
