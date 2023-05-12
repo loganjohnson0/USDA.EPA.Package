@@ -65,7 +65,7 @@ This package provides an interactive map food recalls based on the saved locatio
 # recall_date()
 
  # date <- foodRecall::recall_date(api_key = api_key,
- #                                report_date = "January 2015 to May 2015", termination_date = "June 2015", recalling_firm = "Tyson Foods")
+ #                                report_date = "2015-01-01", termination_date = "06-30-2015", recalling_firm = "Garden-Fresh Foods")
 ```
 
 ```
