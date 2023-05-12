@@ -125,7 +125,9 @@ for the city of Milwaukee from the company Garden-Fresh Foods, which has
 experienced many recalls, including those that are class 1 over time due
 to contamination of produce. The tabular output includes information
 such as the reason for recall, description of the product, quantities of
-recalled products, and dates of recall.</p>
+recalled products, and dates of recall. One can specify any of these
+columns as an input to the function if they desire to look more
+specifically at a particular group of recalls.</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co">## Map food recall locations</span></span>
 <span></span>
@@ -140,13 +142,15 @@ the map can be interactively sorted either by the number of recall
 events at a given firm, or by the total number of products recalled.
 Darker red circles are associated with a greater number of recall
 incidents.</p>
-<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span></span>
-<span><span class="co">## Working with food recall dates</span></span>
-<span><span class="co"># recall_date()</span></span>
-<span></span>
-<span> <span class="co"># date &lt;- foodRecall::recall_date(api_key = api_key,</span></span>
-<span> <span class="co">#                                report_date = "2015-01-01", termination_date = "06-30-2015", recalling_firm = "Garden-Fresh Foods")</span></span></code></pre></div>
+<pre><code>
+
+```r
+
+## Working with food recall dates
+# recall_date()
+
+ # date &lt;- foodRecall::recall_date(api_key = api_key,
+ #                                report_date = "2015-01-01", termination_date = "06-30-2015", recalling_firm = "Garden-Fresh Foods")</code></pre>
 <p>```</p>
 <p>This package allows a user to input a date or range of dates in order
 to see what types of food recalls occurred within a certain interval of
