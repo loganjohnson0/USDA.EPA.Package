@@ -31,6 +31,7 @@ Imports:
 Suggests: 
     knitr,
     rmarkdown,
+    spelling,
     testthat (>= 3.0.0)
 VignetteBuilder: 
     knitr
@@ -39,3 +40,4 @@ LazyData: true
 ShinyExamples: inst/shiny-examples/myapp
 RoxygenNote: 7.2.3
 Config/testthat/edition: 3
+Language: en-US
