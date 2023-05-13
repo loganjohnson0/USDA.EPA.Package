@@ -2,7 +2,7 @@
 % Please edit documentation in R/adverse_events.R
 \name{adverse_events}
 \alias{adverse_events}
-\title{This function scrapes the FDA website for food product recall data}
+\title{This function scrapes the openFDA API for food, dietary supplement, and cosmetic adverse event reports}
 \usage{
 adverse_events(
   api_key,
@@ -22,7 +22,7 @@ adverse_events(
 )
 }
 \arguments{
-\item{api_key}{Your free api key from FDA website}
+\item{api_key}{Your free api key from openFDA website}
 
 \item{consumer.gender}{A way the FDA classifies a date}
 
@@ -50,6 +50,16 @@ adverse_events(
 
 \item{search_mode}{The way to search for the data}
 }
+\value{
+A data frame with the returned results of the users query to the API
+}
 \description{
-This function scrapes the FDA website for food product recall data
+This function scrapes the openFDA API for food, dietary supplement, and cosmetic adverse event reports
+}
+\examples{
+\dontrun{
+adverse_events(api_key = api_key, outcomes = "Hospitalization", date_created = "2020")
+adverse_events(api_key = api_key, products.industry_name = "Food", date_started = "2021")
+adverse_events(api_key = api_key, products.name_brand = "Lucky Charms")
+}
 }

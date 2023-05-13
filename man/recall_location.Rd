@@ -2,7 +2,7 @@
 % Please edit documentation in R/recall_location.R
 \name{recall_location}
 \alias{recall_location}
-\title{This function scrapes the FDA website for food product recall data}
+\title{This function scrapes the openFDA API for food product recall enforcement reports based on user inputs of location}
 \usage{
 recall_location(
   api_key,
@@ -17,11 +17,11 @@ recall_location(
 )
 }
 \arguments{
-\item{api_key}{Your free api key from FDA website}
+\item{api_key}{Your free api key from openFDA API website}
 
 \item{limit}{The number of rows to return for that query}
 
-\item{city}{City where food was produced}
+\item{city}{City where food company is located}
 
 \item{country}{The country where the food was produced}
 
@@ -35,6 +35,17 @@ recall_location(
 
 \item{status}{The status of the recall}
 }
+\value{
+A data frame with the returned results of the users query to the API
+}
 \description{
-This function scrapes the FDA website for food product recall data
+This function scrapes the openFDA API for food product recall enforcement reports based on user inputs of location
+}
+\examples{
+\dontrun{
+recall_location(api_key = api_key, city = "Ames", state = "Iowa")
+recall_location(api_key = api_key, recalling_firm = "Target")
+recall_location(api_key = api_key, distribution_pattern = "Colorado", status = "Ongoing")
+recall_location(api_key = api_key, city = "Iowa City, Ames, Des Moines", state = "Iowa")
+}
 }

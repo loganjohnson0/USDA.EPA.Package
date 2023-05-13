@@ -2,7 +2,7 @@
 % Please edit documentation in R/recall_date.R
 \name{recall_date}
 \alias{recall_date}
-\title{This function scrapes the FDA website for food product recall data}
+\title{This function scrapes the openFDA API for food product recall enforcement reports based on user inputs of date and time}
 \usage{
 recall_date(
   api_key,
@@ -38,6 +38,16 @@ recall_date(
 
 \item{termination_date}{The date the recall was terminated}
 }
+\value{
+A data frame with the returned results of the users query to the API
+}
 \description{
-This function scrapes the FDA website for food product recall data
+This function scrapes the openFDA API for food product recall enforcement reports based on user inputs of date and time
+}
+\examples{
+\dontrun{
+recall_date(api_key = api_key, termination_date = "2021 to 2022)
+recall_date(api_key = api_key, report_date = "January 1, 2023, status = "Ongoing")
+recall_date(api_key = api_key, product_description = "Milk", recall_initiation_date = "2022")
+}
 }

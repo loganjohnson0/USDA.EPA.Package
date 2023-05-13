@@ -17,11 +17,11 @@ create_search_param <- function(input, param_name) {
   return(param_search)
 }
 
-#' This function scrapes the FDA website for food product recall data
+#' This function scrapes the openFDA API for food product recall enforcement reports based on user inputs of location
 #'
-#' @param api_key Your free api key from FDA website
+#' @param api_key Your free api key from openFDA API website
 #' @param limit The number of rows to return for that query
-#' @param city City where food was produced
+#' @param city City where food company is located
 #' @param country The country where the food was produced
 #' @param distribution_pattern Locations where food was distributed to
 #' @param recalling_firm The company recalling the product
@@ -39,6 +39,14 @@ create_search_param <- function(input, param_name) {
 #' @importFrom jsonlite fromJSON
 #' @importFrom lubridate ymd
 #' @importFrom tibble tibble
+#' @return A data frame with the returned results of the users query to the API
+#' @examples
+#' \dontrun{
+#' recall_location(api_key = api_key, city = "Ames", state = "Iowa")
+#' recall_location(api_key = api_key, recalling_firm = "Target")
+#' recall_location(api_key = api_key, distribution_pattern = "Colorado", status = "Ongoing")
+#' recall_location(api_key = api_key, city = "Iowa City, Ames, Des Moines", state = "Iowa")
+#' }
 #' @export
 recall_location <- function(api_key,
                             limit = NULL,

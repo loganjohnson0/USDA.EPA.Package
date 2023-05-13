@@ -46,7 +46,7 @@ date_search_param <- function(input, param_name) {
   }
   return(input_search)
 }
-#' This function scrapes the FDA website for food product recall data
+#' This function scrapes the openFDA API for food product recall enforcement reports based on user inputs of date and time
 #'
 #' @param api_key Your free api key from FDA website
 #' @param limit The number of rows to return for that query
@@ -71,6 +71,13 @@ date_search_param <- function(input, param_name) {
 #' @importFrom lubridate ymd
 #' @importFrom lubridate today
 #' @importFrom tibble tibble
+#' @return A data frame with the returned results of the users query to the API
+#' @examples
+#' \dontrun{
+#' recall_date(api_key = api_key, termination_date = "2021 to 2022)
+#' recall_date(api_key = api_key, report_date = "January 1, 2023, status = "Ongoing")
+#' recall_date(api_key = api_key, product_description = "Milk", recall_initiation_date = "2022")
+#' }
 #' @export
 recall_date <- function(api_key,
                         center_classification_date = NULL,

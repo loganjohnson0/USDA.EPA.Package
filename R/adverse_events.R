@@ -46,9 +46,9 @@ date_search_param <- function(input, param_name) {
   }
   return(input_search)
 }
-#' This function scrapes the FDA website for food product recall data
+#' This function scrapes the openFDA API for food, dietary supplement, and cosmetic adverse event reports
 #'
-#' @param api_key Your free api key from FDA website
+#' @param api_key Your free api key from openFDA website
 #' @param limit The number of rows to return for that query
 #' @param consumer.gender A way the FDA classifies a date
 #' @param consumer.age Description of product
@@ -76,6 +76,13 @@ date_search_param <- function(input, param_name) {
 #' @importFrom lubridate today
 #' @importFrom tibble tibble
 #' @importFrom tidyr unnest
+#' @return A data frame with the returned results of the users query to the API
+#' @examples
+#' \dontrun{
+#' adverse_events(api_key = api_key, outcomes = "Hospitalization", date_created = "2020")
+#' adverse_events(api_key = api_key, products.industry_name = "Food", date_started = "2021")
+#' adverse_events(api_key = api_key, products.name_brand = "Lucky Charms")
+#' }
 #' @export
 adverse_events <- function(api_key,
                            consumer.gender = NULL,
