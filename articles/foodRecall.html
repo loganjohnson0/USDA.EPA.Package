@@ -6,12 +6,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="foodRecall">
-<title>Access and visualize FDA food recall data • foodRecall</title>
+<title>Access and visualize food recall data from the Food and Drug Administration • foodRecall</title>
 <script src="../deps/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="../deps/bootstrap-5.2.2/bootstrap.min.css" rel="stylesheet">
 <script src="../deps/bootstrap-5.2.2/bootstrap.bundle.min.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
-<!-- bootstrap-toc --><script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@v1.0.1/dist/bootstrap-toc.min.js" integrity="sha256-4veVQbu7//Lk5TSmc7YV48MxtMy98e26cf5MrgZYnwo=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- search --><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- pkgdown --><script src="../pkgdown.js"></script><meta property="og:title" content="Access and visualize FDA food recall data">
+<!-- bootstrap-toc --><script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@v1.0.1/dist/bootstrap-toc.min.js" integrity="sha256-4veVQbu7//Lk5TSmc7YV48MxtMy98e26cf5MrgZYnwo=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- search --><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- pkgdown --><script src="../pkgdown.js"></script><meta property="og:title" content="Access and visualize food recall data from the Food and Drug Administration">
 <meta property="og:description" content="foodRecall">
 <!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -65,7 +65,7 @@
 
 <div class="row">
   <main id="main" class="col-md-9"><div class="page-header">
-      <img src="" class="logo" alt=""><h1>Access and visualize FDA food recall data</h1>
+      <img src="" class="logo" alt=""><h1>Access and visualize food recall data from the Food and Drug Administration</h1>
             
       
       <small class="dont-index">Source: <a href="https://github.com/loganjohnson0/foodRecall/blob/HEAD/vignettes/foodRecall.Rmd" class="external-link"><code>vignettes/foodRecall.Rmd</code></a></small>
@@ -88,7 +88,7 @@ University.</p>
 is not endorsed or certified by the Food and Drug Administration
 (FDA).</p>
 <div class="section level2">
-<h2 id="backgroundmotivation">Background/Motivation<a class="anchor" aria-label="anchor" href="#backgroundmotivation"></a>
+<h2 id="background-and-motivation">Background and Motivation<a class="anchor" aria-label="anchor" href="#background-and-motivation"></a>
 </h2>
 <p>This project is motivated by the need for more visualization in
 healthcare, especially for food-related problems. In many instances,
@@ -96,7 +96,7 @@ people are informed about food recalls and foodborne illnesses in the
 news, but are unclear of the extent or severity of such occurrences.
 Likewise, many healthcare and government organizations maintain
 extensive records of food recalls and related illness, but there are few
-software packages avaialable for visualizing these types of data. The
+software packages available for visualizing these types of data. The
 <em>foodRecall</em> package strives to make analysis of food recall data
 more accessible and easier to read and use so that scientists and
 civilians alike are able to make informed choices regarding food safety
@@ -107,50 +107,53 @@ decade. The package helps highlight the city, state, country, and time
 the outbreak occurred.</p>
 </div>
 <div class="section level2">
-<h2 id="functions-and-applications">Functions and applications<a class="anchor" aria-label="anchor" href="#functions-and-applications"></a>
+<h2 id="set-up">Set up<a class="anchor" aria-label="anchor" href="#set-up"></a>
 </h2>
+<p>Before running any of the package functions, the user will need an
+API key. To get the API key, go to the openFDA API <a href="https://open.fda.gov/apis/authentication/" class="external-link">website</a>. The API
+key is free to obtain and only requires and email address. Do not share
+your API key with anyone.</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/loganjohnson0/foodRecall" class="external-link">foodRecall</a></span><span class="op">)</span></span>
 <span></span>
-<span><span class="co"># Before running any of the package functions, the user will need an API key.</span></span>
-<span><span class="co"># To get the API key, go to https://open.fda.gov/apis/authentication/. It is free, only requires</span></span>
-<span><span class="co"># an email address, and you will get it immediately.Do not share your API key with anyone.</span></span>
+<span><span class="va">api_key</span> <span class="op">&lt;-</span> <span class="st">"YOUR API KEY"</span></span></code></pre></div>
+</div>
+<div class="section level2">
+<h2 id="functions-and-applications">Functions and Applications<a class="anchor" aria-label="anchor" href="#functions-and-applications"></a>
+</h2>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># Get food recall locations</span></span>
 <span></span>
-<span><span class="co"># api_key &lt;- "YOUR API KEY"</span></span>
-<span></span>
-<span><span class="co">## Get food recall locations</span></span>
-<span></span>
-<span><span class="co"># location &lt;- foodRecall::recall_location(api_key = api_key, </span></span>
-<span><span class="co">#                                         limit = 1000, city = "Milwaukee", </span></span>
-<span><span class="co">#                                         state = "Wisconsin", </span></span>
-<span><span class="co">#                                         recalling_firm = "Garden-Fresh Foods" )</span></span></code></pre></div>
+<span><span class="va">location</span> <span class="op">&lt;-</span> <span class="fu">foodRecall</span><span class="fu">::</span><span class="fu"><a href="../reference/recall_location.html">recall_location</a></span><span class="op">(</span>api_key <span class="op">=</span> <span class="va">api_key</span>,</span>
+<span>                                        city <span class="op">=</span> <span class="st">"Milwaukee"</span>,</span>
+<span>                                        state <span class="op">=</span> <span class="st">"Wisconsin"</span>,</span>
+<span>                                        recalling_firm <span class="op">=</span> <span class="st">"Garden-Fresh Foods"</span><span class="op">)</span></span></code></pre></div>
 <div class="figure">
 <img src="Rplot02.png" alt="*An example of the tabular output of recalls from Garden Fresh Foods in Milwaukee using the recall_location function*" width="100%"><p class="caption">
 <em>An example of the tabular output of recalls from Garden Fresh Foods
 in Milwaukee using the recall_location function</em>
 </p>
 </div>
-<p>The recall_location function provides a list of all food recalls for
-a designated city. Additional functionality includes the ability to
-specify inputs such as the firm responsible for each recall, the current
-status of the recall, and the distribution pattern (which states/regions
-the recall has affected). One must specify their API key as the first
-input. For example, the above code will display all recalls over time
-for the city of Milwaukee from the company Garden-Fresh Foods, which has
-experienced many recalls, including those that are class 1 over time due
-to contamination of produce. The tabular output, as shown in the figure
-above, includes information such as the reason for recall, description
-of the product, quantities of recalled products, and dates of recall.
-One can specify any of these columns as an input to the function if they
-desire to look more specifically at a particular group of recalls. This
-tabular format places all FDA recall variables into a tidy, easy-to-read
-format.</p>
-<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="co">## Map food recall locations</span></span>
+<p>The <code>recall_location</code> function provides a list of all food
+recalls for a designated city. Additional functionality includes the
+ability to specify inputs such as the firm responsible for each recall,
+the current status of the recall, and the distribution pattern (which
+states/regions the recall has affected). One must specify their API key
+as the first input. For example, the above code will display all recalls
+over time for the city of Milwaukee from the company Garden-Fresh Foods,
+which has experienced many recalls, including those that are class 1
+over time due to contamination of produce. The tabular output, as shown
+in the figure above, includes information such as the reason for recall,
+description of the product, quantities of recalled products, and dates
+of recall. One can specify any of these columns as an input to the
+function if they desire to look more specifically at a particular group
+of recalls. This tabular format places all FDA recall variables into a
+tidy, easy-to-read format.</p>
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># Map food recall locations</span></span>
 <span></span>
-<span><span class="co"># map_recall()</span></span>
-<span><span class="co"># map &lt;- foodRecall::map_recall(data = location)</span></span></code></pre></div>
+<span><span class="va">map</span> <span class="op">&lt;-</span> <span class="fu">foodRecall</span><span class="fu">::</span><span class="fu"><a href="../reference/map_recall.html">map_recall</a></span><span class="op">(</span>data <span class="op">=</span> <span class="va">location</span><span class="op">)</span></span></code></pre></div>
 <div class="figure">
 <img src="Rplot01.png" alt="*Map of Food Recalls in Milwaukee using map_recall function*" width="100%"><p class="caption">
 <em>Map of Food Recalls in Milwaukee using map_recall function</em>
@@ -166,16 +169,12 @@ recall events at a given firm, or by the total number of products
 recalled. Darker red circles are associated with a greater number of
 recall incidents. The zoom feature in the upper-left corner enables one
 to expand or narrow one’s field of view.</p>
-<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span></span>
-<span><span class="co">## Working with food recall dates</span></span>
+<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># Working with food recall dates</span></span>
 <span></span>
-<span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/loganjohnson0/foodRecall" class="external-link">foodRecall</a></span><span class="op">)</span></span>
-<span></span>
-<span> <span class="co"># date &lt;- foodRecall::recall_date(api_key = api_key,</span></span>
-<span> <span class="co">#                                 limit = 1000,</span></span>
-<span> <span class="co">#                                 recall_initiation_date = "2023-01-01",</span></span>
-<span> <span class="co">#                                 status = "Ongoing")</span></span></code></pre></div>
+<span><span class="va">date</span> <span class="op">&lt;-</span> <span class="fu">foodRecall</span><span class="fu">::</span><span class="fu"><a href="../reference/recall_date.html">recall_date</a></span><span class="op">(</span>api_key <span class="op">=</span> <span class="va">api_key</span>,</span>
+<span>                                recall_initiation_date <span class="op">=</span> <span class="st">"2023-01-01"</span>,</span>
+<span>                                status <span class="op">=</span> <span class="st">"Ongoing"</span><span class="op">)</span></span></code></pre></div>
 <div class="figure">
 <img src="Rplot03.png" alt="*Example of output from recall_date function*" width="100%"><p class="caption">
 <em>Example of output from recall_date function</em>
@@ -184,22 +183,23 @@ to expand or narrow one’s field of view.</p>
 <p>This package allows a user to input a date or range of dates in order
 to see what types of food recalls occurred within a certain interval of
 time. For instance, the above example displays all food recalls starting
-on February 1st, 2022 and ending on May 7th of 2-23. Input options
-include the date of recall initiation, the current status of the recall,
-and the distribution pattern of the recall. This makes it easy and
-efficient to see the status of any current or past recalls that might
-have had an impact within a certain range of time. One current
-limitation, however, is that it does not provide a visually appealing
-tabular or graphical format that is similar to aforementioned packages.
-However, it is beneficial for looking up a single recall or time period
-of interest.</p>
+on February 1st, 2022 and ending on May 7th, 2023. Input options include
+the date of recall initiation, the current status of the recall, and the
+distribution pattern of the recall. This makes it easy and efficient to
+see the status of any current or past recalls that might have had an
+impact within a certain range of time. One current limitation, however,
+is that it does not provide a visually appealing tabular or graphical
+format that is similar to aforementioned packages. However, it is
+beneficial for looking up a single recall or time period of
+interest.</p>
 </div>
 <div class="section level2">
 <h2 id="shiny-application">Shiny application<a class="anchor" aria-label="anchor" href="#shiny-application"></a>
 </h2>
 <p>To run this package’s Shiny Application, use the following code:</p>
-<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="co">#foodRecall::runExample()</span></span></code></pre></div>
+<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span></span>
+<span><span class="fu">foodRecall</span><span class="fu">::</span><span class="fu"><a href="../reference/runExample.html">runExample</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
 <p>This will open a graphical user interface that appears as
 follows:</p>
 <div class="figure">
@@ -265,7 +265,7 @@ ambitious.</p>
 </h2>
 <p>In the future, it would be optimal to try and combine this package
 with other information, such as agricultural data from the United States
-Department of Agriculture (USDA) . One of the original ideas for our
+Department of Agriculture (USDA). One of the original ideas for our
 project dealt with analyzing crop progress data from the USDA’s National
 Agricultural Statistics Service (NASS). This service provides
 information on statistics such as crop planting, germination, harvest,
