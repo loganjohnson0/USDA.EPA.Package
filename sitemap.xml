@@ -1,42 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://loganjohnson0.github.io/foodRecall/404.html</loc>
-  </url>
-  <url>
-    <loc>https://loganjohnson0.github.io/foodRecall/LICENSE-text.html</loc>
-  </url>
-  <url>
-    <loc>https://loganjohnson0.github.io/foodRecall/LICENSE.html</loc>
-  </url>
-  <url>
-    <loc>https://loganjohnson0.github.io/foodRecall/articles/foodRecall.html</loc>
-  </url>
-  <url>
-    <loc>https://loganjohnson0.github.io/foodRecall/articles/index.html</loc>
-  </url>
-  <url>
-    <loc>https://loganjohnson0.github.io/foodRecall/authors.html</loc>
-  </url>
-  <url>
-    <loc>https://loganjohnson0.github.io/foodRecall/index.html</loc>
-  </url>
-  <url>
-    <loc>https://loganjohnson0.github.io/foodRecall/reference/adverse_events.html</loc>
-  </url>
-  <url>
-    <loc>https://loganjohnson0.github.io/foodRecall/reference/index.html</loc>
-  </url>
-  <url>
-    <loc>https://loganjohnson0.github.io/foodRecall/reference/map_recall.html</loc>
-  </url>
-  <url>
-    <loc>https://loganjohnson0.github.io/foodRecall/reference/recall_date.html</loc>
-  </url>
-  <url>
-    <loc>https://loganjohnson0.github.io/foodRecall/reference/recall_location.html</loc>
-  </url>
-  <url>
-    <loc>https://loganjohnson0.github.io/foodRecall/reference/runExample.html</loc>
-  </url>
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>https://loganjohnson0.github.io/foodRecall/404.html</loc></url>
+<url><loc>https://loganjohnson0.github.io/foodRecall/LICENSE-text.html</loc></url>
+<url><loc>https://loganjohnson0.github.io/foodRecall/LICENSE.html</loc></url>
+<url><loc>https://loganjohnson0.github.io/foodRecall/articles/foodRecall.html</loc></url>
+<url><loc>https://loganjohnson0.github.io/foodRecall/articles/index.html</loc></url>
+<url><loc>https://loganjohnson0.github.io/foodRecall/authors.html</loc></url>
+<url><loc>https://loganjohnson0.github.io/foodRecall/index.html</loc></url>
+<url><loc>https://loganjohnson0.github.io/foodRecall/reference/adverse_events.html</loc></url>
+<url><loc>https://loganjohnson0.github.io/foodRecall/reference/index.html</loc></url>
+<url><loc>https://loganjohnson0.github.io/foodRecall/reference/map_recall.html</loc></url>
+<url><loc>https://loganjohnson0.github.io/foodRecall/reference/recall_date.html</loc></url>
+<url><loc>https://loganjohnson0.github.io/foodRecall/reference/recall_location.html</loc></url>
+<url><loc>https://loganjohnson0.github.io/foodRecall/reference/runExample.html</loc></url>
 </urlset>
+
