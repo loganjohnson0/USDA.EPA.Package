@@ -4,6 +4,7 @@
 # foodRecall <a href="https://loganjohnson0.github.io/foodRecall/"><img src="man/figures/hex-foodRecall.png" align="right" height="175" style="float:right; height:175px;" /></a>
 
 <!-- badges: start -->
+
 [![R-CMD-check](https://github.com/loganjohnson0/foodRecall/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/loganjohnson0/foodRecall/actions/workflows/R-CMD-check.yaml)
 [![codecov](https://codecov.io/gh/loganjohnson0/foodRecall/branch/main/graph/badge.svg?token=BE2QWZYKNE)](https://codecov.io/gh/loganjohnson0/foodRecall)
 [![Lifecycle:
